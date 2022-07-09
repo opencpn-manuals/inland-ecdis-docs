@@ -1,0 +1,4 @@
+name: manual_fr
+version: fr
+nav: 
+- modules/ROOT/nav.adoc
