@@ -1,4 +1,7 @@
-name: manual_en
+name: inland-ecdis
+title: Multilingual Antora 
 version: en
-nav: 
-- modules/ROOT/nav.adoc
+display_version: English
+prerelease: z
+nav:
+  - modules/ROOT/nav.adoc
