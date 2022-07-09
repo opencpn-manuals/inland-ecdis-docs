@@ -1,7 +1,7 @@
 name: inland-ecdis
 title: Multilingual Antora 
 version: fr
-display_version: English
+display_version: French
 prerelease: z
 nav:
   - modules/ROOT/nav.adoc
