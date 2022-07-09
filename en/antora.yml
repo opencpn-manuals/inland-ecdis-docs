@@ -1,6 +1,6 @@
 name: manual_en
 title: Multilingual Antora 
-version: ~
+version: en
 display_version: English
 prerelease: z
 nav:
