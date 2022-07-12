@@ -10,6 +10,4 @@
 
 ** xref:GPS:gps.adoc[Adding a GPS Device]
 
-** xref:making_route:makeroute.adoc[Making a Route]
-
-** xref:following_route:followroute.adoc[Following a Route]
+** xref:AIS:ais.adoc[Adding an AIS]
