@@ -9,6 +9,8 @@ image:3.0.jpg[]
 
 Other GPS devices that are available are listed https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:supplementary_hardware:gps_devices[HERE].
 
+It is possible to use an existing ship's GPS receiver interfaced with a serial-to-USB adapter.
+
 The GPS needs line of sight with satellites. You may need to move the GPS until it has a clear view of the sky. On a boat you could find that sufficient signal is received through a fibreglass deck.
 
 == Device Drivers
