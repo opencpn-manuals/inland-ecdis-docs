@@ -1,6 +1,6 @@
 :experimental:
 
-= Installation
+= Installing OpenCPN
 
 For the initial installation an Internet connection is needed.
 With your Internet browser navigate to https://opencpn.org/OpenCPN/info/downloadopencpn.html[HERE] and go to the relevant section.

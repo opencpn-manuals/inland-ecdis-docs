@@ -2,7 +2,7 @@
 
 ** xref:howtouse:howtouse.adoc[Using the Manual]
 
-** xref:installation:installation.adoc[Installation]
+** xref:installation:installation.adoc[Installing OpenCPN]
 
 ** xref:getting_started:getting_started.adoc[Home Screen]
 
