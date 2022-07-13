@@ -1,11 +1,11 @@
 :experimental:
 :imagesdir: ../images
 
-= Installing Inland ECDIS Charts
+= Charts
 
 https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc
 
-== Downloading and installing Charts
+== Downloading and installing Inland ECDIS Charts
 
 btn:[Options] image:2.0.jpg[]
 
@@ -53,7 +53,9 @@ btn:[Select Folder]
 
 image:2.10.jpg[]
 
-btn:[Apply] btn:[OK] to return to the main screen
+btn:[Apply] btn:[OK]
+
+== Customising the chart display
 
 Move the base chart until you can see the Netherlands.
 

@@ -6,8 +6,8 @@
 
 ** xref:getting_started:getting_started.adoc[Home Screen]
 
-** xref:charts:charts.adoc[Installing a Chart]
+** xref:charts:charts.adoc[Charts]
 
-** xref:GPS:gps.adoc[Adding a GPS Device]
+** xref:GPS:gps.adoc[GPS]
 
-** xref:AIS:ais.adoc[Adding an AIS]
+** xref:AIS:ais.adoc[AIS]
