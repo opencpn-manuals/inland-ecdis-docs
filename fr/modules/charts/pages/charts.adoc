@@ -1,7 +1,9 @@
 :experimental:
 :imagesdir: ../images
 
+
 = Charts
+:icons: font
 
 https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc
 
@@ -77,11 +79,18 @@ btn:[Apply] btn:[OK]
 
 image:2.14.jpg[]
 
-Untick _Show Chart Outlines_ in *Display Options*
+Untick _Show Chart Outlines_ in *Chart Panel Options*
 
 image:2.15.jpg[]
 
 image:2.16.jpg[]
 
-A *Piano Bar* shows the bottom of the display. This indicates the charts available for the field of view. Hovering the cursor over a button highlights the area covered by the cell and displays information about the cell, such as the date last updated.
+A *Piano Bar* is showing at the bottom of the display. This indicates the charts available for the field of view. Hovering the cursor over a button highlights the area covered by the cell and displays information about the cell, such as the date last updated.
 
+== Updating your Charts
+
+[IMPORTANT]
+. *Chart Updates*
+====
+It is important that regular checks are made for updates to the charts in use. This section describes how these checks are carried out.
+====

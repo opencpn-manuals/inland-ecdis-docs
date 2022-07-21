@@ -1,5 +1,7 @@
+:icons: font
 :experimental:
 :imagesdir: ../images
+
 
 = Charts
 
@@ -85,3 +87,10 @@ image:2.16.jpg[]
 
 A *Piano Bar* shows the bottom of the display. This indicates the charts available for the field of view. Hovering the cursor over a button highlights the area covered by the cell and displays information about the cell, such as the date last updated.
 
+== Updating your Charts
+
+[IMPORTANT]
+. *Chart Updates*
+====
+It is important that regular checks are made for updates to the charts in use. This section describes how these checks are carried out.
+====
