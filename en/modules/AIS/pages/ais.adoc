@@ -1,7 +1,56 @@
+:icons: font
+:experimental:
+:imagesdir: ../images
+
 = AIS
 
-Data from an AIS receiver may be connected in the same way that the GPS receiver data is
-interfaced. The typical AIS data rate is 38400, instead of 4800.
+image:9.0.jpg[]
+
+[IMPORTANT]
+.*OpenCPN AIS Settings*
+====
+To achieve the best performance and avoid cluttering the screen the AIS Target settings need adjusting. This will help in reducing the number of irrelevant alarms. 
+====
+
+== Connecting the AIS
+
+An AIS receiver may be connected in the same way as the GPS. The typical AIS data rate is 38400, instead of 4800.
+
+== AIS Target Settings
+
+btn:[Options] btn:[Ships]
+
+*__AIS Targets__*
+
+image:9.1.jpg[]
+
+Typical settings are shown.
+
+image:9.2.jpg[]
+
+*_right-click_*
+
+image:9.3.jpg[]
+
+Rollover text shows the name,MMSI number and nationality of the vessel.
+
+image:9.4.jpg[]
+
+*__Target Query...__* (Class A AIS)
+
+image:9.5.jpg[]
+
+The vessel of interest is highlighted by a broken rectangle.
+
+image:9.6.jpg[]
+
+*__Target Query...__* (Class B AIS)
+
+image:9.7.jpg[]
+
+*__Target List...__*
+
+image:9.8.jpg[]
 
 [cols=",,,",options="header",]
 |===

@@ -90,7 +90,95 @@ A *Piano Bar* shows the bottom of the display. This indicates the charts availab
 == Updating your Charts
 
 [IMPORTANT]
-. *Chart Updates*
+.*Chart Updates*
 ====
-It is important that regular checks are made for updates to the charts in use. This section describes how these checks are carried out.
+It is important that regular checks are made for updates for the charts in use.
+link:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc]
+This multilingual website has links for downloading the latest charts.
 ====
+
+btn:[Options] btn:[Charts]  
+
+__Chart Downloader__   
+
+__Select Catalog...__ 
+
+image:2.18.jpg[]
+
+btn:[Update]
+
+__Download Charts...__
+
+image:2.19.jpg[]
+
+__Download selected charts__
+
+image:2.20.jpg[]
+
+_Zeeland Compleet Week 18-2022_ has failed to update. In this case it was necessary to use the link:
+
+link:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[]
+
+Here you see _Zeeland Compleet Week 19-2022_. Download and extract the files from the zip to the ENC directory. Then add a new directory for charts:
+
+image:2.21.jpg[]
+
+btn:[Prepare all ENC Charts]
+
+Week 19 files will be used instead of Week 18.
+
+== Add German Charts
+
+This is straightforward. 
+
+btn:[Options] btn:[Charts]
+
+*__Select Catalog...__*
+
+image:2.22.jpg[]
+
+*__Add Catalog__*
+
+Browse for _Germany Inland ENC Charts_
+
+image:2.23.jpg[]
+
+btn:[OK]
+
+image:2.24.jpg[]
+
+btn:[Update]
+
+image:2.25.jpg[]
+
+btn:[Download selected charts]
+
+This can take some time.
+
+image:2.26.jpg[]
+
+Two 'Out of date' charts are found.
+
+btn:[Download selected charts]
+
+btn:[Options] btn:[Charts]
+
+*__Chart Files__*
+
+image:2.27.jpg[]
+
+To avoid delay in quilting.
+
+btn:[Prepare all ENC Charts]
+
+btn:[Apply] btn:[OK]
+
+We have now added Dutch and German ENC charts to OpenCPN. 
+
+*__Chart Panel Options__*
+
+*__Show Chart Outlines__* will show the ENC cells available.
+
+Zoom in for the chart detail.
+
+
