@@ -149,6 +149,8 @@ image:2.24.jpg[]
 
 btn:[Update]
 
+*__Select Charts...__*
+
 image:2.25.jpg[]
 
 btn:[Download selected charts]
