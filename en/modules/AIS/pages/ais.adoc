@@ -6,6 +6,12 @@
 
 image:9.0.jpg[]
 
+"AIS Pilotplug to USB" cable
+
+image:9.00.jpg[]
+
+Basic AIS receiver
+
 [IMPORTANT]
 .*OpenCPN AIS Settings*
 ====
@@ -14,7 +20,7 @@ To achieve the best performance and avoid cluttering the screen the AIS Target s
 
 == Connecting the AIS
 
-An AIS receiver may be connected in the same way as the GPS. The typical AIS data rate is 38400, instead of 4800. 
+An AIS receiver may be connected in the same way as the GPS. The typical AIS data rate is 38400, instead of 4800.
 However the easy way is get yourself a "AIS Pilotplug to USB" cable. This will also give you a GPS position (No need for a seperate GPS)
 
 == AIS Target Settings
@@ -158,3 +164,37 @@ that the vessel is turning to port (left), also illustrated by the lag
 in the display update. ROT - Rate Of Turn is available in the “Ais
 Target Query” dialog, through the right click menu.
 |===
+
+== AIS Examples
+
+image:9.9.jpg[]
+
+A vessel at the junction appears to be altering course to enter 'our' canal.
+
+*__right-click__*
+
+image:9.10.jpg[]
+
+The vessel is identified.
+
+image:9.11.jpg[]
+
+'Zeldenrust' has triggered an alarm based on the settings entered in OpenCPN.
+
+COG predictor arrow length is set at three minutes. 
+
+There is a red dashed extension line of the COG predictor which helps provide an estimate of time to CPA, if _target query_ has not been used. 
+
+Estimated positions of the vessels at CPA are shown by the blue dots. 
+
+The yellow highlighted line indicates the distance off at CPA.
+
+image:9.14.jpg[]
+
+'Zeldenrust' has turned further and will now pass down our port side. CPA 48.5m.
+
+image:9.15.jpg[]
+
+image:9.17.jpg[]
+
+'Zeldenrust' is past and clear.
