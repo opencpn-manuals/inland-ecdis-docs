@@ -28,6 +28,8 @@ Typical settings are shown.
 
 image:9.2.jpg[]
 
+== AIS Target Information
+
 *_right-click_*
 
 image:9.3.jpg[]
@@ -51,6 +53,8 @@ image:9.7.jpg[]
 *__Target List...__*
 
 image:9.8.jpg[]
+
+== Interpreting AIS Information
 
 [cols=",,,",options="header",]
 |===
