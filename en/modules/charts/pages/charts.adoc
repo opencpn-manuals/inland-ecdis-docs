@@ -5,7 +5,13 @@
 
 = Charts
 
-https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc
+== Introduction
+
+Chart symbols and other information is shown link:https://raw.githubusercontent.com/cesniti/iehg_gitbook/edition-2.4/.gitbook/assets/ienc_eg_2_4_1_adopted_20180320.pdf[HERE]
+
+Inland ENC charts (IENC) for EU Countries can be found link:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[HERE]
+
+OpenCPN makes downloading and updating IENC easier by using the *Chart Downloader* plugin. This is installed as part of the main OpenCPN installation.
 
 == Downloading and installing Inland ECDIS Charts
 
