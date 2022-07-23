@@ -179,7 +179,7 @@ The vessel is identified.
 
 image:9.11.jpg[]
 
-'Zeldenrust' has triggered an alarm based on the settings entered in OpenCPN.
+'Zeldenrust' is a potential danger and has triggered a warning based on the settings entered in OpenCPN.
 
 COG predictor arrow length is set at three minutes. 
 
@@ -198,3 +198,5 @@ image:9.15.jpg[]
 image:9.17.jpg[]
 
 'Zeldenrust' is past and clear.
+
+The vessel at 'Neptune Repair' is a potential danger but she is moored.
