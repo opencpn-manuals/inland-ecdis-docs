@@ -14,7 +14,8 @@ To achieve the best performance and avoid cluttering the screen the AIS Target s
 
 == Connecting the AIS
 
-An AIS receiver may be connected in the same way as the GPS. The typical AIS data rate is 38400, instead of 4800.
+An AIS receiver may be connected in the same way as the GPS. The typical AIS data rate is 38400, instead of 4800. 
+However the easy way is get yourself a "AIS Pilotplug to USB" cable. This will also give you a GPS position (No need for a seperate GPS)
 
 == AIS Target Settings
 
