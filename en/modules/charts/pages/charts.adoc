@@ -149,7 +149,7 @@ image:2.24.jpg[]
 
 btn:[Update]
 
-*__Select Charts...__*
+*__Download Charts...__*
 
 image:2.25.jpg[]
 
