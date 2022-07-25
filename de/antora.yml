@@ -1,0 +1,7 @@
+name: manuals
+title: Multilingual Antora 
+version: de
+display_version: German
+prerelease: z
+nav:
+  - modules/ROOT/nav.adoc
