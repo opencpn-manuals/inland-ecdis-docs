@@ -1,8 +1,8 @@
 = Ubuntu ppa
 
-== *Das OpenCPN PPA zu einem Ubuntu-System hinzufügen*
+== *Adding the OpenCPN PPA to a Ubuntu system*
 
-Geben Sie auf dem Kommandozeilenterminal folgende Befehle ein:
+With a commandline terminal enter the following commands:
 
 ----
 sudo apt-get install software-properties-common

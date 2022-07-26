@@ -1,47 +1,41 @@
 :experimental:
 
-= Using the Manual
+= Das Handbuch benutzen
 
-== Buttons
+== Schaltflächen
 
-Buttons to perform actions are shown like this: 
+Schaltflächen zum Ausführen von Aktionen werden so angezeigt
 
-btn:[Apply] btn:[OK] 
+btn:[Anwenden] btn:[OK]
 
-A shortcut for a button's action is shown in italics, for example btn:[Create Route] _Ctrl-R_.
+Ein Tastenkürzel für die Aktion einer Schaltfläche wird kursiv angezeigt, zum Beispiel btn:[Erstellen Route] _Ctrl-R_.
 
-== Tabs
+== Reiter
 
-Select *Chart Downloader* is an example of selecting a tab in a notebook display. 
+*Karten-Downloader* Unter Optionen|Seekarten auswählen ist ein Beispiel eines Reiters auf dem Notbookbildschirm. 
 
-== Links
+== Verknüpfungen
 
-Links can be internal for navigating the manual or external, for the Internet.
+Verknüpfungen nutzen wir zur Navigation im Handbuch oder nach außen, ins Internet.
 
-xref:getting_started:getting_started.adoc[HERE] is a link to the *Home Screen* page.
+xref:getting_started:getting_started.adoc[HERE] ist ein Link zu hiesigen *Startseite*.
 
-https://opencpn.org/[HERE] is an external link to the OpenCPN website.
+https://opencpn.org/[HERE] ist ein externer Link zur OpenCPN Website.
 
-Hover the mouse over https://opencpn.org/[HERE] and the browser shows where the link leads. 
+Bewegen Sie die Maus über https://opencpn.org/[HERE] und der Browser zeigt an, wohin der Link führt.
 
-== Mouse Actions
+== Maus-Aktionen
 
 (Sorry)
 
-_click_ the mouse indicates a click of the mouse (MacOS) or left-click for other OS.
+_klick_ bedeutet einen Mausklick (macOS) oder einen Linksklick für ein anderes Betriebssystem.
 
-_right-click_ is ctrl-click for the MacOS.
+_Rechtsklick_ ist Strg-Klick für das macOS.
 
-== Menu Items
+== Menüeinträge
 
-A menu may have been displayed using _right-click_:
+Zum Kontextmenü kommt man möglicherweise mit _rechtsklick_ :
 
 image:4.6.jpg[]
 
-Select *Properties...* indicates a menu selection.
-
-
-
-
-
-
+Wählen Sie *Eigenschaften...* zeigt eine Menüauswahl an.

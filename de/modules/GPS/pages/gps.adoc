@@ -1,125 +1,124 @@
 :experimental:
 :imagesdir: ../images
 
-= Adding a GPS Device
+= Ein GNSS-Gerät hinzufügen
 
-Many different GPS devices can be used to provide OpenCPN with the boat's position. For simplicity the Globalsat BU-353S4 GPS is used to demonstrate installing and using a GPS with OpenCPN
+Es gibt eine Vielzahl von GNSS Geräten, die OpenCPN mit Positionsdaten versorgen können. Wir verwenden hier "GNSS" anstelle von "GPS", da heute die Empfänger in der Regel mehrere Konstellationen nutzen. Neben GPS z.B. Galileo, GLONASS oder Beidou.  Der Einfachheit halber zeigen wir an einem GLOBALSAT BU-353S4 wie ein solches Gerät für OpenCPN installiert wird.
 
 image:3.0.jpg[]
 
-Other GPS devices that are available are listed https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:supplementary_hardware:gps_devices[HERE].
+Eine Liste einiger anderer verfügbaren GNSS-Geräte https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:supplementary_hardware:gps_devices[HIER].
 
-It is possible to use an existing ship's GPS receiver interfaced with a serial-to-USB adapter.
+Ein schon auf dem Schiff vorhandener Empfänger kann mit einem Seriell-USB Adapter eingebunden werden. 
 
-The GPS needs line of sight with satellites. You may need to move the GPS until it has a clear view of the sky. On a boat you could find that sufficient signal is received through a fibreglass deck.
+Der Emfänger benötigt den Blick auf die Satelliten.  U.U. muss man die Position so verändern, dass das der Fall ist.  Bei Fiberglassaufbauten ist in der Regel auch ein Empfang unter Deck möglich.
 
-== Device Drivers
+== Gerätetreiber
 
-Device drivers for various OS can be downloaded https://www.globalsat.com.tw/en/a4-10593/BU-353S4.html[HERE] 
+In unserem Beispiel können Gerätetreiber für verschiedene Betriebssysteme heruntergeladen werden https://www.globalsat.com.tw/en/a4-10593/BU-353S4.html[HERE]
 
 == Windows
 
-Download the installer for the version of Windows you are running.
+Laden Sie den Installer für Ihre Version von Windows herunter.
 
-Install the driver using the installer .exe.
+Führen Sie den Installer .exe aus.
 
-Plug in the GPS. Windows should recognise the device and use the appropriate driver for it.
+Schliessen Sie den GNSS Empfänger an.  Windows sollte das Gerät erkennen und den passenden Treiber dafür verwenden.
 
-btn:[Options] btn:[Connections]
+btn:[Optionen] btn:[Verbindungen]
 
 image:3.1.jpg[]
 
-btn:[Add connection]
+btn:[Verbindung hinzufügen]
 
 image:3.2.jpg[]
 
-Using the *DataPort* dropdown select the Prolific USB port.
+Wählen Sie im *DataPort* Dropdown-Menü den Prolific USB-Port aus.
 
 image:3.3.jpg[]
 
-Scroll up and tick the *Show NMEA Debug Window*. This is not strictly necessary but gives a good indication of whether the GPS is functioning correctly.
+Rollen Sie nach oben und aktivieren Sie  *Zeige NMEA Debug Window*.  Das ist nicht unbedingt notwendig, hilft uns aber zu prüfen, ob das GNSS richtig funktioniert.
 
 image:3.4.jpg[]
 
-btn:[Apply] btn:[OK]
+btn:[Anwenden] btn:[OK]
 
-You may need to move the chart a litle but the ship's position appears.
+Möglicherweise muss man nun die Karten so ausrichten, dass die Schiffsposition angezeigt wird.
 
 image:3.5.jpg[]
 
-The NMEA Debug Window can be closed with the *Close* image:3.6.jpg[] button.
+Das NMEA Debug Fenster schliessen wir mit der Schaltfläche *Schliessen* image:3.6.jpg[].
 
-The *Compass/GPS Status Window* shows a green bar image:3.7.jpg[] which indicates the strength of the GPS signal.
+Das *Compass/GPS Status Fenster* zeigt ein grünes Balkenbild: 3.7.jpg[], das die Stärke des GNSS Signals angibt.
 
-The *Status Bar* shows the ship's position.
+Die *Statusleiste* zeigt die Position des Schiffes an.
 
-Zooming in image:3.8.jpg[] the icon for the ship changes to a boat outline image:3.9.jpg[]. The mouse scroll button can also be used to zoom in/out.
+Beim Hereinzoomen:3.8.jpg[] ändert sich das Symbol für das Schiff in ein Bootsumriss: 3.9.jpg[]. Das Mausrad kann ebenfalls zum Zoomen benutzt werden.
 
 == MacOS
 
-Plug in the GPS. 
+Schliessen Sie den GNSS Empfänger an. 
 
-btn:[Options] btn:[Connections]
+btn:[Optionen] btn:[Verbindungen]
 
 image:3.1.jpg[]
 
-btn:[Add connection]
+btn:[Verbindung hinzufügen]
 
-Use *Serial*
+*Seriell* verwenden
 
 image:3.21.jpg[]
 
-With the *DataPort* dropdown select the */dev/cu.usbserial-1410* option.
+Wählen Sie  im *Daten-Port* Dropdown-Menü */dev/cu.usbserial-1410* aus.
 
 image:3.22.jpg[]
 
-Tick the *Show NMEA Debug Window* to view the GPS output. 
+Klicken Sie auf *Zeige NMEA Debug Window* um die GNSS-Ausgabe anzuzeigen.
 
 image:3.4.jpg[]
 
-The NMEA Debug Window can be closed with the *Close* image:3.6.jpg[] button.
+Das NMEA Debug Fenster schliessen wir mit der Schaltfläche *Schliessen* image:3.6.jpg[].
 
-The *Compass/GPS Status Window* shows a green bar image:3.7.jpg[] which indicates the strength of the GPS signal.
+Das *Compass/GPS Status Fenster* zeigt ein grünes Balkenbild: 3.7.jpg[], das die Stärke des GNSS Signals angibt.
 
-The *Status Bar* shows the ship's position.
+Die *Statusleiste* zeigt die Position des Schiffes an.
 
-Zooming in image:3.8.jpg[] the icon for the ship changes to a boat outline image:3.9.jpg[]. The mouse scroll button can also be used to zoom in/out.
+Beim Hereinzoomen:3.8.jpg[] ändert sich das Symbol für das Schiff in ein Bootsumriss: 3.9.jpg[]. Das Mausrad kann ebenfalls zum Zoomen benutzt werden.
 
 == Linux
 
-btn:[Options] btn:[Connections]
+btn:[Optionen] btn:[Verbindungen]
 
 btn:[Add connection]
 
-Using the serial connection the DataPort dropdown has an entry */dev/ttyUSB0-Prolific ...*.
+Unter Serieller Verbindung findet sich im Daten-Port Dropdown ein Eintrag */dev/ttyUSB0-Prolific ...*.
 
 image:3.11.jpg[]
 
-btn:[Apply] and then tick *Enable* for this connection.
+btn:[Anwenden] und dann *Aktivieren* für diese Verbindung.
 
-This presents a message about permissions.
+Eine Nachricht über Berechtigungen erscheint.
 
 image:3.10.jpg[]
 
-btn:[Install rule]
+btn:[Regel installieren]
 
 image:3.12.jpg[]
 
 btn:[OK]
 
-Follow the advice for restarting OpenCPN.
+Folgen Sie dem Hinweis zum Neustart von OpenCPN.
 
-A rule (symlink) has been created for using the GPS advice.
+Eine Regel (Symlink) wurde für die Verwendung des GNSS Gerätes erstellt.
 
 image:3.13.jpg[]
 
-If you need to remove the GPS and clean up the installation the symlink can be removed using *Terminal*.
+Wenn Sie das GNS entfernen und die Installation aufräumen wollen, kann der Symlink mit dem *Terminal* entfernt werden.
 
 image:3.14.jpg[]
 
-After restarting OpenCPN and editing the *DataPort* connection to use the symlink *opencpn0* the ship's position appears on the map.
+Nach dem Neustart von OpenCPN und der Bearbeitung des *Daten-Port* Eintrags um den Symlink *opencpn0* zu verwenden, erscheint die Position des Schiffes auf der Karte.
 
 image:3.5.jpg[]
 
-Zoom in image:3.8.jpg[] and the boat icon image:3.9.jpg[] appears.
-
+Hereinzoomen image:3.8.jpg[] und wir sehen das Booticon image:3.9.jpg[].

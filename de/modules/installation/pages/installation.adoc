@@ -1,72 +1,80 @@
 :experimental:
 
-= Installing OpenCPN
+= OpenCPN installieren
 
-For the initial installation an Internet connection is needed.
-With your Internet browser navigate to https://opencpn.org/OpenCPN/info/downloadopencpn.html[HERE] and go to the relevant section.
+Für die Erstinstallation wird eine Internetverbindung benötigt. 
+Navigieren Sie mit Ihrem Internetbrowser zu https://opencpn.org/OpenCPN/info/downloadopencpn.html[HERE] und gehen Sie zum entsprechenden Abschnitt. 
 
-If, during the installation, you are asked to select a directory containing charts skip this step of the process. Charts will be covered xref:charts:charts.adoc[HERE].
+Wenn Sie während der Installation aufgefordert werden, ein Verzeichnis für Karten auszuwählen, überspringen Sie diesen Schritt.  Wir behandeln Karten später xref:charts:charts.adoc[HERE].
 
-== Windows 
+== Windows
+
 image:windows.png[Windows,]
 
-Download the .exe file. Open the .exe and follow the instructions.
+Laden Sie die Datei herunter.  Führen Sie die .exe Datei aus und folgen Sie den Instruktionen.
 
 == Mac
+
 image:apple.png[Apple,]
 
-Download the .pkg file. Open the .pkg and follow the instructions in the installer.
+Laden Sie die .pgk Datei herunter.  Öffnen Sie die .pkg Datei und folgen Sie den Anweisungen im Installer.
 
-Because the program does not come from the app store you may need to give permission to install from an unknown developer.
+Da das Programm nicht aus dem App-Store kommt, müssen Sie möglicherweise die Erlaubnis geben, von einem unbekannten Entwickler zu installieren.
 
-btn:[System Preferences] btn:[Security &amp; Privacy]
+btn:[System Einstellungen] btn:[Security &amp; Privacy]
 
 == Raspberry Pi
+
 image:raspberry-pi.svg[Raspberry Pi,]
 
-You can install OpenCPN by adding a Ubuntu PPA (Personal Packages Archive). See xref:configuring_ubuntu_ppa:configuring_ubuntu_ppa.adoc[Configuring Ubuntu PPA] 
+Sie können OpenCPN installieren, indem Sie ein Ubuntu PPA (Personal Packages Archive) hinzufügen.  Siehe xref:configuring_ubuntu_ppa:configuring_ubuntu_ppa.adoc[Configuring Ubuntu PPA]
 
-The simplest way of installing OpenCPN on the Raspberry Pi is to use https://openplotter.readthedocs.io/en/2.x.x/getting_started/installing.html[OpenPlotter] which installs OpenCPN and also some plugins.
+Der einfachste Weg, OpenCPN auf dem Raspberry Pi zu installieren, ist https://openplotter.readthedocs.io/en/2.x.x/getting_started/installing.html[OpenPlotter] zu verwenden, welches OpenCPN und einige weitere Plugins installiert.
 
 == Ubuntu
+
 image:ubuntu.svg[Ubuntu,]
 
-For Ubuntu Linux and it's derivatives (Linux Mint) and Debian Jessie based distributions, OpenCPN is distributed from a PPA.
-xref:configuring_ubuntu_ppa:configuring_ubuntu_ppa.adoc[Configuring Ubuntu PPA] explains how this is used.
+Für Ubuntu Linux und seine Derivate (Linux Mint) und Debian Jessie basierte Distributionen wird OpenCPN aus einer PPA installiert. 
+xref:configuring_ubuntu_ppa:configuring_ubuntu_ppa.adoc[Configuring Ubuntu PPA] erklärt, wie das geht.
 
 == Flatpak
+
 image:flatpak.png[flatpak,]
 
-OpenCPN Version 5.6.2 is available as a Flatpak package.  This packaging system is supported on all major Linux distributions.
-https://flathub.org/apps/details/org.opencpn.OpenCPN[Simplified Installation Instructions]
+OpenCPN Version 5.6.2 ist als Flatpak Paket verfügbar.   Dieses Paketsystem wird von allen wichtigen Linux-Distributionen unterstützt.
+https://flathub.org/apps/details/org.opencpn.OpenCPN[Vereinfachte Installationsanweisungen]
 
 --OR--
 
-.Manual Installation:
-. Install flatpak on your system as described in https://flatpak.org/setup/[flatpak.org/setup]
-. Install OpenCPN Flatpak image using:
+.Manuelle Installation
+. Installieren Sie flatpak auf Ihrem System wie in https://flatpak.org/setup/[flatpak.org/setup] beschrieben
+. Installiere das OpenCPN Flatpak Image mit:
 
 ----
 $ flatpak install --user  https://flathub.org/repo/appstream/org.opencpn.OpenCPN.flatpakref
 ----
 
-Start OpenCPN:
+OpenCPN starten:
 
 ----
 $ flatpak run org.opencpn.OpenCPN
 ----
 
 == Fedora
+
 image:fedora.svg[Fedora,]
 
-OpenCPN is not natively supported on Fedora.
-Use the Flatpak release instead. 
+OpenCPN wird auf Fedora nicht nativ unterstützt. 
+Verwenden Sie stattdessen die Flatpak Release.
 
 == Debian
+
 image:debian.svg[Debian,]
 
-For Debian derivatives, you can use the same packages as for the equivalent Ubuntu release.
-For Debian Stable (Buster) you can use the packages from the https://launchpad.net/~opencpn/+archive/ubuntu/opencpn[Ubuntu PPA]. The compatible Ubuntu Release is Bionic (Ubuntu 18.04).
+Für Debian-Derivate können Sie die gleichen Pakete wie für die gleichwertige Ubuntu-Veröffentlichung verwenden. 
+Für Debian Stable (Buster) können Sie die Pakete von https://launchpad.net/~opencpn/+archive/ubuntu/opencpn[Ubuntu PPA] verwenden. Das kompatible Ubuntu Release ist Bionic (Ubuntu 18.04).
 
-== Other OS
-Refer to the https://opencpn.org/OpenCPN/info/downloadopencpn.html[Download page] for other Operating Systems.
+== Weitere Betriebssysteme
+
+Weitere Informationen finden Sie auf der https://opencpn.org/OpenCPN/info/downloadopencpn.html[Download-Seite] für andere Betriebssysteme.
