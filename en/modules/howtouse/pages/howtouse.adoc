@@ -36,7 +36,7 @@ A menu may have been displayed using _right-click_:
 
 image:4.6.jpg[]
 
-Select *Properties...* indicates a menu selection.
+Select *Object Query...* indicates a menu selection.
 
 
 
