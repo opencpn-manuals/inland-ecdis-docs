@@ -13,83 +13,90 @@ image:9.00.jpg[]
 Basic AIS receiver
 
 [IMPORTANT]
-.*OpenCPN AIS Settings*
+.*Paramètres OpenCPN AIS*
 ====
-To achieve the best performance and avoid cluttering the screen the AIS Target settings need adjusting. This will help in reducing the number of irrelevant alarms. 
+Pour obtenir les meilleures performances et éviter d'encombrer l'écran, les paramètres de cible AIS doivent être ajustés. Cela aidera à réduire le nombre d'alarmes non pertinentes
 ====
 
 == Connecting the AIS
 
-An AIS receiver may be connected in the same way as the GPS. The typical AIS data rate is 38400, instead of 4800.
-However the easy way is get yourself a "AIS Pilotplug to USB" cable. This will also give you a GPS position (No need for a seperate GPS)
+Un récepteur AIS peut être connecté de la même manière que le GPS. Le débit de données AIS typique est de 38 400, au lieu de 4 800
+Cependant, le moyen le plus simple est de vous procurer un câble "AIS Pilotplug to USB". Cela vous donnera également une position GPS (pas besoin d'un GPS séparé)
 
-== AIS Target Settings
+== Paramètres de réglage des cibles AIS
 
 btn:[Options] btn:[Ships]
 
-*__AIS Targets__*
+*__Cibles AIS__*
 
 image:9.1.jpg[]
 
-Typical settings are shown.
+Les paramètres typiques sont affichés.
 
 image:9.2.jpg[]
 
-== AIS Target Information
+== Informations sur la cible
 
-*_right-click_*
+*_clic-droit_*
 
 image:9.3.jpg[]
 
-Rollover text shows the name,MMSI number and nationality of the vessel.
+Le texte survolé indique le nom, le numéro MMSI et la nationalité du navire.
 
 image:9.4.jpg[]
 
-*__Target Query...__* (Class A AIS)
+*__Cible requise...__*
 
 image:9.5.jpg[]
 
-The vessel of interest is highlighted by a broken rectangle.
+Le navire d'intérêt est mis en évidence par un rectangle brisé
 
 image:9.6.jpg[]
 
-*__Target Query...__* (Class B AIS)
+*__Cible requise ...__* (AIS Class B)
 
 image:9.7.jpg[]
 
-*__Target List...__*
+*__Liste des cibles ...__*
 
 image:9.8.jpg[]
 
-== Interpreting AIS Information
+== Interprétation des informations AIS
 
-[cols=",,,",options="header",]
+[cols="\"", ,, "\"", options="header"]
 |===
-|AIS_Icon |Information |AIS_Icon |Information
-|image:sart4.png[image,width=52,height=48] |An active AIS
-SART and is a *distress* call equal to a **“Mayday”**transmission. More
-about AIS link:ais/sart.html[sart].
-|image:classb.png[image,width=45,height=59].. |The V-shape
-stern indicates a Class B target. Tugboats and pilot boats very often
+|Icone_AIS
+|Information
+|AIS_Icon
+|Information
+
+|image:sart4.png[image,width=52,height=48] |Un AIS actif
+SART et est un appel de *détresse* égal à une transmission **"Mayday"**. Suite
+à propos d'un lien: ais/sart.html[sart]
+|La poupe en forme de V indique une cible de classe B.
+Les remorqueurs et les bateaux-pilotes embarquent très souvent des transpondeurs de classe B.
+Ceux-ci sont souvent conçus spécifiquement pour les petits bateaux commerciaux, les bateaux de pêche et les bateaux de plaisance |La poupe en forme de V indique une cible de classe B.
+Les remorqueurs et les bateaux-pilotes embarquent très souvent des transpondeurs de classe B.
+Ceux-ci sont souvent conçus spécifiquement pour les petits bateaux commerciaux, les bateaux de pêche et les bateaux de plaisance. Tugboats and pilot boats very often
 carry Class B transponders. These are often designed specifically for
 small commercial boats, fishing boats and pleasure crafts.
 
 |image:sart5.png[image,width=45,height=46] |Icon displayed
 when *testing* an AIS-SART device.
-|image:dark-green.png[image,width=45] |Targets is complying
-with the Euro http://www.cruisersforum.com/forums/tags/ais.html[AIS]
-Inland specification.
+|image:dark-green.png[image,width=45] |Les objectifs sont conformes
+avec l'euro http://www.cruisersforum.com/forums/tags/ais.html[AIS]
+Spécification intérieure.
 
-|image:nr9.png[image,width=51,height=49] |Aircraft
-participating in Search and Rescue.
+
+|image:nr9.png[image,width=51,height=49] |Avion
+participant à la recherche et au sauvetage.
 |image:inland-blue.png[image,width=45,height=44] |This
 vessel has the “Inland Blue Flag” set, it's a part of the European,
-Inland AIS standard. The “Blue Flag” signal, commonly seen on inland
-waters, indicates that the vessel requests a “stbd-stbd” passage or
-crossing. This Blue Signal is manually switched on/off, by the target.
+Inland AIS standard. Le signal "Pavillon bleu", couramment vu à l'intérieur des terres
+eaux, indique que le navire demande un passage ou une traversée « stbd-stbd ». This Blue Signal is manually switched on/off, by the target.
 
-|image:ais-red.png[image,width=51,height=51] |Potential
-Danger. |image:aton_std.png[image,width=45,height=46]
+|image:ais-red.png[image,width=51,height=51] |Danger potentiel.
+|Aton, aide à la navigation, par exemple un phare ou une bouée avec un émetteur AIS.
 |Aton, Aid to Navigation, for example a Lighthouse or a Buoy with an AIS
 transmitter.
 
@@ -108,7 +115,8 @@ http://www.gla-rrnav.org/radionavigation/ais/virtual_aton.html[Further
 explanations.]
 
 |image:ais-green.png[image,width=50,height=50] |No Danger.
-Identified |image:33vofpos.png[image,width=46,height=44]
+Identified
+|image:33vofpos.png[image,width=46,height=44]
 |Virtual Aton, off position. Actually seen in the wild, but may be a
 user config error. (Old style display.)
 
@@ -118,13 +126,15 @@ Station
 
 |image:ais-grey.png[image,width=48,height=51] |Ship which
 has lost fix - position unavailable. Displayed at the last known
-position. | |The following tagets only displays if DSC messages, GpsGate
+position.
+| |The following tagets only displays if DSC messages, GpsGate
 mesages, Radar or APRS messages are mixed in to the incoming AIS
 stream, by using, for example a multiplexer. More on the following
 pages.
 
 |image:notundcom.png[image,width=50,height=54] |Vessel not
-under command. |image:dsc-ok.png[image,width=45,height=44]
+under command.
+|image:dsc-ok.png[image,width=45,height=44]
 |DSC Station. Only the DSC message received. The position contains only
 degrees and minutes of Latitude and Longitude.
 
@@ -142,7 +152,8 @@ Station transmitting a *distress* signal. Treat this as a *“Mayday”*
 call.
 
 |image:aground.png[image,width=52,height=52] |Vessel
-aground. |image:bud-icon.png[image,width=46,height=45]
+aground.
+|image:bud-icon.png[image,width=46,height=45]
 |GpsGate Buddy target.
 
 |image:fishing.png[image,width=51,height=45] |Vessel
@@ -181,11 +192,11 @@ image:9.11.jpg[]
 
 'Zeldenrust' is a potential danger and has triggered a warning based on the settings entered in OpenCPN.
 
-COG predictor arrow length is set at three minutes. 
+COG predictor arrow length is set at three minutes.
 
-There is a red dashed extension line of the COG predictor which helps provide an estimate of time to CPA, if _target query_ has not been used. 
+There is a red dashed extension line of the COG predictor which helps provide an estimate of time to CPA, if _target query_ has not been used.
 
-Estimated positions of the vessels at CPA are shown by the blue dots. 
+Estimated positions of the vessels at CPA are shown by the blue dots.
 
 The yellow highlighted line indicates the distance off at CPA.
 
