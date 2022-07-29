@@ -26,8 +26,6 @@ Hover the mouse over https://opencpn.org/[HERE] and the browser shows where the 
 
 == Mouse Actions
 
-(Sorry)
-
 _click_ the mouse indicates a click of the mouse (MacOS) or left-click for other OS.
 
 _right-click_ is ctrl-click for the MacOS.
