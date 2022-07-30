@@ -2,35 +2,35 @@
 :experimental:
 :imagesdir: ../images
 
-= Home Screen
+= Écran d’accueil
 
-== Initial Display
+== Affichage initial
 
-You may have chosen to start OpenCPN at the end of the installation. If not start the program now. You will be presented with a screen like this:
+Vous avez peut-être choisi de démarrer OpenCPN à la fin de l'installation. Si vous ne démarrez pas le programme maintenant. Un écran de ce type vous sera présenté :
 
 image:1.0.jpg[]
 
-Control areas are displayed on the screen. Many of the options will be explained later. The focus in this manual will be the options needed for basic use.
+Les zones de contrôle sont affichées à l'écran. De nombreuses options seront expliquées plus tard. Ce manuel met l'accent sur les options nécessaires à une utilisation de base.
 
 image:1.1.jpg[]
 
-* *Tool Bar* 
+* *Barre d'outils*
 
-btn:[Hamburger] image:1.2.jpg[] Clicking on the tool bar 'hamburger' symbol makes the tool bar contract/expand.
+btn:[Hamburger] image:1.2.jpg[] En cliquant sur la barre d'outils, le symbole 'hamburger' rend la barre d'outils contrat/expand.
 
-* *Chart Panel Options* 
+* *Options d'affichage*
 
-btn:[Hamburger] image:1.3.jpg[] The chart panel 'hamburger' opens/closes the panel to display a number of options.
+btn:[Hamburger] image:1.3.jpg[] Le panneau des cartes 'hamburger' ouvre/ferme le panneau pour afficher un certain nombre d'options.
 
 image:1.4.jpg[]
 
-* *Compass/GPS Status Window* 
-* *Status Bar*
+* *Indicateurs, Nord de la carte/état du GPS : Voir*
+* *Barre d'état*
 
 [IMPORTANT]
-.*Inland ECDIS Settings*
+.*Réglages ECDIS intérieur*
 ====
-It is important that the display is set up as described in the following section.
+Il est important que l'affichage soit configuré comme décrit dans la section suivante.
 ====
 
 == Inland ECDIS Specific Settings
@@ -45,7 +45,7 @@ btn:[Apply] btn:[OK]
 
 image:1.7.jpg[]
 
-The display has changed to the 'dusk' colour scheme. 
+The display has changed to the 'dusk' colour scheme.
 
 To return to the 'daylight' scheme btn:[Change Color Scheme] image:1.10.jpg[] The shortcut is btn:[F5] on the keyboard. This cycles through the night, dusk, and daylight colour schemes.
 
@@ -55,6 +55,6 @@ Speeds and distances are in km/h and km/meters when in iECDIS mode
 
 image:1.9.jpg[]
 
-Each time OpenCPN is started the default display will use the dusk colour scheme and may need to be changed. The toolbar needs moving, by dragging it to the side of the display. 
+Each time OpenCPN is started the default display will use the dusk colour scheme and may need to be changed. The toolbar needs moving, by dragging it to the side of the display.
 
 image:1.11.jpg[]
