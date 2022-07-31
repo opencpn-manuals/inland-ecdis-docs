@@ -13,7 +13,7 @@ image:9.00.jpg[]
 Standard AIS Empfänger
 
 [IMPORTANT]
-.*OpenCPN AIS Settings*
+.*OpenCPN AIS Einstellungen*
 ====
 Um eine optimale Leistung zu erzielen und um eine Überladung des Schirms zu vermeiden. sollten einige Einstellungen angepasst werden. Dies hilft uns, Fehlalarme zu reduzieren.
 ====
@@ -25,9 +25,9 @@ Einen Lotsenstecker zu verwenden ist sicherlich der einfachste Weg.  Damit erhal
 
 == Einstellungen AIS Ziele
 
-btn:[Options] btn:[Ships]
+btn:[Optionen] btn:[Schiffe]
 
-*__AIS Targets__*
+*__AIS Ziele__*
 
 image:9.1.jpg[]
 
@@ -35,9 +35,9 @@ Dies sind typische Einstellungen
 
 image:9.2.jpg[]
 
-== IS Ziel Informationen
+== AIS Ziel Informationen
 
-*_right-click_*
+*_Rechtsklick_*
 
 image:9.3.jpg[]
 
@@ -45,7 +45,7 @@ Mit "Maus-über" sehen wir Namen, MMSI und Flaggenstaat des Schiffs
 
 image:9.4.jpg[]
 
-*__Target Query...__* (Class A AIS)
+*__Zielabfrage...__* (Class A AIS)
 
 image:9.5.jpg[]
 
@@ -53,11 +53,11 @@ Das uns interessierende Schiff wird mit einem unterbrochenen Rechteck hervorgeho
 
 image:9.6.jpg[]
 
-*__Target Query...__* (Class B AIS)
+*__Zielabfrage...__* (Class B AIS)
 
 image:9.7.jpg[]
 
-*__Target List...__*
+*__Liste AIS-Ziele...__*
 
 image:9.8.jpg[]
 
@@ -106,14 +106,14 @@ Erläuterungen]
 |image:ais-green.png[image,width=50,height=50] |Keine Gefahr. 
 Identifiziert
 |image:33vofpos.png[image,width=46,height=44]
-|Virtual Aton, ausser Position. Tasächlich gesehen, kann sich aber um
+|Virtual Aton, ausser Position. Tatsächlich gesehen, kann sich aber um
 einen Konfigurationsfehler handeln. (Alte Anzeige.)
 
 |image:ais-lost.png[image,width=50,height=50] |Ziel verloren
 |image:basestn.png[image,width=45,height=43] |AIS Basisstation
 
-|image:ais-grey.png[image,width=48,height=51] |Ship which
-has lost fix - position unavailable. Letzte bekannte wird angezeigt.
+|image:ais-grey.png[image,width=48,height=51] |Schiff ohne aktuelle Position.
+ Letzte bekannte wird angezeigt.
 | |Diese Ziele werden nur gezeigt, wenn DSC , GPSGate, RADAR oder APRS
 Meldungen über einen Multiplexer in die AIS Daten eingefügt werden.  Einzelheiten weiter unten.
 
@@ -142,18 +142,18 @@ bei Fischfang.
 |image:arpa2.png[image,width=45,height=49] |ARPA Ziel
 
 |image:hsc.png[image,width=50,height=52] |Hochgeschwindigkeits- und
-Bodeneffektfahrzeuge. Dazu gehören Hovercrafts, Hydrofoils oder
+Bodeneffektfahrzeuge.  Dazu gehören Hovercrafts, Hydrofoils oder
 Flugzeuge mit Bodeneffektnutzung.
 |image:aprs.png[image,width=44,height=48] |APRS Ziel
 
 |image:ais-moor.png[image,width=54,height=54] |Vor Anker oder
 festgemacht.  Wird angezeigt wenn der "Navigationsstatus"
-"vor Anker" oder ·festgemacht" lautet.  Da dieser Wert von Hand gesetzt wird, gibt es
+"vor Anker" oder "festgemacht" lautet.  Da dieser Wert von Hand gesetzt wird, gibt es
 keine Garantie, dass das stimmt... 
 |image:moored.png[image,width=54,height=40] |.. wie man hier bei
 diesem Beispiel sieht.  Die schwarze Linie am gelben Kreis.  Das zeigt uns, dass
 das Schiff nach Backbord dreht. Auch in der Verzögerung des Updates
-der Anzeige zu sehen.  ROT - Rate auf Turn (Winkelgeschwindigkeit)
+der Anzeige zu sehen.  ROT - Rate of Turn (Winkelgeschwindigkeit)
 zeigt bei Rechtsklick die "AIS Ziel Abfrage"
 |===
 
@@ -163,7 +163,7 @@ image:9.9.jpg[]
 
 Ein Schiff an der Kreuzung scheint den Kurz zu ändern, um in "unseren" Kanal einzufahren. 
 
-*__right-click__*
+*__Rechtsklick__*
 
 image:9.10.jpg[]
 
@@ -175,7 +175,7 @@ image:9.11.jpg[]
 
 Der COG Voranzeigepfeil ist auf drei Minuten gesetzt.
 
-Die rote gestrichelte Verlängerung der COG Voranzeige erlaubt uns die Zeit bis CPA abzuschätzen, falls wir die  _AIS-Ziel-Abfrage_ nicht verwendet haben.
+Die rote gestrichelte Verlängerung der COG Voranzeige erlaubt uns, die Zeit bis CPA abzuschätzen, falls wir die  _AIS-Ziel-Abfrage_ nicht direkt nutzen.
 
 Die blauen Punkte zeigen uns die geschätzten Positionen bei CPA.
 
@@ -183,7 +183,7 @@ Die hervorgehobene gelbe Linie zeigt die Distanz bei CPA.
 
 image:9.14.jpg[]
 
-'Zeldenrust' hat weiter gedreht und wird aud Backbord passieren.  CPA 48,5 m.
+'Zeldenrust' hat weiter gedreht und wird auf Backbord passieren.  CPA 48,5 m.
 
 image:9.15.jpg[]
 
