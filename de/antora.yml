@@ -1,7 +1,7 @@
 name: manuals
 title: Multilingual Manual 
 version: de
-display_version: German
+display_version: Deutsch
 prerelease: z
 nav:
   - modules/ROOT/nav.adoc

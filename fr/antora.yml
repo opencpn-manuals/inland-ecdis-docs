@@ -1,7 +1,7 @@
 name: manuals
 title: Multilingual Manual 
 version: fr
-display_version: French
+display_version: Français
 prerelease: z
 nav:
   - modules/ROOT/nav.adoc

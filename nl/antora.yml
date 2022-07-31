@@ -1,7 +1,7 @@
 name: manuals
 title: Multilingual Manual 
 version: nl
-display_version: Dutch
+display_version: Nederlands
 prerelease: z
 nav:
   - modules/ROOT/nav.adoc
