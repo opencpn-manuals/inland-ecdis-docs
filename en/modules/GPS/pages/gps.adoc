@@ -1,17 +1,17 @@
 :experimental:
 :imagesdir: ../images
 
-= Adding a GPS Device
+= Adding a GNSS Device
 
-Many different GPS devices can be used to provide OpenCPN with the boat's position. For simplicity the Globalsat BU-353S4 GPS is used to demonstrate installing and using a GPS with OpenCPN
+There are a variety of GNSS devices that can provide OpenCPN with position data. We use "GNSS" here instead of "GPS" because today the receivers usually use several constellations. Besides GPS, for example, Galileo, GLONASS or Beidou. For simplicity the Globalsat BU-353S4 GPS is used to demonstrate installing and using a GPS with OpenCPN
 
 image:3.0.jpg[]
 
-Other GPS devices that are available are listed https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:supplementary_hardware:gps_devices[HERE].
+Other GNSS devices that are available are listed https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:supplementary_hardware:gps_devices[HERE].
 
-It is possible to use an existing ship's GPS receiver interfaced with a serial-to-USB adapter.
+It is possible to use an existing ship's GNSS receiver interfaced with a serial-to-USB adapter.
 
-The GPS needs line of sight with satellites. You may need to move the GPS until it has a clear view of the sky. On a boat you could find that sufficient signal is received through a fibreglass deck.
+The GNSS needs line of sight with satellites. You may need to move the GNSS until it has a clear view of the sky. On a boat you could find that sufficient signal is received through a fibreglass deck.
 
 == Device Drivers
 
@@ -23,7 +23,7 @@ Download the installer for the version of Windows you are running.
 
 Install the driver using the installer .exe.
 
-Plug in the GPS. Windows should recognise the device and use the appropriate driver for it.
+Plug in the GNSS. Windows should recognise the device and use the appropriate driver for it.
 
 btn:[Options] btn:[Connections]
 
@@ -37,7 +37,7 @@ Using the *DataPort* dropdown select the Prolific USB port.
 
 image:3.3.jpg[]
 
-Scroll up and tick the *Show NMEA Debug Window*. This is not strictly necessary but gives a good indication of whether the GPS is functioning correctly.
+Scroll up and tick the *Show NMEA Debug Window*. This is not strictly necessary but gives a good indication of whether the GNSS is functioning correctly.
 
 image:3.4.jpg[]
 
@@ -49,7 +49,7 @@ image:3.5.jpg[]
 
 The NMEA Debug Window can be closed with the *Close* image:3.6.jpg[] button.
 
-The *Compass/GPS Status Window* shows a green bar image:3.7.jpg[] which indicates the strength of the GPS signal.
+The *Compass/GPS Status Window* shows a green bar image:3.7.jpg[] which indicates the strength of the GNSS signal.
 
 The *Status Bar* shows the ship's position.
 
@@ -57,7 +57,7 @@ Zooming in image:3.8.jpg[] the icon for the ship changes to a boat outline image
 
 == MacOS
 
-Plug in the GPS. 
+Plug in the GNSS. 
 
 btn:[Options] btn:[Connections]
 
@@ -73,13 +73,13 @@ With the *DataPort* dropdown select the */dev/cu.usbserial-1410* option.
 
 image:3.22.jpg[]
 
-Tick the *Show NMEA Debug Window* to view the GPS output. 
+Tick the *Show NMEA Debug Window* to view the GNSS output. 
 
 image:3.4.jpg[]
 
 The NMEA Debug Window can be closed with the *Close* image:3.6.jpg[] button.
 
-The *Compass/GPS Status Window* shows a green bar image:3.7.jpg[] which indicates the strength of the GPS signal.
+The *Compass/GNSS Status Window* shows a green bar image:3.7.jpg[] which indicates the strength of the GNSS signal.
 
 The *Status Bar* shows the ship's position.
 
@@ -109,11 +109,11 @@ btn:[OK]
 
 Follow the advice for restarting OpenCPN.
 
-A rule (symlink) has been created for using the GPS advice.
+A rule (symlink) has been created for using the GNSS advice.
 
 image:3.13.jpg[]
 
-If you need to remove the GPS and clean up the installation the symlink can be removed using *Terminal*.
+If you need to remove the GNSS and clean up the installation the symlink can be removed using *Terminal*.
 
 image:3.14.jpg[]
 

@@ -15,7 +15,7 @@ Der Emfänger benötigt den Blick auf die Satelliten.  U.U. muss man die Positio
 
 == Gerätetreiber
 
-In unserem Beispiel können Gerätetreiber für verschiedene Betriebssysteme heruntergeladen werden https://www.globalsat.com.tw/en/a4-10593/BU-353S4.html[HERE]
+In unserem Beispiel können Gerätetreiber für verschiedene Betriebssysteme heruntergeladen werden https://www.globalsat.com.tw/en/a4-10593/BU-353S4.html[HIER]
 
 == Windows
 
@@ -37,7 +37,7 @@ Wählen Sie im *DataPort* Dropdown-Menü den Prolific USB-Port aus.
 
 image:3.3.jpg[]
 
-Rollen Sie nach oben und aktivieren Sie  *Zeige NMEA Debug Window*.  Das ist nicht unbedingt notwendig, hilft uns aber zu prüfen, ob das GNSS richtig funktioniert.
+Rollen Sie nach oben und aktivieren sie zeige *NMEA Debug Fenster*.  Das ist nicht unbedingt notwendig, hilft uns aber zu prüfen, ob das GNSS richtig funktioniert.
 
 image:3.4.jpg[]
 
@@ -49,11 +49,11 @@ image:3.5.jpg[]
 
 Das NMEA Debug Fenster schliessen wir mit der Schaltfläche *Schliessen* image:3.6.jpg[].
 
-Das *Compass/GPS Status Fenster* zeigt ein grünes Balkenbild: 3.7.jpg[], das die Stärke des GNSS Signals angibt.
+Das *Compass/GPS Status Fenster* zeigt ein grünes balken image:3.7.jpg[], das die Stärke des GNSS Signals angibt.
 
 Die *Statusleiste* zeigt die Position des Schiffes an.
 
-Beim Hereinzoomen:3.8.jpg[] ändert sich das Symbol für das Schiff in ein Bootsumriss: 3.9.jpg[]. Das Mausrad kann ebenfalls zum Zoomen benutzt werden.
+Hereinzoomen image:3.8.jpg[] ändert sich das Symbol für das Schiff in ein Bootsumriss image:3.9.jpg[]. Das Mausrad kann ebenfalls zum Zoomen benutzt werden.
 
 == MacOS
 
@@ -89,7 +89,7 @@ Beim Hereinzoomen:3.8.jpg[] ändert sich das Symbol für das Schiff in ein Boots
 
 btn:[Optionen] btn:[Verbindungen]
 
-btn:[Add connection]
+btn:[Verbindung hinzufügen]
 
 Unter Serieller Verbindung findet sich im Daten-Port Dropdown ein Eintrag */dev/ttyUSB0-Prolific ...*.
 

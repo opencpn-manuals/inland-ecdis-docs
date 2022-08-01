@@ -3,5 +3,5 @@
 ** xref:installation:installation.adoc[OpenCPN installieren]
 ** xref:getting_started:getting_started.adoc[Start Seite]
 ** xref:charts:charts.adoc[Karten]
-** xref:GPS:gps.adoc[GPS]
+** xref:GPS:gps.adoc[GNSS]
 ** xref:AIS:ais.adoc[AIS]
