@@ -1,17 +1,17 @@
-= Inland ECDIS Manual
+= Inland ECDIS Handbuch
 
-== Introduction
+== Einführung
 
-This manual describes the use of OpenCPN as required by the rules of Inland ECDIS version 2.4 (Information Mode). 
+Dieses Handbuch beschreibt die Verwendung von OpenCPN in der Version nach ECDIS Version 2.4 (Informationsmodus).
 
-link:https://unece.org/fileadmin/DAM/trans/doc/2015/sc3wp3/Presentation_WP3_-_Inland_ECDIS_edition_2.4.pdf[Inland_ECDIS_edition_2.4]
+link:https://unece.org/fileadmin/DAM/trans/doc/2015/sc3wp3/Presentation_WP3_-_Inland_ECDIS_edition_2.4.pdf[Inland_ECDIS_edition_2.4[]
 
-An introduction to Inland ECDIS can be found https://www.ccr-zkr.org/files/documents/ris/leafecdis2014_e.pdf[HERE].
+Eine Einführung in Inland ECDIS finden Sie https://www.ccr-zkr.org/files/documents/workshops/wrshp181011/Leaflet_Inland_ECDIS_de.pdf[HIER].
 
-A page of useful links, including national organizations dealing with IENCs is found https://ienc.openecdis.org/links[HERE].
+Eine Seite mit nützlichen Links, einschließlich nationaler Organisationen, die sich mit IENCs befassen, gibt es https://ienc.openecdis.org/links[HIER].
 
-The manual is based on version 5.6.2 of OpenCPN. It does not include information about the Android version of the program.
+Das Handbuch basiert auf Version 5.6.2 von OpenCPN. Es enthält keine Informationen über die Android-Version des Programms.
 
-== Correction state of the Manual
+== Korrekturstatus des Handbuchs
 
-The Appendix contains a source list showing the latest amendments to the pages of the manual.*(WIP)*
+Der Anhang enthält eine Quellenliste, die die letzten Änderungen des Handbuchs zeigt.*(WIP)*
