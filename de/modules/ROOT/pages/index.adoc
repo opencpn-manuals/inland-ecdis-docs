@@ -4,7 +4,7 @@
 
 Dieses Handbuch beschreibt die Verwendung von OpenCPN in der Version nach ECDIS Version 2.4 (Informationsmodus).
 
-link:https://unece.org/fileadmin/DAM/trans/doc/2015/sc3wp3/Presentation_WP3_-_Inland_ECDIS_edition_2.4.pdf[Inland_ECDIS_edition_2.4[]
+link:https://unece.org/fileadmin/DAM/trans/doc/2015/sc3wp3/Presentation_WP3_-_Inland_ECDIS_edition_2.4.pdf[Inland_ECDIS_edition_2.4]
 
 Eine Einführung in Inland ECDIS finden Sie https://www.ccr-zkr.org/files/documents/workshops/wrshp181011/Leaflet_Inland_ECDIS_de.pdf[HIER].
 

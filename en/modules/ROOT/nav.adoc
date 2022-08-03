@@ -8,6 +8,6 @@
 
 ** xref:charts:charts.adoc[Charts]
 
-** xref:GPS:gps.adoc[GPS]
+** xref:GPS:gps.adoc[GNSS]
 
 ** xref:AIS:ais.adoc[AIS]
