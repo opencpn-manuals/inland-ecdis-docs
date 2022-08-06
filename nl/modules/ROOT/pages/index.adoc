@@ -6,7 +6,7 @@ This manual describes the use of OpenCPN as required by the rules of Inland ECDI
 
 link:https://unece.org/fileadmin/DAM/trans/doc/2015/sc3wp3/Presentation_WP3_-_Inland_ECDIS_edition_2.4.pdf[Inland_ECDIS_edition_2.4]
 
-An introduction to Inland ECDIS can be found https://www.ccr-zkr.org/files/documents/ris/leafecdis2014_e.pdf[HERE].
+An introduction to Inland ECDIS can be found https://www.ccr-zkr.org/files/documents/workshops/wrshp181011/Leaflet_Inland_ECDIS_nl.pdf[HERE].
 
 A page of useful links, including national organizations dealing with IENCs is found https://ienc.openecdis.org/links[HERE].
 
