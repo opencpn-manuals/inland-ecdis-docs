@@ -1,151 +1,152 @@
-:icons: font
+:icons: police
 :experimental:
 :imagesdir: ../images
 
-
-= Charts
+= Cartes
 
 == Introduction
 
-Chart symbols and other information is shown link:https://raw.githubusercontent.com/cesniti/iehg_gitbook/edition-2.4/.gitbook/assets/ienc_eg_2_4_1_adopted_20180320.pdf[HERE]
+Les symboles des cartes et autres informations sont visibles ici : link:https://raw.githubusercontent.com/cesniti/iehg_gitbook/edition-2.4/.gitbook/assets/ienc_eg_2_4_1_adopted_20180320.pdf[Ici]
 
-Inland ENC charts (IENC) for EU Countries can be found link:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[HERE]
+Les cartes ENC (IENC) pour les pays d'Europe sont accessibles ici :
+link:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[Ici]
 
-OpenCPN makes downloading and updating IENC easier by using the *Chart Downloader* plugin. This is installed as part of the main OpenCPN installation.
+OpenCPN peut télécharger et mettre à jour les IENC aisément en utilisant le complément *Chart downloader* . Ce complément est installé avec la partie principale d'OpenCPN.
 
-== Downloading and installing Inland ECDIS Charts
+== Télécharger et installer les cartes "Inland ECDIS"
 
 btn:[Options] image:2.0.jpg[]
 
 image:2.1.jpg[]
 
-btn:[Charts] Select the __Chart Downloader__ tab
+btn:[Cartes] Sélectionnez l'onglet __Téléchargement__
 
 image:2.2.jpg[]
 
-btn:[Add Catalog]
+btn:[Catalogue : Ajouter]
 
 image:2.3.jpg[]
 
-Select _ChartCatalogs_ and press btn:[OK]
+Sélectionnez _Catalogue : Choisir_ et appuyez sur btn:[OK]
 
-*ENC* Electronic navigational charts are charts where the objects and amount of detail needed for Inland ECDIS can be selected by the user. These charts are used in the Inland ECDIS Information Mode.
+Les cartes életronique de navigation *ENC* sont des cartes où les objets et tous les détails nécessaires pour les EDCIS des eaux intérieures peuvent être sélectionnés par l'utilisateur. Ces cartes sont utilisées dans le mode ECDIS Inland.
 
 image:2.4.jpg[]
 
-Select _The Netherlands Inland ENC Charts_
+Sélectionnez _The Netherlands Inland ENC Charts_
 
 btn:[OK]
 
-An entry for the Netherlands charts appears in the catalog. 
+Une entrée pour les cartes des Pays-Bas est visible dans le catalogue
 
 image:2.5.jpg[]
 
-btn:[Update]
+btn:[Mettre à jour]
 
 image:2.6.jpg[]
 
-btn:[Download selected charts] 
+btn:[Téléchargez les cartes sélectionnées]
 
 image:2.7.jpg[]
 
-btn:[Apply]
+btn:[Appliquez]
 
 image:2.8.jpg[]
 
-btn:[Add Directory]
+btn:[Ajoutez un dossier]
 
 image:2.9.jpg[]
 
-btn:[Select Folder]
+btn:[Selectionnez un fichier]
 
 image:2.10.jpg[]
 
-btn:[Apply] btn:[OK]
+btn:[Appliquez] btn:[OK]
 
-== Customising the chart display
+== Adaptation de l'affichage des cartes
 
-Move the base chart until you can see the Netherlands.
+Déplacez la zone de carte jusqu'à ce que vous voyiez les Pays-Bas
 
 image:2.11.jpg[]
 
-On the right of the display some of the chart cells have not appeared. They will become visible if the cell is moved towards the centre of the display, as the cell is loaded. To avoid this delay:
+Sur la droite, certaines cellules de cartes ont disparu. Elles deviendront visibles si la cellule est déplacée vers le centre de l'écran, au fur et à mesure que la cellule est chargée. Pour éviter ce délai:
 
-btn:[Options] btn:[Charts]
+btn:[Options] btn:[Cartes]
 
 image:2.12.jpg[]
 
-btn:[Prepare all ENC Charts]
+btn:[Cartes ENC : Les analyser]
 
 image:2.13.jpg[]
 
-It may take some time to load all the cells.
+Cela peut prendre un certain temps pour charger toutes les cellules.
 
-btn:[Apply] btn:[OK]
+btn:[Appliquez] btn:[OK]
 
 image:2.14.jpg[]
 
-Untick _Show Chart Outlines_ in *Display Options*
+Décochez _Bordure_ dans *Cartes : Affichage*
 
 image:2.15.jpg[]
 
 image:2.16.jpg[]
 
-A *Piano Bar* shows the bottom of the display. This indicates the charts available for the field of view. Hovering the cursor over a button highlights the area covered by the cell and displays information about the cell, such as the date last updated.
+La *Barre de cartes* apparait en bas de la zone de carte. Elle montre l'ensemble des cartes disponibles pour cette zone de carte.  En plaçant le curseur de la souris sur un des rectangles de cette barre de cartes, la carte est mise en valeur sur l'écran et les données spécifiques de cette cartes sont affichées, comme sa date de mise à jour.
 
-== Updating your Charts
+== Comment mettre à jour vos cartes
 
 [IMPORTANT]
-.*Chart Updates*
+.*Mises à jour des cartes*
 ====
-It is important that regular checks are made for updates for the charts in use.
+Il est important de mettre à jour régulièrement les cartes disponibles.
 link:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc]
-This multilingual website has links for downloading the latest charts.
+Ce site web multilangue connait les liens de téléchargement de toutes les cartes.
 ====
 
-btn:[Options] btn:[Charts]  
+btn:[Options] btn:[Cartes]
 
-__Chart Downloader__   
+__Télécharger__
 
-__Select Catalog...__ 
+*__Selectionnez un catalogue ...__*
 
 image:2.18.jpg[]
 
-btn:[Update]
+btn:[Mettre à jour]
 
-__Download Charts...__
+__Cartes : télécharger...__
 
 image:2.19.jpg[]
 
-__Download selected charts__
+__Cartes sélectionner : Télécharger__
 
 image:2.20.jpg[]
 
-_Zeeland Compleet Week 18-2022_ has failed to update. In this case it was necessary to use the link:
-
+La mise à jour a échouée pour _Zeeland Compleet Week 18-2022_. Dans ce cas, il est nécessaire d'utiliser le lien :
 link:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[]
 
-Here you see _Zeeland Compleet Week 19-2022_. Download and extract the files from the zip to the ENC directory. Then add a new directory for charts:
+lien:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[]
+
+Ici vous voyez _Zeeland Compleet Week 19-2022_. Téléchargez et extraiyez les fichiersà partir du fichier ZIP dans le dossier des ENC. Alors, ajoutez ce nouveau dossier pour les cartes :
 
 image:2.21.jpg[]
 
-btn:[Prepare all ENC Charts]
+btn:[Cartes ENC : Les analyser]
 
-Week 19 files will be used instead of Week 18.
+Les fichiers de la semaine 19 remplaceront ceux de la semaine 18.
 
-== Add more Charts
+== Ajoutez plus de cartes
 
-This is straightforward for adding German charts. 
+C'est simple pour ajouter des cartes allemandes.
 
-btn:[Options] btn:[Charts]
+btn:[Options] btn:[Cartes]
 
-*__Select Catalog...__*
+*__Catalogue : Choisir__*
 
 image:2.22.jpg[]
 
-*__Add Catalog__*
+*__Catalogue : Ajouter__*
 
-Browse for _Germany Inland ENC Charts_
+Recherchez _Germany Inland ENC Charts_
 
 image:2.23.jpg[]
 
@@ -153,80 +154,80 @@ btn:[OK]
 
 image:2.24.jpg[]
 
-btn:[Update]
+btn:[Mettre à jour]
 
-*__Download Charts...__*
+*__Cartes : Télécharger ...__*
 
 image:2.25.jpg[]
 
-btn:[Download selected charts]
+btn:[Téléchargez les cartes sélectionnées]
 
-This can take some time.
+Ceci peut prendre un certain temps.
 
 image:2.26.jpg[]
 
-Two 'Out of date' charts are found.
+Deux cartes 'périmées' ont été trouvées.
 
-btn:[Download selected charts]
+btn:[Téléchargez les cartes sélectionnées]
 
-btn:[Options] btn:[Charts]
+btn:[Options] btn:[Cartes]
 
-*__Chart Files__*
+*__Dossiers__*
 
 image:2.27.jpg[]
 
-To avoid delay in quilting.
+Pour éviter l'attente dans l'affichage de la mosaïque.
 
-btn:[Prepare all ENC Charts]
+btn:[Cartes ENC : Les analyser]
 
-btn:[Apply] btn:[OK]
+btn:[Appliquez] btn:[OK]
 
-We have now added Dutch and German ENC charts to OpenCPN. 
+Nous avons maintenant installé les cartes Allemandes et Hollandaises pour OpenCPN.
 
-*__Chart Panel Options__*
+*__Cartes : Affichage__*
 
-*__Show Chart Outlines__* will show the ENC cells available.
+*__Bordure__* montrera les cellules de cartes disponiles.
 
 image:2.28.jpg[]
 
-Zoom in for the chart detail.
+Zoomer pour le détail de la carte.
 
-== Additional Information from Chart Cells
+== Information complémentaire des cellules de cartes
 
-As well as the standard chart view extra detail is provided.
+En plus de la vue standard de la carte, des détails supplémentaires sont fournis.
 
-This is an Austrian chart in an area close to Vienna.
+Il s'agit d'une carte autrichienne dans une zone proche de Vienne.
 
 image:2.29.jpg[]
 
-*__right-click__*
+*__Clic-droit__*
 
 image:2.29.1.jpg[]
 
-*__Object Query...__*
+*__Liste des objets...__*
 
 image:2.30.jpg[]
 
-The attribute *PICREP* has a link to an image file for the bridge.
+L'attribut *PICREP* contient un lien vers un fichier image pour le pont.
 
 image:2.31.jpg[]
 
-Interesting to note that the clearance 8.5m is shown on the chart close to the centreline of the channel. From the image 11.22m is available at the centre of the bridge.
+Il est intéressant de noter que le dégagement de 8,5 m est indiqué sur la carte près de l'axe du chenal. D'après l'image, 11,22 m sont disponibles au centre du pont.
 
 image:2.32.jpg[]
 
-*__right-click__*
+*__Clic-droit__*
 
 image:2.33.jpg[]
 
-The object is a __Notice mark__.
+Cet objet est un __Notice mark__.
 
-Attribute *catnmk*  maximum number of vessels permitted to berth abreast.
+L'attribut *catnmk*  indique le maximum de bateau qui peuvent accoster simultanément.
 
-Attribute *INFORM*  maximum number of vessels allowed to berth 3, but no cargo vessels.
+L'attribut *INFORM*  donne le nombre maximum de navires autorisés à accoster 3, mais pas de cargos.
 
 https://ienc-kennisportaal.nl/wp-content/uploads/2016/09/O.3.1-Notice-Marks.pdf
 
-Much greater detail for the encoding of IENC:
+Beaucoup plus de détails pour l'encodage de l'IENC :
 
 https://ienc-kennisportaal.nl/wp-content/uploads/2021/10/2019_12_24_RIS_Index_Encoding_Guide_v3p0-rev.2.pdf

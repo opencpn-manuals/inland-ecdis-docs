@@ -1,7 +1,7 @@
 * xref:index.adoc[OpenCPN Manuel ECDIS intérieur]
 ** xref:howtouse:howtouse.adoc[Utilisation du manuel]
 ** xref:installation:installation.adoc[Installation d'OpenCPN]
-** xref:getting_started:getting_started.adoc[Home Screen]
+** xref:getting_started:getting_started.adoc[Écran d'accueil]
 ** xref:charts:charts.adoc[Cartes]
 ** xref:GPS:gps.adoc[GNSS]
 ** xref:AIS:ais.adoc[AIS]

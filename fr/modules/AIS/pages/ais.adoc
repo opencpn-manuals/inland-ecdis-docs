@@ -20,7 +20,7 @@ Pour obtenir les meilleures performances et éviter d'encombrer l'écran, les pa
 
 == Connexion du récepteur AIS
 
-Un récepteur AIS peut être connecté de la même manière que le GPS. Le débit de données AIS typique est de 38 400, au lieu de 4 800
+Un récepteur AIS peut être connecté de la même manière que le GPS. Le débit de données AIS typique est de 38 400, au lieu de 4 800. 
 Cependant, le moyen le plus simple est de vous procurer un câble "AIS Pilotplug to USB". Cela vous donnera également une position GPS (pas besoin d'un GPS séparé)
 
 == Paramètres de réglage des cibles AIS
@@ -73,17 +73,15 @@ image:9.8.jpg[]
 |image:sart4.png[image,width=52,height=48] |Un AIS actif SART et est un appel de *détresse* égal à une transmission **"Mayday"**. Suite à ce sujet sur ce lien : ais/sart.html[sart]
 |La poupe en forme de V indique une cible de classe B.
 Les remorqueurs et les bateaux-pilotes embarquent très souvent des transpondeurs de classe B.
-Ceux-ci sont souvent conçus spécifiquement pour les petits bateaux commerciaux, les bateaux de pêche et les bateaux de plaisance |La poupe en forme de V indique une cible de classe B.
-Les remorqueurs et les bateaux-pilotes embarquent très souvent des transpondeurs de classe B.
-Ceux-ci sont souvent conçus spécifiquement pour les petits bateaux commerciaux, les bateaux de pêche et les bateaux de plaisance Tugboats and pilot boats very often
-carry Class B transponders. Ceux-ci sont souvent conçus spécifiquement pour les petits bateaux commerciaux, les bateaux de pêche et les bateaux de plaisance.
+Ceux-ci sont souvent conçus spécifiquement pour les petits bateaux commerciaux, les bateaux de pêche et les bateaux de plaisance |La poupe en forme de V indique une cible de classe B. Très souvent, les remorqueurs et les bateaux-pilotes
+disposent de transpondeurs de classe B. Ceux-ci sont souvent conçus spécifiquement pour les petits bateaux commerciaux, les bateaux de pêche et les bateaux de plaisance.
 
 |image:sart5.png[image,width=45,height=46] |Icône affichée lors du *test* un appareil AIS-SART.
 |image:dark-green.png[image,width=45] |Les objectifs sont conformes avec la norme européenne http://www.cruisersforum.com/forums/tags/ais.html[AIS]
 Spécification intérieure.
 
 |image:nr9.png[image,width=51,height=49] |Avion participant à la recherche et au sauvetage.
-|image:inland-blue.png[image,width=45,height=44] |Ce vaisseau le "Drapeau Bleu Inland", AIS standard Européen. Le signal "Pavillon bleu", couramment vu à l'intérieur des terres, sur l'eau, indique que le navire demande un passage ou une traversée « stbd-stbd » (Tribord-Babord). Ce signal bleu est allumé/éteint manuellement par la cible.
+|image:inland-blue.png[image,width=45,height=44] |Ce navire arbore le "Drapeau Bleu Inland", AIS standard Européen. Le signal "Pavillon bleu", couramment vu à l'intérieur des terres, sur l'eau, indique que le navire demande un passage ou une traversée « stbd-stbd » . Ce signal bleu est allumé/éteint manuellement par la cible.
 
 |image:ais-red.png[image,width=51,height=51] |Danger potentiel.
 |Aton, aide à la navigation, par exemple un phare ou une bouée avec un émetteur AIS.
@@ -94,7 +92,7 @@ AIS.
 Non identifié (nom issu des données mises en cache)
 |image:aton_off.png[image,width=45,height=44] |Aton, Aide à la navigation qui est hors de sa position supposée. Par exemple, une bouée équipée de l'AIS qui est à la dérive.
 
-|image:ais-lemon.png[image,width=47,height=47] |No Danger.
+|image:ais-lemon.png[image,width=47,height=47] |Aucun danger 
 Non identifié (nom issu des données mises en cache)
 |image:vaton.png[image,width=45,height=46] |Aton Virtuel,
 Aide Virtuelle à la navigation, pas un vrai marqueur. Peut être utile pour un ensemble de

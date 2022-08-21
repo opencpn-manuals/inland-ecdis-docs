@@ -6,17 +6,17 @@
 
 == Affichage initial
 
-Vous avez peut-être choisi de démarrer OpenCPN à la fin de l'installation. Si vous ne démarrez pas le programme maintenant. Un écran de ce type vous sera présenté :
+Vous avez peut-être choisi de démarrer OpenCPN à la fin de l'installation. Si vous ne démarrez pas le programme maintenant.  Un écran de ce type vous sera présenté :
 
 image:1.0.jpg[]
 
-Les zones de contrôle sont affichées à l'écran. De nombreuses options seront expliquées plus tard. Ce manuel met l'accent sur les options nécessaires à une utilisation de base.
+Les zones de contrôle sont affichées à l'écran.  De nombreuses options seront expliquées plus tard.  Ce manuel met l'accent sur les options nécessaires à une utilisation de base.
 
 image:1.1.jpg[]
 
 * *Barre d'outils*
 
-btn:[Hamburger] image:1.2.jpg[] En cliquant sur la barre d'outils, le symbole 'hamburger' rend la barre d'outils contrat/expand.
+btn:[Hamburger] image:1.2.jpg[] Dans la barre d'outils, le symbole 'Hamburger' plie/déplie la barre d'outils.
 
 * *Options d'affichage*
 
@@ -33,28 +33,28 @@ image:1.4.jpg[]
 Il est important que l'affichage soit configuré comme décrit dans la section suivante.
 ====
 
-== Inland ECDIS Specific Settings
+== Options particulières pour les cartes Inland ECDIS
 
-btn:[Options] image:1.5.1.jpg[] btn:[User Interface] image:1.5.jpg[]
+btn:[Options] image:1.5.1.jpg[] btn:[Personnaliser] image:1.5.jpg[]
 
 image:1.6.jpg[]
 
-Tick the box for *Use Inland ECDIS*.
+Cocher cette case pour *Utiliser les cartes Inland ECDIS*
 
-btn:[Apply] btn:[OK]
+btn:[Appliquer] btn:[OK]
 
 image:1.7.jpg[]
 
-The display has changed to the 'dusk' colour scheme.
+L'affichage est en mode "Nuit" dans le mode d'éclairage.
 
-To return to the 'daylight' scheme btn:[Change Color Scheme] image:1.10.jpg[] The shortcut is btn:[F5] on the keyboard. This cycles through the night, dusk, and daylight colour schemes.
+Pour revenir au mode "Jour" d'éclairage btn:[Choisir l'affichage : Jour, Crépuscule, Nuit, Aube] Les couleurs de la nuit, du crépuscule et de la lumière du jour.
 
 image:1.8.jpg[]
 
-Speeds and distances are in km/h and km/meters when in iECDIS mode
+Vitesses et distances sont en km/h et km/mètres dans le mode iECDIS
 
 image:1.9.jpg[]
 
-Each time OpenCPN is started the default display will use the dusk colour scheme and may need to be changed. The toolbar needs moving, by dragging it to the side of the display.
+A chaque démarrage d'OpenCPN, l'affichage est en mode nuit et nécessite d'être changé. La barre d'util nécessite d'être déplacée par glisser/déposer sur le côté de la zone de carte.
 
 image:1.11.jpg[]

@@ -1,47 +1,41 @@
 :experimental:
 
-= Using the Manual
+= Utiliser le manuel
 
-== Buttons
+== Boutons
 
-Buttons to perform actions are shown like this: 
+Les boutons pour effectuer des actions sont affichés comme ceci :
 
-btn:[Apply] btn:[OK] 
+btn:[Appliquer] btn:[OK]
 
-A shortcut for a button's action is shown in italics, for example btn:[Create Route] _Ctrl-R_.
+Un raccourci pour l'action d'un bouton est affiché en italique, par exemple btn:[route créer] _Ctrl-R_.
 
-== Tabs
+== Onglets
 
-Select *Chart Downloader* is an example of selecting a tab in a notebook display. 
+Sélectionnez *Télécharger* est un exemple de sélection d'un onglet sur l'écran de PC.
 
-== Links
+== Liens
 
-Links can be internal for navigating the manual or external, for the Internet.
+Les liens peuvent être internes pour naviguer dans le manuel ou externe, pour Internet.
 
-xref:getting_started:getting_started.adoc[HERE] is a link to the *Home Screen* page.
+xref:getting_started:getting_started.adoc[Ici] est un lien vers la page *Écran d'accueil*.
 
-https://opencpn.org/[HERE] is an external link to the OpenCPN website.
+https://opencpn.org/[Ici] est un lien externe vers le site web OpenCPN.
 
-Hover the mouse over https://opencpn.org/[HERE] and the browser shows where the link leads. 
+Passez la souris sur https://opencpn.org/[Ici] et le navigateur indique où le lien mène.
 
-== Mouse Actions
+== Actions de la souris
 
-(Sorry)
+(Désolé.)
 
-_click_ the mouse indicates a click of the mouse (MacOS) or left-click for other OS.
+_cliquer_ la souris indique un clic de la souris (MacOS) ou un clic gauche pour un autre OS.
 
-_right-click_ is ctrl-click for the MacOS.
+_clic droit_ est ctrl-click pour MacOS.
 
-== Menu Items
+== Éléments de Menu
 
-A menu may have been displayed using _right-click_:
+Un menu peut avoir été affiché en utilisant _click_droit :
 
 image:4.6.jpg[]
 
-Select *Properties...* indicates a menu selection.
-
-
-
-
-
-
+Sélectionnez *Propriétés...* indique une sélection de menu.
