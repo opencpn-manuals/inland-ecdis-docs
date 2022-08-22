@@ -14,4 +14,8 @@ Das Handbuch basiert auf Version 5.6.2 von OpenCPN. Es enthält keine Informatio
 
 == Korrekturstatus des Handbuchs
 
-Der Anhang enthält eine Quellenliste, die die letzten Änderungen des Handbuchs zeigt.*(WIP)*
+Der Anhang enthält eine Quellenliste, die die letzten Änderungen des Handbuchs zeigt.
+
+== Annexe
+
+link:https://opencpn-manuals.github.io/inland-ecdis/manuals/en/sources.html[Die letzten Änderungen]
