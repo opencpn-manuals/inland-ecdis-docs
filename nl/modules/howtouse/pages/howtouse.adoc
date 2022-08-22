@@ -1,28 +1,28 @@
 :experimental:
 
-= Using the Manual
+= Gebruik van de handleiding
 
-== Buttons
+== Knoppen
 
-Buttons to perform actions are shown like this: 
+Knoppen om acties uit te voeren worden als volgt weergegeven:
 
-btn:[Apply] btn:[OK] 
+btn:[Apply] btn:[OK]
 
-A shortcut for a button's action is shown in italics, for example btn:[Create Route] _Ctrl-R_.
+Een snelkoppeling voor de actie van een knop wordt cursief weergegeven, bijvoorbeeld btn:[Route] _Ctrl-R_.
 
-== Tabs
+== Tabbladen
 
-Select *Chart Downloader* is an example of selecting a tab in a notebook display. 
+Selecteer *Chart Downloader* een voorbeeld van het selecteren van een tabblad in een notitieboekweergave.
 
-== Links
+== Koppelingen
 
-Links can be internal for navigating the manual or external, for the Internet.
+Verwijzingen (links) kunnen intern zijn voor de handleiding of extern om te navigeren, ofvoor het internet.
 
-xref:getting_started:getting_started.adoc[HERE] is a link to the *Home Screen* page.
+xref:getting_started:getting_started.adoc[HERE] is een link naar de *Home Screen* pagina.
 
 https://opencpn.org/[HERE] is an external link to the OpenCPN website.
 
-Hover the mouse over https://opencpn.org/[HERE] and the browser shows where the link leads. 
+Hover the mouse over https://opencpn.org/[HERE] and the browser shows where the link leads.
 
 == Mouse Actions
 
@@ -39,9 +39,3 @@ A menu may have been displayed using _right-click_:
 image:4.6.jpg[]
 
 Select *Properties...* indicates a menu selection.
-
-
-
-
-
-

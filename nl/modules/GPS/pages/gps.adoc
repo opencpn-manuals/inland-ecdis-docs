@@ -15,7 +15,7 @@ The GPS needs line of sight with satellites. You may need to move the GPS until 
 
 == Device Drivers
 
-Device drivers for various OS can be downloaded https://www.globalsat.com.tw/en/a4-10593/BU-353S4.html[HERE] 
+Device drivers for various OS can be downloaded https://www.globalsat.com.tw/en/a4-10593/BU-353S4.html[HERE]
 
 == Windows
 
@@ -47,79 +47,78 @@ You may need to move the chart a litle but the ship's position appears.
 
 image:3.5.jpg[]
 
-The NMEA Debug Window can be closed with the *Close* image:3.6.jpg[] button.
+Het NMEA Debug venster kan gesloten worden met de *Close* afbeelding:3.6.jpg[] knop.
 
-The *Compass/GPS Status Window* shows a green bar image:3.7.jpg[] which indicates the strength of the GPS signal.
+De *kompas/GPS Status Window* toont een groene balk afbeelding:3.7.jpg[] wat de sterkte van het GPS signaal aangeeft.
 
-The *Status Bar* shows the ship's position.
+De *Statusbalk* toont de positie van het schip.
 
-Zooming in image:3.8.jpg[] the icon for the ship changes to a boat outline image:3.9.jpg[]. The mouse scroll button can also be used to zoom in/out.
+Zoomt in afbeelding:3.8.jpg[] het pictogram voor het schip verandert in een afbeelding van de vaartuig:3.9.jpg[]. De muis scroll knop kan ook worden gebruikt om in of uit te zoomen.
 
 == MacOS
 
-Plug in the GPS. 
+Sluit de GPS aan.
 
 btn:[Options] btn:[Connections]
 
-image:3.1.jpg[]
+afbeelding:3.1.jpg[]
 
-btn:[Add connection]
+Voeg verbinding toe]
 
-Use *Serial*
+Gebruik *Serieel*
 
-image:3.21.jpg[]
+afbeelding:3.21.jpg[]
 
-With the *DataPort* dropdown select the */dev/cu.usbserial-1410* option.
+Met de *DataPort* lijst selecteer de */dev/cu.usbserial-1410* optie.
 
-image:3.22.jpg[]
+afbeelding:3.22.jpg[]
 
-Tick the *Show NMEA Debug Window* to view the GPS output. 
+Vink de *Toon NMEA Debug Window* aan om de GPS uitvoer te bekijken.
 
-image:3.4.jpg[]
+afbeelding:3.4.jpg[]
 
-The NMEA Debug Window can be closed with the *Close* image:3.6.jpg[] button.
+Het NMEA Debug venster kan gesloten worden met de *Close* afbeelding:3.6.jpg[] knop.
 
-The *Compass/GPS Status Window* shows a green bar image:3.7.jpg[] which indicates the strength of the GPS signal.
+De *kompas/GPS Status Window* toont een groene balk afbeelding:3.7.jpg[] wat de sterkte van het GPS signaal aangeeft.
 
-The *Status Bar* shows the ship's position.
+De *Statusbalk* toont de positie van het schip.
 
-Zooming in image:3.8.jpg[] the icon for the ship changes to a boat outline image:3.9.jpg[]. The mouse scroll button can also be used to zoom in/out.
+Zoomt in afbeelding:3.8.jpg[] het pictogram voor het schip verandert in een afbeelding van de vaartuig:3.9.jpg[]. De muis scroll knop kan ook worden gebruikt om in of uit te zoomen.
 
 == Linux
 
 btn:[Options] btn:[Connections]
 
-btn:[Add connection]
+Voeg verbinding toe]
 
-Using the serial connection the DataPort dropdown has an entry */dev/ttyUSB0-Prolific ...*.
+Gebruik van de seriële verbinding de DataPort lijst en een invoer van */dev/ttyUSB0-Prolific ....
 
-image:3.11.jpg[]
+afbeelding:3.11.jpg[]
 
-btn:[Apply] and then tick *Enable* for this connection.
+btn:[Apply] en vink dan aan *Enable* voor deze verbinding.
 
-This presents a message about permissions.
+Dit presenteert een bericht over machtigingen.
 
-image:3.10.jpg[]
+afbeelding:3.10.jpg[]
 
-btn:[Install rule]
+btn:[Regel installeren]
 
-image:3.12.jpg[]
+afbeelding:3.12.jpg[]
 
 btn:[OK]
 
-Follow the advice for restarting OpenCPN.
+Volg het advies om OpenCPN te herstarten.
 
-A rule (symlink) has been created for using the GPS advice.
+Er is een regel (symlink) gemaakt voor het gebruik van de GPS-instellingen.
 
-image:3.13.jpg[]
+afbeelding:3.13.jpg[]
 
-If you need to remove the GPS and clean up the installation the symlink can be removed using *Terminal*.
+Als u de GPS wilt verwijderen en de installatie wilt opschonen, kan de symlink worden verwijderd met behulp van *Terminal*.
 
-image:3.14.jpg[]
+afbeelding:3.14.jpg[]
 
-After restarting OpenCPN and editing the *DataPort* connection to use the symlink *opencpn0* the ship's position appears on the map.
+Na het herstarten van OpenCPN en het bewerken van de *DataPort* connectie om de symlink *opencpn0* te gebruiken verschijnt het schip op de kaart.
 
-image:3.5.jpg[]
+afbeelding:3.5.jpg[]
 
-Zoom in image:3.8.jpg[] and the boat icon image:3.9.jpg[] appears.
-
+Zoom in afbeelding:3.8.jpg[] en de bootpictogram afbeelding: 3.9.jpg[] verschijnt.
