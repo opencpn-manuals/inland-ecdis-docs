@@ -5,7 +5,7 @@
 Voor de eerste installatie is een internetverbinding nodig.
 Met je internetbrowser ga je naar https://opencpn.org/OpenCPN/info/downloadopencpn.html[HERE] en ga naar de relevante sectie.
 
-Als tijdens de installatie gevraagd wordt om een map te selecteren, die de kaarten bevat deze stap van het proces overslaan. Kaarten worden gedekt door xref:charts.adoc[HERE].
+Als tijdens de installatie gevraagd wordt om een map te selecteren, die de kaarten bevat deze stap van het proces overslaan. Kaarten worden gedekt door xref:charts:charts.adoc[HERE].
 
 == Windows
 
