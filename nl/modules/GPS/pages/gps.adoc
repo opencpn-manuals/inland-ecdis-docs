@@ -1,43 +1,43 @@
 :experimental:
-:imagesdir: ../images
+:imagesdir: ../afbeeldingen
 
-= Adding a GPS Device
+= Een GPS-apparaat toevoegen
 
-Many different GPS devices can be used to provide OpenCPN with the boat's position. For simplicity the Globalsat BU-353S4 GPS is used to demonstrate installing and using a GPS with OpenCPN
+Veel verschillende GPS-apparaten kunnen worden gebruikt om in OpenCPN de positie van de boot weer te geven. Voor eenvoud worden de globale BU-353S4 GPS gebruikt om de installatie en het gebruik van een GPS met OpenCPN te demonstreren
 
 image:3.0.jpg[]
 
-Other GPS devices that are available are listed https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:supplementary_hardware:gps_devices[HERE].
+Andere GPS-apparaten die beschikbaar zijn staan https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:supplementary_hardware:gps_devices[HERE].
 
-It is possible to use an existing ship's GPS receiver interfaced with a serial-to-USB adapter.
+Het is mogelijk om de GPS-ontvanger van een bestaand schip te gebruiken met een seriële naar-USB-adapter.
 
-The GPS needs line of sight with satellites. You may need to move the GPS until it has a clear view of the sky. On a boat you could find that sufficient signal is received through a fibreglass deck.
+De GPS ontvangst heeft een zichtlijn  naar satellieten nodig. Mogelijk moet u de GPS verplaatsen totdat deze een duidelijk beeld naar  de ruimte heeft. Op een boot kun je vaststellen dat er voldoende signaal wordt ontvangen door het polyester laminaat..
 
-== Device Drivers
+== Apparaat stuurprogramma's
 
-Device drivers for various OS can be downloaded https://www.globalsat.com.tw/en/a4-10593/BU-353S4.html[HERE]
+Apparaatdrivers voor verschillende OS kunnen worden gedownload https://www.globalsat.com.tw/en/a4-10593/BU-353S4.html[HERE]
 
 == Windows
 
-Download the installer for the version of Windows you are running.
+Download de installatie voor de versie van Windows die u gebruikt.
 
-Install the driver using the installer .exe.
+Installeer de driver met behulp van de installer .exe.
 
-Plug in the GPS. Windows should recognise the device and use the appropriate driver for it.
+Sluit de GPS aan. Windows moet het apparaat herkennen en het juiste stuurprogramma daarvoor gebruiken.
 
 btn:[Options] btn:[Connections]
 
 image:3.1.jpg[]
 
-btn:[Add connection]
+Voeg verbinding toe]
 
 image:3.2.jpg[]
 
-Using the *DataPort* dropdown select the Prolific USB port.
+Met behulp van de *DataPoort* lijst selecteert u handige de USB-poort.
 
 image:3.3.jpg[]
 
-Scroll up and tick the *Show NMEA Debug Window*. This is not strictly necessary but gives a good indication of whether the GPS is functioning correctly.
+Scroll omhoog en klik op *Toon NMEA Debug Window*. Dit is niet strikt noodzakelijk, maar het geeft een goede indicatie of het GPS-systeem correct werkt.
 
 image:3.4.jpg[]
 
@@ -53,29 +53,29 @@ De *kompas/GPS Status Window* toont een groene balk afbeelding:3.7.jpg[] wat de 
 
 De *Statusbalk* toont de positie van het schip.
 
-Zoomt in afbeelding:3.8.jpg[] het pictogram voor het schip verandert in een afbeelding van de vaartuig:3.9.jpg[]. De muis scroll knop kan ook worden gebruikt om in of uit te zoomen.
+Zoom in afbeelding:3.8.jpg[] het pictogram voor het schip verandert in een afbeelding van de vaartuig:3.9.jpg[]. De muis scroll knop kan ook worden gebruikt om in of uit te zoomen.
 
 == MacOS
 
-Sluit de GPS aan.
+Plug de GPS in.
 
 btn:[Options] btn:[Connections]
 
-afbeelding:3.1.jpg[]
+image:3.1.jpg[]
 
 Voeg verbinding toe]
 
 Gebruik *Serieel*
 
-afbeelding:3.21.jpg[]
+image:3.21.jpg[]
 
-Met de *DataPort* lijst selecteer de */dev/cu.usbserial-1410* optie.
+Met de *DataPort* lijst selecteer u de */dev/cu.usbserial-1410* optie.
 
-afbeelding:3.22.jpg[]
+image:3.22.jpg[]
 
 Vink de *Toon NMEA Debug Window* aan om de GPS uitvoer te bekijken.
 
-afbeelding:3.4.jpg[]
+image:3.4.jpg[]
 
 Het NMEA Debug venster kan gesloten worden met de *Close* afbeelding:3.6.jpg[] knop.
 
@@ -83,7 +83,7 @@ De *kompas/GPS Status Window* toont een groene balk afbeelding:3.7.jpg[] wat de 
 
 De *Statusbalk* toont de positie van het schip.
 
-Zoomt in afbeelding:3.8.jpg[] het pictogram voor het schip verandert in een afbeelding van de vaartuig:3.9.jpg[]. De muis scroll knop kan ook worden gebruikt om in of uit te zoomen.
+Zoom in afbeelding:3.8.jpg[] het pictogram voor het schip verandert in een afbeelding van de vaartuig:3.9.jpg[]. De muis scroll knop kan ook worden gebruikt om in of uit te zoomen.
 
 == Linux
 
@@ -91,34 +91,34 @@ btn:[Options] btn:[Connections]
 
 Voeg verbinding toe]
 
-Gebruik van de seriële verbinding de DataPort lijst en een invoer van */dev/ttyUSB0-Prolific ....
+Gebruik van de seriële verbinding de DataPort lijst met een invoer */dev/ttyUSB0-Prolific ....
 
-afbeelding:3.11.jpg[]
+image:3.11.jpg[]
 
 btn:[Apply] en vink dan aan *Enable* voor deze verbinding.
 
 Dit presenteert een bericht over machtigingen.
 
-afbeelding:3.10.jpg[]
+image:3.10.jpg[]
 
 btn:[Regel installeren]
 
-afbeelding:3.12.jpg[]
+image:3.12.jpg[]
 
 btn:[OK]
 
 Volg het advies om OpenCPN te herstarten.
 
-Er is een regel (symlink) gemaakt voor het gebruik van de GPS-instellingen.
+Er is een regel (symlink) gemaakt voor het gebruik van de GPS-toepassing.
 
-afbeelding:3.13.jpg[]
+image:3.13.jpg[]
 
 Als u de GPS wilt verwijderen en de installatie wilt opschonen, kan de symlink worden verwijderd met behulp van *Terminal*.
 
-afbeelding:3.14.jpg[]
+image:3.14.jpg[]
 
 Na het herstarten van OpenCPN en het bewerken van de *DataPort* connectie om de symlink *opencpn0* te gebruiken verschijnt het schip op de kaart.
 
-afbeelding:3.5.jpg[]
+image:3.5.jpg[]
 
 Zoom in afbeelding:3.8.jpg[] en de bootpictogram afbeelding: 3.9.jpg[] verschijnt.

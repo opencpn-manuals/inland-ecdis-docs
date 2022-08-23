@@ -4,7 +4,7 @@
 
 = Kaarten
 
-== Inleiding
+== Introductie
 
 Kaartsymbolen en andere informatie wordt getoond link:https://raw.githubusercontent.com/cesniti/iehg_gitbook/edition-2.4/.gitbook/assets/ienc_eg_2_4_adopted_20180320.pdf[HERE]
 
@@ -16,135 +16,135 @@ OpenCPN maakt het downloaden en bijwerken van IENC makkelijker met behulp van de
 
 btn:[Options] afbeelding:2.0.jpg[]
 
-afbeelding:2.1.jpg[]
+image:2.1.jpg[]
 
 btn:[Charts] Selecteer het tabblad __Chart Downloader__
 
-afbeelding:2.2.jpg[]
+image:2.2.jpg[]
 
 btn:[Catalogus]
 
-afbeelding:2.3.jpg[]
+image:2.3.jpg[]
 
 Selecteer _ChartCatalogs_ en klik op btn:[OK]
 
-*ENC* Elektronische navigatiegrafieken zijn grafieken waar de objecten en de hoeveelheid details die nodig zijn voor binnenland ECDIS kunnen worden geselecteerd door de gebruiker. Deze kaarten worden gebruikt in de Inland ECDIS Informatiemodus.
+*ENC* Elektronische navigatie kaarten zijn kaarten waar de objecten en een hoeveelheid details die nodig zijn om voor binnenland ECDIS te worden geselecteerd door de gebruiker. Deze kaarten worden gebruikt in de Inland ECDIS Informatiemodus.
 
-afbeelding:2.4.jpg[]
+image:2.4.jpg[]
 
-Selecteer _The Netherlands Inland ENC Charts_
+Selecteer _The Nederlandse Inland ENC Kaarten_
 
 btn:[OK]
 
-Een vermelding voor de Nederlandse grafieken verschijnt in de catalogus.
+Een vermelding voor de Nederlandse kaarten verschijnt in de catalogus.
 
-afbeelding:2.5.jpg[]
+image:2.5.jpg[]
 
 btn:[Update]
 
-afbeelding:2.6.jpg[]
+image:2.6.jpg[]
 
 Geselecteerde kaarten downloaden]
 
-afbeelding:2.7.jpg[]
+image:2.7.jpg[]
 
 btn:[Apply]
 
-afbeelding:2.8.jpg[]
+image:2.8.jpg[]
 
 btn:[Map toevoegen]
 
-afbeelding:2.9.jpg[]
+image:2.9.jpg[]
 
 btn:[Map kiezen]
 
-afbeelding:2.10.jpg[]
+image:2.10.jpg[]
 
 btn:[Apply] btn:[OK]
 
-== Aanpassen van de kaartweergave
+== Aanpassen van de kaart weergave
 
-Verplaats de basisgrafiek totdat u Nederland kunt zien.
+Verplaats de basis kaart totdat u Nederland kunt zien.
 
-afbeelding:2.11.jpg[]
+image:2.11.jpg[]
 
-Aan de rechterkant van het display zijn sommige grafiekcellen niet verschenen. Ze worden zichtbaar als de cel naar het midden van het scherm wordt verplaatst, als de cel wordt geladen. Om deze vertraging te voorkomen:
+Aan de rechterkant van het display zijn sommige kaart cellen niet verschenen. Ze worden zichtbaar als de cel naar het midden van het scherm wordt verplaatst, als de cel wordt geladen. Om deze vertraging te voorkomen:
 
 btn:[Options] btn:[Charts]
 
-afbeelding:2.12.jpg[]
+image:2.12.jpg[]
 
-De ENC-kaarten voorbereiden]
+Alle ENC-kaarten voorbereiden]
 
-afbeelding:2.13.jpg[]
+image:2.13.jpg[]
 
 Het kan even duren om alle cellen te laden.
 
 btn:[Apply] btn:[OK]
 
-afbeelding:2.14.jpg[]
+image:2.14.jpg[]
 
-Zet de _Toon de kaart kaders uit in *Display Opties*
+Zet  _Show kaart kaders af_ in *Scherm Opties*
 
-afbeelding:2.15.jpg[]
+image:2.15.jpg[]
 
-afbeelding:2.16.jpg[]
+image:2.16.jpg[]
 
-A *Piano Bar* shows the bottom of the display. This indicates the charts available for the field of view. Hovering the cursor over a button highlights the area covered by the cell and displays information about the cell, such as the date last updated.
+Een *Piano Bar* toont de onderkant van het scherm. Dit geeft de beschikbare kaarten aan voor het de beeld weergave. Door over de cursor over een vlak (onder)  te zweven, wordt het gebied dat door de cel wordt bestreken gemarkeerd en worden informatie over de cel weergegeven, zoals de datum voor het laatst bijgewerkt.
 
-== Updating your Charts
+== Kaarten bijwerken
 
 [IMPORTANT]
-.*Chart Updates*
+.Kaart updates
 ====
-It is important that regular checks are made for updates for the charts in use.
+Het is belangrijk dat er regelmatig wordt gecontroleerd of de in gebruik zijnde kaarten bijgewerkt moeten worden.
 link:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc]
-This multilingual website has links for downloading the latest charts.
+Deze meertalige website heeft links om de nieuwste kaarten te downloaden.
 ====
 
 btn:[Options] btn:[Charts]
 
-__Chart Downloader__
+__Kaartdownloads__
 
-__Select Catalog...__
+__Selecteer catalogus...__
 
 image:2.18.jpg[]
 
 btn:[Update]
 
-__Download Charts...__
+__Download kaarten...__
 
 image:2.19.jpg[]
 
-__Download selected charts__
+__Geselecteerde kaarten downloaden__
 
 image:2.20.jpg[]
 
-_Zeeland Compleet Week 18-2022_ has failed to update. In this case it was necessary to use the link:
+_Zeeland Compleet Week 18-2022_ kon niet worden bijgewerkt. In dit geval was het nodig om de link te gebruiken:
 
 link:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[]
 
-Here you see _Zeeland Compleet Week 19-2022_. Download and extract the files from the zip to the ENC directory. Then add a new directory for charts:
+Hier zie je _Zeeland Compleet Week 19-2022_. Download en pak de bestanden uit van de zip naar de ENC map. Voeg vervolgens een nieuwe map toe voor de kaarten:
 
 image:2.21.jpg[]
 
-btn:[Prepare all ENC Charts]
+Alle ENC-kaarten voorbereiden]
 
-Week 19 files will be used instead of Week 18.
+Week 19 bestanden zullen worden gebruikt in plaats van Week 18.
 
-== Add more Charts
+== Meer kaaarten toevoegen
 
-This is straightforward for adding German charts.
+Dat is eenvoudig toe te voegen aan Duitse kaarten.
 
 btn:[Options] btn:[Charts]
 
-*__Select Catalog...__*
+*__Selecteer catalogus...__*
 
 image:2.22.jpg[]
 
-*__Add Catalog__*
+*__Voeg catalogus toe__*
 
-Browse for _Germany Inland ENC Charts_
+Blader naar _Duitsland Inland ENC Kaarten_
 
 image:2.23.jpg[]
 
@@ -154,75 +154,75 @@ image:2.24.jpg[]
 
 btn:[Update]
 
-*__Download Charts...__*
+*__Download kaarten...__*
 
 image:2.25.jpg[]
 
-btn:[Download selected charts]
+Geselecteerde kaarten downloaden]
 
-This can take some time.
+(Dit kan enige tijd duren...)
 
 image:2.26.jpg[]
 
-Two 'Out of date' charts are found.
+Er zijn twee 'Over geldigheids datum' kaarten gevonden.
 
-btn:[Download selected charts]
+Geselecteerde kaarten downloaden]
 
 btn:[Options] btn:[Charts]
 
-*__Chart Files__*
+*__Kaartbestanden__*
 
 image:2.27.jpg[]
 
-To avoid delay in quilting.
+Om te voorkomen dat er vertraging optreden bij het samenvoegen.
 
-btn:[Prepare all ENC Charts]
+Alle ENC-kaarten voorbereiden]
 
 btn:[Apply] btn:[OK]
 
-We hebben nu de Nederlandse en de Duitse ENC-kaarten aan OpenCPN toegevoegd.
+We hebben nu Nederlandse en Duitse ENC-kaarten aan OpenCPN toegevoegd.
 
 *__Weergaveopties Kaart__*
 
 *__Toon kaart kaders__* geeft de beschikbare ENC-cellen weer.
 
-afbeelding:2.28.jpg[]
+image:2.28.jpg[]
 
 Inzoomen op de kaart details
 
-== Aanvullende informatie uit de grafiekanellen
+== Aanvullende informatie van de kaart cellen.
 
 Naast de extra details van de standaard grafiekweergave wordt ook extra informatie verstrekt.
 
 Dit is een Oostenrijkse kaart in een nabijheid van Wenen.
 
-afbeelding:2.29.jpg[]
+image:2.29.jpg[]
 
 *__rechtsklik__*
 
-afbeelding:2.29.jpg[]
+image:2.21.jpg[]
 
 *__Kaartobjectgegevens...__*
 
-afbeelding:2.30.jpg[]
+image:2.30.jpg[]
 
 Het attribuut *PICREP* heeft een link naar een afbeelding voor de brug.
 
-afbeelding:2.31.jpg[]
+image:2.31.jpg[]
 
-Interessant om op te merken dat de kruiphoogte 8.5 m wordt weergegeven op de kaart dicht bij de middenlijn van het kanaal. Van het beeld  is te zien dat 11.22 m is beschikbaar in het midden van de brug.
+Interessant om op te merken dat de diepte van 8.5 m wordt weergegeven op de kaart dicht bij de middenlijn van het kanaal. Op de afbeelding is de kruiphoogte 11.22 m beschikbaar in het midden van de brug.
 
-afbeelding:2.32.jpg[]
+image:2.32.jpg[]
 
 *__rechtsklik__*
 
-afbeelding:2.33.jpg[]
+image:2.33.jpg[]
 
 Het object is een __Notificatie markering__.
 
-Kenmerk *catnmk* is het maximaal aantal vaartuigen dat is toegestaan naast elkaar af te meren..
+Kenmerk *catnmk* is het maximaal aantal vaartuigen dat is toegestaan om naast elkaar af te meren.
 
-Kenmerk *INFORM* is het maximaal aantal vaartuigen dat is toegestaan om op ligplaats 3 af te meren, met uitzondering van vrachtschepen.
+Kenmerk *INFORM* is het maximaal aantal vaartuigen dat is toegestaan op ligplaat 3, uitgezonderd vrachtschepen.
 
 https://ienc-kennisportaal.nl/wp-content/uploads/2016/09/O.3.1-Notice-Marks.pdf
 

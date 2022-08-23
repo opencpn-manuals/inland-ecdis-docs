@@ -2,25 +2,25 @@
 :experimental:
 :imagesdir: ../images
 
-= Home Screen
+= Thuisscherm
 
-== Initial Display
+== Eerste display
 
-You may have chosen to start OpenCPN at the end of the installation. If not start the program now. You will be presented with a screen like this:
+U kunt kiezen om OpenCPN aan het einde van de installatie te starten. Als het programma nu niet wordt gestart. Je krijgt een scherm als deze:
 
 image:1.0.jpg[]
 
-Control areas are displayed on the screen. Many of the options will be explained later. The focus in this manual will be the options needed for basic use.
+Besturingsgebieden worden weergegeven op het scherm. Veel van de opties zullen later worden uitgelegd. De focus in deze handleiding zal de benodigde opties zijn voor basisgebruik.
 
 image:1.1.jpg[]
 
 * *Gereedschap Balk*
 
-btn:[Hamburger] image:1.2.jpg[] Clicking on the tool bar 'hamburger' symbol makes the tool bar contract/expand.
+btn:[Hamburger] image:1.2.jpg[] Klikken op de werkbalk 'hamburger' symbool maakt de werkbalk contract/uitbreiding.
 
 * *Weergaveopties Kaart*
 
-btn:[Hamburger] image:1.3.jpg[] The chart panel 'hamburger' opens/closes the panel to display a number of options.
+btn:[Hamburger] image:1.3.jpg[] Het grafiekpaneel 'hamburger' opens/sluit het venster om een aantal opties weer te geven.
 
 image:1.4.jpg[]
 
@@ -28,33 +28,33 @@ image:1.4.jpg[]
 * *Status Balk*
 
 [IMPORTANT]
-.*Inland ECDIS Settings*
+.*Binnenland ECDIS instellingen*
 ====
-It is important that the display is set up as described in the following section.
+Het is belangrijk dat het beeldscherm is ingesteld zoals beschreven in het volgende onderdeel.
 ====
 
-== Inland ECDIS Specific Settings
+== Inland ECDIS specifieke instellingen
 
-btn:[Options] image:1.5.1.jpg[] btn:[User Interface] image:1.5.jpg[]
+btn:[Options] image:1.5.1.jpg[] btn:[User Interface] afbeelding:1.5.jpg[]
 
 image:1.6.jpg[]
 
-Tick the box for *Use Inland ECDIS*.
+Vink de doos aan voor *Gebruik Inland ECDIS*.
 
 btn:[Apply] btn:[OK]
 
 image:1.7.jpg[]
 
-The display has changed to the 'dusk' colour scheme.
+Het scherm is veranderd in het kleurenschema 'dusk'.
 
-To return to the 'daylight' scheme btn:[Change Color Scheme] image:1.10.jpg[] The shortcut is btn:[F5] on the keyboard. This cycles through the night, dusk, and daylight colour schemes.
+Om terug te keren naar het 'daglicht'-schema btn:[Wijzig Kleur Scheme] image:1.10.jpg[] De snelkoppeling is btn:[F5] op het toetsenbord. This cycles through the night, dusk, and daylight colour schemes.
 
 image:1.8.jpg[]
 
-Speeds and distances are in km/h and km/meters when in iECDIS mode
+Snelheden en afstanden bevinden zich in km/h en km/meter wanneer in iECDIS modus
 
 image:1.9.jpg[]
 
-Each time OpenCPN is started the default display will use the dusk colour scheme and may need to be changed. The toolbar needs moving, by dragging it to the side of the display.
+Elke keer dat OpenCPN wordt gestart wordt de standaardweergave gebruikt het dus-kleurenschema en moet het mogelijk worden gewijzigd. De werkbalk moet bewegen, door hem naar de zijkant van het scherm te slepen.
 
 image:1.11.jpg[]

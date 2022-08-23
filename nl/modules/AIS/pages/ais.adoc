@@ -1,6 +1,6 @@
 :icons: lettertype
 :experimental:
-:imagesdir: ../afbeeldingen
+:imagesdir: ../images
 
 = AIS
 
@@ -15,15 +15,15 @@ Basis AIS ontvanger
 [IMPORTANT]
 .*OpenCPN instellingen*
 ====
-Om de beste prestaties te bereiken en te voorkomen dat het scherm volloopt moeten de AIS doelinstellingen worden aangepast. Dit zal ertoe bijdragen dat het aantal onrelevante alarmen kan worden teruggebracht.
+Om de beste prestaties te bereiken en te voorkomen dat het scherm volloopt moeten de AIS instellingen worden aangepast. Dit zal ertoe bijdragen dat het aantal onrelevante alarmen worden teruggebracht.
 ====
 
-== De AIS verbinden
+== Verbinding maken met de AIS
 
-Een AIS-ontvanger kan op dezelfde manier worden aangesloten als de GPS. De meestal gebruikte AIS-data snelheid is 38400, in plaats van 4800 baudrate..
-De gemakkelijke weg is echter om een "AIS Pilotplug naar USB" kabel toe te passen. Dit geeft je ook een GPS-positie (geen aparte GPS-functie)
+Een AIS-ontvanger kan op dezelfde manier worden aangesloten als de GPS. De gebruikelijke AIS-data snelheid is 38400, in plaats van 4800 baud rate.
+Een ge makkelijke weg is om een "AIS Pilotplug naar USB" kabel te gebruiken. Dit geeft je ook een GPS-positie (geen aparte GPS-functie nodig)
 
-== Instellen van AIS objecten.
+== Instellen AIS objecten.
 
 btn:[Options] btn:[Ships]
 
@@ -33,15 +33,15 @@ image:9.1.jpg[]
 
 Typische instellingen worden weergegeven.
 
-afbeelding:9.2.jpg[]
+image:9.2.jpg[]
 
-== AIS weergave va objecten
+== AIS object Informatie
 
 *_rechtermuisklik_*
 
 image:9.3.jpg[]
 
-Over de tekst bewegen geeft de naam, MMSI-nummer en nationaliteit van het schip weer.
+Over tekst bewegen geeft de naam, MMSI-nummer en nationaliteit van het schip weer.
 
 image:9.4.jpg[]
 
@@ -49,7 +49,7 @@ image:9.4.jpg[]
 
 image:9.5.jpg[]
 
-Het schip waar de aandacht op is gericht wordt aangegeven door een onderbroken rechthoek.
+Het schip waar de aandacht op is gevestigd wordt aangegeven met een onderbroken rechthoek.
 
 image:9.6.jpg[]
 
@@ -61,7 +61,7 @@ image:9.7.jpg[]
 
 image:9.8.jpg[]
 
-== Interpreteren van AIS informatie.
+== Interpreteren van AIS informatie
 
 [cols="\"", ,, "\"", options="header"]
 |===
@@ -70,141 +70,151 @@ image:9.8.jpg[]
 |AIS_Icoon
 |Informatie
 
-|afbeelding:sart4.png[afbeelding, breedte =54,hoogte=40] |Een geactiveerde AIS
-SART melding en is een *distres* alarm en is gelijk aan een een **“Mayday”** ontvangst. Meer
+|afbeelding:sart4.png[afbeelding, breedte =54,hoogte=40] |Een AIS
+SART melding en is een *distres* alarm en is gelijk aan een **“Mayday”** ontvangst. Meer
 over AIS link:ais/sart.html[sart].
 |image:sart4.png[image
 , width =45,height=46].. |De V-vorm
-geeft een klasse B object  aan. Sleepboten en loodsboten gebruiken heel vaak
+geeft een klasse B object aan. Sleepboten en loodsboten boten werken heel vaak
 Class B transponders. Deze zijn vaak speciaal ontworpen voor
 kleine commerciële boten, vissersboten en pleziervaartuigen.
 
-|afbeelding:sart4.png[afbeelding, breedte =54,hoogte=40] |Icoon weergegeven
-wanneer een AIS-SART apparaat wordt getest.
-|afbeelding:donker-groen.png[afbeelding, breedte =45] |Doelstellingen moeten voldoen aan
-de Euro http://www.cruisersforum.com/forums/tags/ais.html[AIS]
+|image:sart4.png[image
+, width =45,height=46] |Icoon weergegeven
+wanneer het *testen* van een AIS-SART apparaat wordt uitgevoerd..
+|afbeelding:donker-groen.png[afbeelding, breedte =45] |Doelstellingen voldoen aan
+met de Euro http://www.cruisersforum.com/forums/tags/ais.html[AIS]
 Inland specificatie.
 
-|afbeelding:sart4.png[afbeelding, breedte =54,hoogte=40] |Vliegtuigen
-die deelnemen aan een opsporings- of reddings aktie.
-|afbeelding:sart4.png[afbeelding, breedte =45,hoogte=44] |Dit
-schip heeft de "Inland Blauwe vlag of blauw bord" gezet, dit is onderdeel van de Europese,
-Inland AIS standaard. Het “Blauwe Vlag”-signaal, gezien op binnenwateren geeft aan dat het vaartuig een “stuurboord-stuurboord” passage of passeren bij kruising aanvraagt.
- Dit blauwe signaal wordt handmatig aan/uit gezet door het betreffende schip.
+|image:sart4.png[image
+, width =51,height=49] |Vliegtuigen
+die deelnemen aan zoek- en reddingsacties.
+|image:sart4.png[image
+, width =45,height=44] |Dit
+schip heeft de "Inland Blauwe vlag of bord" aangezet, het is onderdeel van de Europese,
+Inland AIS standaard. Het “Blauwe Vlag”-signaal, op de binnenwateren
+geeft aan dat het vaartuig een “stuurboord-stuurboord” passage of
+op een kruising aanvraagt. Dit blauwe signaal wordt handmatig aan/uit gezet door het betreffende schip.
 
-|afbeelding:sart4.png[afbeelding, breedte =51,hoogte=51] |Potentiële
+|image:sart4.png[image
+, width =51,height=51] |Potentiële
 gevaren
-|afbeelding:sart4.png[afbeelding, breedte =45,hoogte=46]
-|Aton, is een hulpmiddel om te navigeren, bijvoorbeeld een vuurtoren of een boei met een AIS
+|image:sart4.png[image
+, width =45,height=46]
+|Aton, is een hulpmiddel om te navigeren, bijvoorbeeld bij een vuurtoren of een boei met een AIS
 zender.
 
-|afbeelding:sart4.png[afbeelding, breedte =51,hoogte=51] |Geen gevaar.
+|image:sart4.png[image
+, width =51,height=51] |Geen gevaar
 Niet geïdentificeerd (Reisdoel gegevens niet ontvangen)
-|afbeelding:sart4.png[afbeelding, breedte =45,hoogte=44] |Aton, hulp middel bij de navigatie voor objecten, die niet op vaste positie liggen.
- Bijvoorbeeld een boei uitgerust met AIS, die op drift is geraakt.
+|image:sart4.png[image
+, width =45,height=44] |Aton,  is een hulpmiddel voor de navigatie als aanduiding van objecten die niet op de aangegeven plaats liggen. Bijvoorbeeld een boei uigerust met AIS die op drift is geraakt.
 
-
-|afbeelding:sart4.png[afbeelding, breedte =51,hoogte=51] |Geen gevaar.
-Niet geïdentificeerd (naam uit de opgeslagen gegevens)
-|afbeelding:sart4.png[afbeelding, breedte =54,hoogte=40] |Virtuele Aton,
-Is een virtuele hulp voor de navigatie, het is niet een echt object.. Kan handig zijn voor een reeks
+|image:sart4.png[image
+, width =51,height=51] |Geen gevaar
+Niet geïdentificeerd (naam uit opgeslagen gegevens)
+|image:sart4.png[image
+, width =45,height=46] |Virtuele Aton,
+Virtuele aton is een hulpmiddel voor de navigatie, geen echte markering. Kan handig zijn voor een reeks
 situaties. Een nieuw wrak is één voorbeeld.
-http://www.gla-rnav.org/radionavigation/ais/virtual_aton.html[Verdere
-verklaringen.]
+http://www.gla-rrnav.org/radionavigation/ais/virtual_aton.html[Further.]
 
-|afbeelding:sart4.png[afbeelding, breedte =51,hoogte=51] |No Danger.
-Identified
+|image:sart4.png[image
+, width =50,height=50] |Geen gevaar
+geïdentificeerd
 |image:33vofpos.png[image,width=46,height=44]
 |Virtual Aton, off position. Actually seen in the wild, but may be a
-user config error. (Old style display.)
+user config error. (Oude stijl weergave.)
 
-|image:ais-lost.png[image,width=50,height=50] |Lost Target
-|image:basestn.png[image,width=45,height=43] |AIS Base
-Station
+|image:ais-lost.png[image,width=50,height=50] |Verdwenen AIS objecten
+|image:basestn.png[image,width=45,height=43] |AIS basis
+station
 
-|image:ais-grey.png[image,width=48,height=51] |Ship which
-has lost fix - position unavailable. Displayed at the last known
-position.
-| |The following tagets only displays if DSC messages, GpsGate
-mesages, Radar or APRS messages are mixed in to the incoming AIS
-stream, by using, for example a multiplexer. More on the following
-pages.
+|image:ais-grey.png[image,width=48,height=51] |Verzenden dat
+is opgelost - positie niet beschikbaar. Wordt weergegeven op de laatst bekende
+positie.
+| |De volgende tagets worden alleen getoond als DSC berichten, GpsGate
+mesages, Radar of APRS berichten worden gemengd met de inkomende AIS
+stream, door gebruik te maken, bijvoorbeeld een multiplexer. Meer op de volgende
+pagina's.
 
-|image:notundcom.png[image,width=50,height=54] |Vessel not
-under command.
+|image:notundcom.png[image,width=50,height=54] |Vaartuig niet
+onder commando.
 |image:dsc-ok.png[image,width=45,height=44]
-|DSC Station. Only the DSC message received. The position contains only
-degrees and minutes of Latitude and Longitude.
+|DSC Station. Alleen de DSC boodschap ontvangen. De positie bevat slechts
+graden en minuten van Breedtegraad en Longitude.
 
-|image:restrman_1.png[image,width=51,height=50] |Vessel
-restricted in ability to manoeuvre.
+|image:restrman_1.png[image,width=51,height=50] |Vaartuig
+beperkte manoeuvreercapaciteit.
 |image:dse1.png[image,width=44,height=46] |DSC Station. DSC
-*and* DSE messages received. The DSE message contains the missing
-decimals of minutes of Latitude and Longitude. The result is a much more
-accurate position.
+*en* DSE berichten ontvangen. Het DSE bericht bevat de ontbrekende
+decimalen van Breedtegraad en Longitude. Het resultaat is een veel
+accuraat standpunt.
 
-|image:ifeahche_1.png[image,width=51,height=50] |Vessel
-constrained by draft.
+|image:ifeahche_1.png[image,width=51,height=50] |Vaartuig
+beperkt door concept.
 |image:dsc-not-ok.png[image,width=45,height=42] |DSC
-Station transmitting a *distress* signal. Treat this as a *“Mayday”*
-call.
+Station zendt een *pijn* signaal uit. Behandel dit als een *“Mayed”*
+oproep.
 
-|image:aground.png[image,width=52,height=52] |Vessel
-aground.
+|image:aground.png[image,width=52,height=52] |Vaartuig
+agrond.
 |image:bud-icon.png[image,width=46,height=45]
 |GpsGate Buddy target.
 
-|image:fishing.png[image,width=51,height=45] |Vessel
-engaged in fishing.
+|image:fishing.png[image,width=51,height=45] |Vaartuig
+betrokken bij vissen.
 |image:arpa2.png[image,width=45,height=49] |ARPA Target
 
-|image:hsc.png[image,width=50,height=52] |High Speed- and
-Wing In Ground- crafts. This includes Hydrofoils, Hovercrafts and low
-flying crafts utilising the ground effect.
+|image:hsc.png[image,width=50,height=52] |Hoge Snelheid- en
+Vleugel In Ground- vervaardigingen. Dit omvat Hydrofoils, Hovercrafts en lage
+vliegtuinen die het grondeffect gebruiken.
 |image:aprs.png[image,width=44,height=48] |APRS Target
 
 |image:ais-moor.png[image,width=54,height=54] |Anchored or
-moored. Displayed when the transmitted “Navigation status” is “at
-anchor” or “Moored”. There is no guarantee that this status is correct,
-as it is set manually on the transmitting ship…
-|afbeelding:sart4.png[afbeelding, breedte =54,hoogte=40] |wordt
+moored. Wordt weergegeven wanneer de verzonden "Navigatie status" "voor anker
+anker" of "afgemeerd" is. Er is geen garantie dat deze status correct is,
+omdat deze handmatig is ingesteld op het verzenden van schip…
+|image:sart4.png[image
+, width =54,height=40] |…wordt 
 geïllustreerd door dit schip. Let op de zwarte lijn op de gele cirkel. Dit geeft aan
-dat het vaartuig naar bakboord (links) gaat, ook geeft dit een vertraging in de weergave update. ROT - De mate van  het draaien door een object is te zien in het "Ais
+dat het vaartuig naar bakboord (links) gaat, ook te merken aan de
+van de weergave update. ROT - De mate van het draaien is beschikbaar in het "Ais
 Target Query" dialoogvenster, via het rechter klik menu.
 |===
 
-== AIS Voorbeelden
+== AIS voorbeelden
 
-afbeelding:9.9.jpg[]
+image:9.9.jpg[]
 
-Een schip lijkt op dit moment van koers te veranderen om 'onze' vaarweg in te varen..
+Een schip lijkt op dit moment van koers te veranderen om 'onze' vaarweg in te varen.
 
 *__rechtsklik__*
 
-afbeelding:9.10.jpg[]
+image:9.10.jpg[]
 
 Het vaartuig is geïdentificeerd.
 
-afbeelding:9.11.jpg[]
+image:9.11.jpg[]
 
 'Zeldenrust' is een potentieel gevaar en heeft een waarschuwing veroorzaakt op basis van de instellingen die zijn ingevoerd in OpenCPN.
 
-Lengte pijl COG (koers over de grond) voorspeller is ingesteld op drie minuten.
+Lengte pijl COG (koers over de grond) voorspelling is ingesteld op drie minuten.
 
-De rode verlengingslijn van de COG (koers over de grond) voorspelling, die helpt een schatting van tijd te geven aan CPA, als _doel zoekopdracht_ niet is gebruikt.
+De rode verlengingslijn van de COG (koers over de grond) voorspelling helpt met een schatting van de tijd aan de CPA, als _doel zoekopdracht_ niet is gebruikt.
 
 De geschatte posities van de schepen bij CPA worden weergegeven door blauwe stippen.
 
 De gele gemarkeerde lijn geeft de afstand af bij CPA.
 
-afbeelding:9.14.jpg[]
+image:9.14.jpg[]
 
-"Zeldenrust" is verder gedraaid en zal nu aan onze bakboord zijde passeren. CPA 48,5 m
+"Zeldenrust" is verder opgedraaid en zal nu aan onze bakboord zijde passeren. CPA 48,5 m
 
-afbeelding:9.15.jpg[]
+image:9.15.jpg[]
 
-afbeelding:9.17.jpg[]
+image:9.17.jpg[]
 
-"Zeldenrust" is voorbij en de vaarweg weer vrij.
+"Zeldenrust" is voorbij en de vaarweg is weer vrij.
 
-Het schip bij de Neptunus reparatie werf is een potentieel gevaar, maar het ligt afgemeerd.
+Het schip bij de Neptunus reparatie werf is een potentieel gevaar, maar het is afgemeerd.

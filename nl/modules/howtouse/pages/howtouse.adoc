@@ -16,26 +16,26 @@ Selecteer *Chart Downloader* een voorbeeld van het selecteren van een tabblad in
 
 == Koppelingen
 
-Verwijzingen (links) kunnen intern zijn voor de handleiding of extern om te navigeren, ofvoor het internet.
+Aanwijzigingen (links) kunnen intern voor de handleiding of om extern te navigeren, of voor het internet.
 
 xref:getting_started:getting_started.adoc[HERE] is een link naar de *Home Screen* pagina.
 
 https://opencpn.org/[HERE] is an external link to the OpenCPN website.
 
-Hover the mouse over https://opencpn.org/[HERE] and the browser shows where the link leads.
+Beweeg de muis over https://opencpn.org/[HERE] en de browser laat zien waar de link toe leidt.
 
 == Mouse Actions
 
 (Sorry)
 
-_click_ the mouse indicates a click of the mouse (MacOS) or left-click for other OS.
+_klik_ de muis geeft een klik van de muis aan (MacOS) of de linkermuisknop aan voor een ander besturingssysteem.
 
-_right-click_ is ctrl-click for the MacOS.
+_rechtermuisklik_ is ctrl-klik voor de MacOS.
 
 == Menu Items
 
-A menu may have been displayed using _right-click_:
+Mogelijk is een menu weergegeven met _rechtermuisklik_:
 
 image:4.6.jpg[]
 
-Select *Properties...* indicates a menu selection.
+Selecteer *Eigenschappen...* geeft een menu-selectie aan.

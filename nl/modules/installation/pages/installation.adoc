@@ -5,17 +5,17 @@
 Voor de eerste installatie is een internetverbinding nodig.
 Met je internetbrowser ga je naar https://opencpn.org/OpenCPN/info/downloadopencpn.html[HERE] en ga naar de relevante sectie.
 
-Als tijdens de installatie gevraagd wordt om een map te selecteren die de kaarten bevat. Deze stap van het proces overslaan. Kaarten worden gedekt door xref:charts.adoc[HERE].
+Als tijdens de installatie gevraagd wordt om een map te selecteren, die de kaarten bevat deze stap van het proces overslaan. Kaarten worden gedekt door xref:charts.adoc[HERE].
 
 == Windows
 
-afbeelding:windows.png[Windows,]
+image:windows.png[Windows,]
 
-Bestand downloaden Open het .exe en volg de instructies.
+Download het .exe bestand. Open het .exe bestand en volg de instructies.
 
 == Mac
 
-afbeelding:apple.png[Apple,]
+image:apple.png[Apple,]
 
 Download het .exe bestand. Open .pkg en volg de instructies in het installatieprogramma.
 
@@ -27,7 +27,7 @@ btn:[Systeemvoorkeuren] btn:[Veiligheid &amp; Privacy]
 
 image:raspberry-pi.svg[Raspberry Pi,]
 
-Je kunt OpenCPN installeren door een PPA (Pakketten Archief) van Ubuntu toe te voegen. Zie xref:configuring_ubuntu_ppa:configuring_ubuntu_ppa.adoc[Ubuntu PPA]
+Je kunt OpenCPN installeren door een PPA (Pakketten Archief) van Ubuntu toe te voegen.  xref:configuring_ubuntu_ppa:configuring_ubuntu_ppa.adoc[Ubuntu PPA] legt uit hoe dit wordt gebruikt.
 
 De eenvoudigste manier om OpenCPN op de Raspberry Pi te installeren is door https://openplotter.readthedocs.io/en/2.x.x/getting_started/installing.html[OpenPlotter] te gebruiken die OpenCPN en ook enkele plugins installeert.
 
@@ -40,19 +40,19 @@ xref:configuring_ubuntu_ppa:configuring_ubuntu_ppa.adoc[Ubuntu PPA] legt uit hoe
 
 == Flatpak
 
-afbeelding:flatpak.png[flatpak,]
+image:flatpak.png[flatpak,]
 
-OpenCPN Version 5.6.2 is available as a Flatpak package.  This packaging system is supported on all major Linux distributions.
-https://flathub.org/apps/details/org.opencpn.OpenCPN[Simplified Installation Instructions]
+OpenCPN Versie 5.6.2 is beschikbaar als Flatpak pakket.  Dit verpakkingssysteem wordt ondersteund bij alle grote Linux-distributies.
+https://flathub.org/apps/details/org.opencpn.OpenCPN[Vereenvoudigde installatie-instructies]
 
---OR--
+--Of--
 
-.Manual Installation:
-. Install flatpak on your system as described in https://flatpak.org/setup/[flatpak.org/setup]
-. Install OpenCPN Flatpak image using:
+.Handmatige installatie
+. Installeer flatpak op uw systeem zoals beschreven in https://flatpak.org/setup/[flatpak.org/setup]
+. Installeer OpenCPN Flatpak afbeelding met gebruik:
 
 ----
-$ flatpak install --user  https://flathub.org/repo/appstream/org.opencpn.OpenCPN.flatpakref
+$ flatpak installatie --user https://flathub.org/repo/appstream/org.opencpn.OpenCPN.flatpakref
 ----
 
 Start OpenCPN:
@@ -65,16 +65,16 @@ $ flatpak run org.opencpn.OpenCPN
 
 image:fedora.svg[Fedora,]
 
-OpenCPN is not natively supported on Fedora.
-Use the Flatpak release instead.
+OpenCPN wordt niet ondersteund op Fedora.
+Gebruik in plaats daarvan de Flatpak-versie.
 
 == Debian
 
 image:debian.svg[Debian,]
 
-For Debian derivatives, you can use the same packages as for the equivalent Ubuntu release.
-For Debian Stable (Buster) you can use the packages from the https://launchpad.net/~opencpn/+archive/ubuntu/opencpn[Ubuntu PPA]. The compatible Ubuntu Release is Bionic (Ubuntu 18.04).
+Voor Debian-derivaten kun je dezelfde pakketten gebruiken als voor de gelijkwaardige Ubuntu-release.
+Voor Debian Stable (Buster) kan je de pakketten gebruiken via https://launchpad.net/~opencpn/+archive/ubuntu/opencpn[Ubuntu PPA]. De compatibele Ubuntu Release is Bionic (Ubuntu 18.04).
 
-== Other OS
+== Andere OS
 
-Refer to the https://opencpn.org/OpenCPN/info/downloadopencpn.html[Download page] for other Operating Systems.
+Kijk naar de https://opencpn.org/OpenCPN/info/downloadopencpn.html[Download pagina] voor andere besturingssystemen.
