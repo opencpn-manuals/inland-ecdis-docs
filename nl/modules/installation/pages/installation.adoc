@@ -36,7 +36,10 @@ De eenvoudigste manier om OpenCPN op de Raspberry Pi te installeren is door http
 image:ubuntu.svg[Ubuntu,]
 
 Voor Ubuntu Linux en zijn afgeleiden (Linux Mint) en Debian Jessie gebaseerde distributies, wordt OpenCPN verspreid vanuit een PPA.
-xref:configuring_ubuntu_ppa.adoc[Ubuntu PPA] legt uit hoe dit wordt gebruikt.
+
+xref:configuring_ubuntu_ppa:configuring_ubuntu_ppa.adoc[Ubuntu PPA] 
+
+legt uit hoe dit wordt gebruikt.
 
 == Flatpak
 

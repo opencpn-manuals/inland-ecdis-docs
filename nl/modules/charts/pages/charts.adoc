@@ -98,7 +98,7 @@ Een *Piano Bar* toont de onderkant van het scherm. Dit geeft de beschikbare kaar
 .Kaart updates
 ====
 Het is belangrijk dat er regelmatig wordt gecontroleerd of de in gebruik zijnde kaarten bijgewerkt moeten worden.
-link:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc]
+link:https://www.vaarweginformatie.nl/frp/main/%23/page/infra_enc[https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc]
 Deze meertalige website heeft links om de nieuwste kaarten te downloaden.
 ====
 
