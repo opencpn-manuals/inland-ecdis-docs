@@ -3,7 +3,7 @@
 
 = Een GPS-apparaat toevoegen
 
-Veel verschillende GPS-apparaten kunnen worden gebruikt om in OpenCPN de positie van de boot weer te geven. Voor eenvoud worden de globale BU-353S4 GPS gebruikt om de installatie en het gebruik van een GPS met OpenCPN te demonstreren
+Veel verschillende GPS-apparaten kunnen worden gebruikt om in OpenCPN de positie van de boot weer te geven. Om het eenvoudig te houden wordt de globale BU-353S4 GPS gebruikt om de installatie en het gebruik van een GPS met OpenCPN te demonstreren
 
 image:3.0.jpg[]
 
@@ -11,7 +11,7 @@ Andere GPS-apparaten die beschikbaar zijn staan https://opencpn.org/wiki/dokuwik
 
 Het is mogelijk om de GPS-ontvanger van een bestaand schip te gebruiken met een seriële naar-USB-adapter.
 
-De GPS ontvangst heeft een zichtlijn  naar satellieten nodig. Mogelijk moet u de GPS verplaatsen totdat deze een duidelijk beeld naar  de ruimte heeft. Op een boot kun je vaststellen dat er voldoende signaal wordt ontvangen door het polyester laminaat..
+De GPS ontvangst heeft een zichtlijn  naar satellieten nodig. Mogelijk moet u de GPS antenne verplaatsen totdat deze een duidelijk beeld naar  de ruimte heeft. Op een boot kun je vaststellen of dat er voldoende signaal wordt ontvangen door het polyester laminaat. heen.
 
 == Apparaat stuurprogramma's
 
@@ -43,7 +43,7 @@ image:3.4.jpg[]
 
 btn:[Apply] btn:[OK]
 
-You may need to move the chart a litle but the ship's position appears.
+Je moet de kaart misschien een beetje verplaatsen, zodat de positie van het schip wordt weergegeven.
 
 image:3.5.jpg[]
 
@@ -53,7 +53,7 @@ De *kompas/GPS Status Window* toont een groene balk afbeelding:3.7.jpg[] wat de 
 
 De *Statusbalk* toont de positie van het schip.
 
-Zoom in afbeelding:3.8.jpg[] het pictogram voor het schip verandert in een afbeelding van de vaartuig:3.9.jpg[]. De muis scroll knop kan ook worden gebruikt om in of uit te zoomen.
+Zoom in afbeelding:3.8.jpg[] het pictogram voor het schip verandert in een afbeelding van het vaartuig:3.9.jpg[]. De muis scroll knop kan ook worden gebruikt om in of uit te zoomen.
 
 == MacOS
 
@@ -69,7 +69,7 @@ Gebruik *Serieel*
 
 image:3.21.jpg[]
 
-Met de *DataPort* lijst selecteer u de */dev/cu.usbserial-1410* optie.
+Met de *DataPoort* lijst selecteer u de */dev/cu.usbserial-1410* optie.
 
 image:3.22.jpg[]
 
@@ -91,7 +91,7 @@ btn:[Options] btn:[Connections]
 
 Voeg verbinding toe]
 
-Gebruik van de seriële verbinding de DataPort lijst met een invoer */dev/ttyUSB0-Prolific ....
+Gebruik van de seriële verbinding de DataPoort lijst met een invoer */dev/ttyUSB0-Prolific ....
 
 image:3.11.jpg[]
 
@@ -117,7 +117,7 @@ Als u de GPS wilt verwijderen en de installatie wilt opschonen, kan de symlink w
 
 image:3.14.jpg[]
 
-Na het herstarten van OpenCPN en het bewerken van de *DataPort* connectie om de symlink *opencpn0* te gebruiken verschijnt het schip op de kaart.
+Na het herstarten van OpenCPN en het bewerken van de *DataPoort* connectie om de symlink *opencpn0* te gebruiken verschijnt het schip op de kaart.
 
 image:3.5.jpg[]
 

@@ -14,27 +14,27 @@ Een snelkoppeling voor de actie van een knop wordt cursief weergegeven, bijvoorb
 
 Selecteer *Chart Downloader* een voorbeeld van het selecteren van een tabblad in een notitieboekweergave.
 
-== Koppelingen
+== Koppelingen (links)
 
 Aanwijzigingen (links) kunnen intern voor de handleiding of om extern te navigeren, of voor het internet.
 
 xref:getting_started:getting_started.adoc[HERE] is een link naar de *Home Screen* pagina.
 
-https://opencpn.org/[HERE] is an external link to the OpenCPN website.
+https://opencpn.org/[HERE] is een externe link naar de OpenCPN-website.
 
 Beweeg de muis over https://opencpn.org/[HERE] en de browser laat zien waar de link toe leidt.
 
-== Mouse Actions
+== Muis acties
 
-(Sorry)
+Sorry!
 
 _klik_ de muis geeft een klik van de muis aan (MacOS) of de linkermuisknop aan voor een ander besturingssysteem.
 
 _rechtermuisklik_ is ctrl-klik voor de MacOS.
 
-== Menu Items
+== Menu-items
 
-Mogelijk is een menu weergegeven met _rechtermuisklik_:
+Mogelijk wordt een menu weergegeven door gebruik van _rechtermuisklik_:
 
 image:4.6.jpg[]
 

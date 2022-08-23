@@ -5,7 +5,7 @@
 Voor de eerste installatie is een internetverbinding nodig.
 Met je internetbrowser ga je naar https://opencpn.org/OpenCPN/info/downloadopencpn.html[HERE] en ga naar de relevante sectie.
 
-Als tijdens de installatie gevraagd wordt om een map te selecteren, die de kaarten bevat deze stap van het proces overslaan. Kaarten worden gedekt door xref:charts:charts.adoc[HERE].
+Als tijdens de installatie gevraagd wordt om een map te selecteren, die de kaarten bevat, deze stap van het proces overslaan. Kaarten worden gedekt door xref:charts.adoc[HERE].
 
 == Windows
 
@@ -17,7 +17,7 @@ Download het .exe bestand. Open het .exe bestand en volg de instructies.
 
 image:apple.png[Apple,]
 
-Download het .exe bestand. Open .pkg en volg de instructies in het installatieprogramma.
+Download het .pkg bestand. Open .pkg en volg de instructies in het installatieprogramma.
 
 Omdat het programma niet uit de app store komt, moet je mogelijk toestemming geven om te installeren van een onbekende ontwikkelaar.
 
@@ -27,7 +27,7 @@ btn:[Systeemvoorkeuren] btn:[Veiligheid &amp; Privacy]
 
 image:raspberry-pi.svg[Raspberry Pi,]
 
-Je kunt OpenCPN installeren door een PPA (Pakketten Archief) van Ubuntu toe te voegen.  xref:configuring_ubuntu_ppa:configuring_ubuntu_ppa.adoc[Ubuntu PPA] legt uit hoe dit wordt gebruikt.
+Je kunt OpenCPN installeren door een PPA (Persoonlijk Pakketten Archief) van Ubuntu toe te voegen.  xref:configuring_ubuntu_ppa:configuring_ubuntu_ppa.adoc[Ubuntu PPA] legt uit hoe dit wordt gebruikt.
 
 De eenvoudigste manier om OpenCPN op de Raspberry Pi te installeren is door https://openplotter.readthedocs.io/en/2.x.x/getting_started/installing.html[OpenPlotter] te gebruiken die OpenCPN en ook enkele plugins installeert.
 
@@ -35,11 +35,8 @@ De eenvoudigste manier om OpenCPN op de Raspberry Pi te installeren is door http
 
 image:ubuntu.svg[Ubuntu,]
 
-Voor Ubuntu Linux en zijn afgeleiden (Linux Mint) en Debian Jessie gebaseerde distributies, wordt OpenCPN verspreid vanuit een PPA.
-
-xref:configuring_ubuntu_ppa:configuring_ubuntu_ppa.adoc[Ubuntu PPA] 
-
-legt uit hoe dit wordt gebruikt.
+Voor Ubuntu Linux en zijn afgeleiden (Linux Mint) en op Debian Jessie gebaseerde distributies, wordt OpenCPN verspreid vanuit een PPA.
+ xref:configuring_ubuntu_ppa:configuring_ubuntu_ppa.adoc[Ubuntu PPA] legt uit hoe dit wordt gebruikt.
 
 == Flatpak
 
@@ -78,6 +75,6 @@ image:debian.svg[Debian,]
 Voor Debian-derivaten kun je dezelfde pakketten gebruiken als voor de gelijkwaardige Ubuntu-release.
 Voor Debian Stable (Buster) kan je de pakketten gebruiken via https://launchpad.net/~opencpn/+archive/ubuntu/opencpn[Ubuntu PPA]. De compatibele Ubuntu Release is Bionic (Ubuntu 18.04).
 
-== Andere OS
+== Andere Operating systems
 
 Kijk naar de https://opencpn.org/OpenCPN/info/downloadopencpn.html[Download pagina] voor andere besturingssystemen.
