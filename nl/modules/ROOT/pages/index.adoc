@@ -14,7 +14,7 @@ De handleiding is gebaseerd op versie 5.6.2 van OpenCPN. Het bevat geen informat
 
 == Correctie status van de handleiding
 
-De bijlage bevat een bronlijst met de laatste wijzigingen op de pagina's van de handleiding. *(WIP)*
+De bijlage bevat een bronlijst met de laatste wijzigingen op de pagina's van de handleiding.
 
 == Bijlage
 
