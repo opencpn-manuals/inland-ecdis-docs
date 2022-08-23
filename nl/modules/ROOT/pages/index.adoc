@@ -2,7 +2,7 @@
 
 == Introductie
 
-Deze handleiding beschrijft het gebruik van OpenCPN zoals dat vereist is door de regels van Inland ECDIS versie 2.4 (Informatiemodus).
+Deze handleiding beschrijft het gebruik van OpenCPN zoals dat vereist is door de regels van Inland ECDIS uitgave 2.4 (Informatiemodus).
 
 link:https://unece.org/fileadmin/DAM/trans/doc/2015/sc3wp3/Presentation_WP3_-_Inland_ECDIS_edition_2.4.pdf[Inland_ECDIS_edition_2.4]
 
