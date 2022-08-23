@@ -98,7 +98,7 @@ Am unteren Bildschirmrand sehen wir eine "Klaviertastatur".  Sie symbolisiert di
 .*Aktualisieren der Karten*
 ====
 Es ist zwingend erforderlich, dass die installierten Karten auf vorhandene Updates geprüft werden.
-link:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc]
+link:https://www.vaarweginformatie.nl/frp/main/[https://www.vaarweginformatie.nl/frp/main/]
 Diese mehrsprachige Internetseite enthält Links, um die neuesten Karten herunterzuladen.
 ====
 
@@ -122,7 +122,7 @@ image:2.20.jpg[]
 
 _Zeeland Compleet Woche 18-2022_ konnte nicht aktualisiert werden.  In diesem Fall war es notwendig, den Link zu verwenden:
 
-link:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[]
+link:https://www.vaarweginformatie.nl/frp/main/[]
 
 Hier sehen Sie _Zeeland Compleet Week 19-2022_. Laden Sie die ZIP-Datei herunter und extrahieren Sie diese in das ENC Verzeichnis.   Fügen Sie dann ein neues Kartenverzeichnis hinzu:
 

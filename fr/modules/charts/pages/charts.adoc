@@ -99,7 +99,7 @@ La *Barre de cartes* apparait en bas de la zone de carte. Elle montre l'ensemble
 .*Mises à jour des cartes*
 ====
 Il est important de mettre à jour régulièrement les cartes disponibles.
-link:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc]
+link:https://www.vaarweginformatie.nl/frp/main/[https://www.vaarweginformatie.nl/frp/main/]
 Ce site web multilangue connait les liens de téléchargement de toutes les cartes.
 ====
 
@@ -122,9 +122,7 @@ __Cartes sélectionner : Télécharger__
 image:2.20.jpg[]
 
 La mise à jour a échouée pour _Zeeland Compleet Week 18-2022_. Dans ce cas, il est nécessaire d'utiliser le lien :
-link:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[]
-
-lien:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[]
+link:https://www.vaarweginformatie.nl/frp/main/[https://www.vaarweginformatie.nl/frp/main]
 
 Ici vous voyez _Zeeland Compleet Week 19-2022_. Téléchargez et extraiyez les fichiersà partir du fichier ZIP dans le dossier des ENC. Alors, ajoutez ce nouveau dossier pour les cartes :
 

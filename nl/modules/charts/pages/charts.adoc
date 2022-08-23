@@ -98,7 +98,9 @@ Een *Piano Bar* toont de onderkant van het scherm. Dit geeft de beschikbare kaar
 .Kaart updates
 ====
 Het is belangrijk dat er regelmatig wordt gecontroleerd of de in gebruik zijnde kaarten bijgewerkt moeten worden.
-link:https://www.vaarweginformatie.nl/frp/main/%23/page/infra_enc[https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc]
+
+link:https://www.vaarweginformatie.nl/frp/main/[https://www.vaarweginformatie.nl/frp/main]
+
 Deze meertalige website heeft links om de nieuwste kaarten te downloaden.
 ====
 
@@ -122,7 +124,7 @@ image:2.20.jpg[]
 
 _Zeeland Compleet Week 18-2022_ kon niet worden bijgewerkt. In dit geval was het nodig om de link te gebruiken:
 
-link:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[]
+link:https://www.vaarweginformatie.nl/frp/main/[]
 
 Hier zie je _Zeeland Compleet Week 19-2022_. Download en pak de bestanden uit van de zip naar de ENC map. Voeg vervolgens een nieuwe map toe voor de kaarten:
 

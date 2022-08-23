@@ -99,7 +99,7 @@ A *Piano Bar* shows the bottom of the display. This indicates the charts availab
 .*Chart Updates*
 ====
 It is important that regular checks are made for updates for the charts in use.
-link:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc]
+link:https://www.vaarweginformatie.nl/frp/main/[https://www.vaarweginformatie.nl/frp/main/]
 This multilingual website has links for downloading the latest charts.
 ====
 
@@ -123,7 +123,7 @@ image:2.20.jpg[]
 
 _Zeeland Compleet Week 18-2022_ has failed to update. In this case it was necessary to use the link:
 
-link:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[]
+link:https://www.vaarweginformatie.nl/frp/main/[]
 
 Here you see _Zeeland Compleet Week 19-2022_. Download and extract the files from the zip to the ENC directory. Then add a new directory for charts:
 
