@@ -1,6 +1,6 @@
 * xref:index.adoc[OpenCPN Inland ECDIS Manual]
 ** xref:howtouse:howtouse.adoc[Gebruik van de handleiding]
-** xref:installation:adoc[OpenCPN installeren]
+** xref:installation:installation.adoc[OpenCPN installeren]
 ** xref:getting_started:getting_started.adoc[Thuisscherm]
 ** xref:charts:charts.adoc[Kaarten]
 ** xref:GPS:gps.adoc[GNSS]
