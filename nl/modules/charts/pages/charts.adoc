@@ -14,7 +14,7 @@ OpenCPN maakt het downloaden en bijwerken van IENC makkelijker met behulp van de
 
 == Downloaden en installeren van Inland ECDIS kaarten
 
-btn:[Options] afbeelding:2.0.jpg[]
+btn:[Options] image:2.0.jpg[]
 
 image:2.1.jpg[]
 
