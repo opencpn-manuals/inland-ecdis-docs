@@ -6,23 +6,23 @@
 
 == Introductie
 
-Kaartsymbolen en andere informatie wordt getoond link:https://raw.githubusercontent.com/cesniti/iehg_gitbook/edition-2.4/.gitbook/assets/ienc_eg_2_4_adopted_20180320.pdf[HERE]
+Kaartsymbolen en andere informatie wordt getoond link:https://raw.githubusercontent.com/cesniti/iehg_gitbook/edition-2.4/.gitbook/assets/ienc_eg_2_4_adopted_20180320.pdf[HIER]
 
-Inland ENC-kaarten (IENC) voor EU-landen kunnen link:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[HERE] gevonden worden
+Inland ENC-kaarten (IENC) voor EU-landen kunnen link:https://www.vaarweginformatie.nl/frp/main/#/page/infra_enc[HIER] gevonden worden
 
 OpenCPN maakt het downloaden en bijwerken van IENC makkelijker met behulp van de *kaart-download* plugin. Dit is geïnstalleerd als onderdeel van de OpenCPN installatie.
 
 == Downloaden en installeren van Inland ECDIS kaarten
 
-btn:[Options] image:2.0.jpg[]
+btn:[Opties] image:2.0.jpg[]
 
 image:2.1.jpg[]
 
-btn:[Charts] Selecteer het tabblad __Chart Downloader__
+btn:[Kaarten] Selecteer het tabblad __Chart Downloader__
 
 image:2.2.jpg[]
 
-btn:[Catalogus]
+btn:[Selecteer catalogus...]
 
 image:2.3.jpg[]
 
@@ -40,27 +40,27 @@ Een vermelding voor de Nederlandse kaarten verschijnt in de catalogus.
 
 image:2.5.jpg[]
 
-btn:[Update]
+btn:[Bijwerken]
 
 image:2.6.jpg[]
 
-Geselecteerde kaarten downloaden]
+btn:[Geselecteerde kaarten downloaden]
 
 image:2.7.jpg[]
 
-btn:[Apply]
+btn:[Toepassen]
 
 image:2.8.jpg[]
 
-btn:[Map toevoegen]
+btn:[Voeg map toe ...]
 
 image:2.9.jpg[]
 
-btn:[Map kiezen]
+btn:[Map selecteren]
 
 image:2.10.jpg[]
 
-btn:[Apply] btn:[OK]
+btn:[Toepassen] btn:[OK]
 
 == Aanpassen van de kaart weergave
 
@@ -70,21 +70,21 @@ image:2.11.jpg[]
 
 Aan de rechterkant van het display zijn sommige kaart cellen niet verschenen. Ze worden zichtbaar als de cel naar het midden van het scherm wordt verplaatst, als de cel wordt geladen. Om deze vertraging te voorkomen:
 
-btn:[Options] btn:[Charts]
+btn:[Opties] btn:[Kaarten]
 
 image:2.12.jpg[]
 
-Alle ENC-kaarten voorbereiden]
+btn:[Alle ENC-kaarten voorbereiden]
 
 image:2.13.jpg[]
 
 Het kan even duren om alle cellen te laden.
 
-btn:[Apply] btn:[OK]
+btn:[Toepassen] btn:[OK]
 
 image:2.14.jpg[]
 
-Zet  _Show kaart kaders af_ in *Scherm Opties*
+Zet  _Toonkaartgrenzen_ in *Weergavopties Kaart*
 
 image:2.15.jpg[]
 
@@ -102,21 +102,21 @@ link:https://www.vaarweginformatie.nl/frp/main/[https://www.vaarweginformatie.nl
 Deze meertalige website heeft links om de nieuwste kaarten te downloaden.
 ====
 
-btn:[Options] btn:[Charts]
+btn:[Opties] btn:[Kaarten]
 
-__Kaartdownloads__
+__Chart Downloader__
 
 __Selecteer catalogus...__
 
 image:2.18.jpg[]
 
-btn:[Update]
+btn:[Bijwerken]
 
 __Download kaarten...__
 
 image:2.19.jpg[]
 
-__Geselecteerde kaarten downloaden__
+__Download selected charts__
 
 image:2.20.jpg[]
 
@@ -128,7 +128,7 @@ Hier zie je _Zeeland Compleet Week 19-2022_. Download en pak de bestanden uit va
 
 image:2.21.jpg[]
 
-Alle ENC-kaarten voorbereiden]
+btn[Alle ENC-kaarten voorbereiden]
 
 Week 19 bestanden zullen worden gebruikt in plaats van Week 18.
 
@@ -136,13 +136,13 @@ Week 19 bestanden zullen worden gebruikt in plaats van Week 18.
 
 Dat is eenvoudig toe te voegen aan de Duitse kaarten.
 
-btn:[Options] btn:[Charts]
+btn:[Opties] btn:[Kaarten]
 
 *__Selecteer catalogus...__*
 
 image:2.22.jpg[]
 
-*__Voeg catalogus toe__*
+*__Nieuwe catalogus toevoegen__*
 
 Blader naar _Duitsland Inland ENC Kaarten_
 
@@ -152,13 +152,13 @@ btn:[OK]
 
 image:2.24.jpg[]
 
-btn:[Update]
+btn:[Bijwerken]
 
 *__Download kaarten...__*
 
 image:2.25.jpg[]
 
-Geselecteerde kaarten downloaden]
+btn:[Download selected charts]
 
 (Dit kan enige tijd duren...)
 
@@ -166,9 +166,9 @@ image:2.26.jpg[]
 
 Er zijn twee 'Over de geldigheids datum' kaarten gevonden.
 
-Geselecteerde kaarten downloaden]
+btn:[Download selected charts]
 
-btn:[Options] btn:[Charts]
+btn:[Opties] btn:[Kaarten]
 
 *__Kaartbestanden__*
 
@@ -176,15 +176,15 @@ image:2.27.jpg[]
 
 Om te voorkomen dat er vertraging optreden bij het samenvoegen.
 
-Alle ENC-kaarten voorbereiden]
+btn:[Alle ENC-kaarten voorbereiden]
 
-btn:[Apply] btn:[OK]
+btn:[Toepassen] btn:[OK]
 
 We hebben nu Nederlandse en Duitse ENC-kaarten aan OpenCPN toegevoegd.
 
 *__Weergaveopties Kaart__*
 
-*__Toon kaart kaders__* geeft de beschikbare ENC-cellen weer.
+*__Toon kaartgrenzen__* geeft de beschikbare ENC-cellen weer.
 
 image:2.28.jpg[]
 

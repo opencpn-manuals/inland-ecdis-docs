@@ -25,7 +25,7 @@ Een gemakkelijke weg is om een "AIS Pilotplug naar USB" kabel te gebruiken. Dit 
 
 == Instellen AIS objecten.
 
-btn:[Options] btn:[Ships]
+btn:[Opties] btn:[Eigen Schip en AIS Objecten]
 
 *__AIS Targets__*
 
@@ -45,7 +45,7 @@ Over de tekst bewegen geeft de naam, MMSI-nummer en nationaliteit van het schip 
 
 image:9.4.jpg[]
 
-*__Target Query...__* (Klasse B AIS)
+*__AIS objectgegevens ...__* (Klasse B AIS)
 
 image:9.5.jpg[]
 
@@ -53,7 +53,7 @@ Het schip waar de aandacht op is gevestigd wordt aangegeven met een onderbroken 
 
 image:9.6.jpg[]
 
-*__Target Query...__* (Klasse B AIS)
+*__AIS objectgegevens ...__* (Klasse B AIS)
 
 image:9.7.jpg[]
 
@@ -65,11 +65,7 @@ image:9.8.jpg[]
 
 [cols="\"", ,, "\"", options="header"]
 |===
-|AIS_Icoon
-|Informatie
-|AIS_Icoon
-|Informatie
-
+|AIS_Icoon |Informatie |AIS_Icoon |Informatie
 |image:sart4.png[image
 , width =52,height=48] |Een AIS
 Een SART melding is een *distres* alarm en is gelijk aan een **“Mayday”** bericht. Meer

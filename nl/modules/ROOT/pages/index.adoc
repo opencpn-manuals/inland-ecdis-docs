@@ -6,9 +6,9 @@ Deze handleiding beschrijft het gebruik van OpenCPN zoals dat vereist is door de
 
 link:https://unece.org/fileadmin/DAM/trans/doc/2015/sc3wp3/Presentation_WP3_-_Inland_ECDIS_edition_2.4.pdf[Inland_ECDIS_edition_2.4]
 
-Een inleiding tot Inland ECDIS kan worden gevonden op https://www.ccr-zkr.org/files/documents/workshops/wrshp181011/Leaflet_Inland_ECDIS_nl.pdf[HERE].
+Een inleiding tot Inland ECDIS kan worden gevonden op https://www.ccr-zkr.org/files/documents/workshops/wrshp181011/Leaflet_Inland_ECDIS_nl.pdf[HIER].
 
-Een pagina met nuttige links, inclusief nationale organisaties die zich bezighouden met IENC's wordt gevonden https://ienc.openecdis.org/links[HERE].
+Een pagina met nuttige links, inclusief nationale organisaties die zich bezighouden met IENC's wordt gevonden https://ienc.openecdis.org/links[HIER].
 
 De handleiding is gebaseerd op versie 5.6.2 van OpenCPN. Het bevat geen informatie over de Android-versie van het programma.
 

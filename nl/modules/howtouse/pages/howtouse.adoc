@@ -6,9 +6,9 @@
 
 Knoppen om acties uit te voeren worden als volgt weergegeven:
 
-btn:[Apply] btn:[OK]
+btn:[Toepassen] btn:[OK]
 
-Een snelkoppeling voor de actie van een knop wordt cursief weergegeven, bijvoorbeeld btn:[Route] _Ctrl-R_.
+Een snelkoppeling voor de actie van een knop wordt cursief weergegeven, bijvoorbeeld btn:[Maak route] _Ctrl-R_.
 
 == Tabbladen
 
@@ -18,15 +18,13 @@ Selecteer *Chart Downloader* een voorbeeld van het selecteren van een tabblad in
 
 Aanwijzigingen (links) kunnen intern voor de handleiding of om extern te navigeren, of voor het internet.
 
-xref:getting_started:getting_started.adoc[HERE] is een link naar de *Home Screen* pagina.
+xref:getting_started:getting_started.adoc[HEIR] is een link naar de *Home Screen* pagina.
 
-https://opencpn.org/[HERE] is een externe link naar de OpenCPN-website.
+https://opencpn.org/[HIER] is een externe link naar de OpenCPN-website.
 
-Beweeg de muis over https://opencpn.org/[HERE] en de browser laat zien waar de link toe leidt.
+Beweeg de muis over https://opencpn.org/[HIER] en de browser laat zien waar de link toe leidt.
 
 == Muis acties
-
-Sorry!
 
 _klik_ de muis geeft een klik van de muis aan (MacOS) of de linkermuisknop aan voor een ander besturingssysteem.
 

@@ -1,21 +1,21 @@
 :experimental:
-:imagesdir: ../afbeeldingen
+:imagesdir: ../images
 
-= Een GPS-apparaat toevoegen
+= Een GNSS-apparaat toevoegen
 
-Veel verschillende GPS-apparaten kunnen worden gebruikt om in OpenCPN de positie van de boot weer te geven. Om het eenvoudig te houden wordt de globale BU-353S4 GPS gebruikt om de installatie en het gebruik van een GPS met OpenCPN te demonstreren
+Veel verschillende GNSS-apparaten kunnen worden gebruikt om in OpenCPN de positie van de boot weer te geven. Om het eenvoudig te houden wordt de globale BU-353S4 GPS gebruikt om de installatie en het gebruik van een GNSS met OpenCPN te demonstreren
 
 image:3.0.jpg[]
 
-Andere GPS-apparaten die beschikbaar zijn staan https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:supplementary_hardware:gps_devices[HERE].
+Andere GNSS-apparaten die beschikbaar zijn staan https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:supplementary_hardware:gps_devices[HIER].
 
-Het is mogelijk om de GPS-ontvanger van een bestaand schip te gebruiken met een seriële naar-USB-adapter.
+Het is mogelijk om de GNSS-ontvanger van een bestaand schip te gebruiken met een seriële naar-USB-adapter.
 
-De GPS ontvangst heeft een zichtlijn  naar satellieten nodig. Mogelijk moet u de GPS antenne verplaatsen totdat deze een duidelijk beeld naar  de ruimte heeft. Op een boot kun je vaststellen of dat er voldoende signaal wordt ontvangen door het polyester laminaat. heen.
+De GNSS ontvangst heeft een zichtlijn  naar satellieten nodig. Mogelijk moet u de GNSS antenne verplaatsen totdat deze een duidelijk beeld naar  de ruimte heeft. Op een boot kun je vaststellen of dat er voldoende signaal wordt ontvangen door het polyester laminaat. heen.
 
 == Apparaat stuurprogramma's
 
-Apparaatdrivers voor verschillende OS kunnen worden gedownload https://www.globalsat.com.tw/en/a4-10593/BU-353S4.html[HERE]
+Apparaatdrivers voor verschillende OS kunnen worden gedownload https://www.globalsat.com.tw/en/a4-10593/BU-353S4.html[HIER]
 
 == Windows
 
@@ -23,33 +23,33 @@ Download de installatie voor de versie van Windows die u gebruikt.
 
 Installeer de driver met behulp van de installer .exe.
 
-Sluit de GPS aan. Windows moet het apparaat herkennen en het juiste stuurprogramma daarvoor gebruiken.
+Sluit de GNSS aan. Windows moet het apparaat herkennen en het juiste stuurprogramma daarvoor gebruiken.
 
-btn:[Options] btn:[Connections]
+btn:[Opties] btn:[Verbindingen]
 
 image:3.1.jpg[]
 
-Voeg verbinding toe]
+btn:[Voeg verbinding toe]
 
 image:3.2.jpg[]
 
-Met behulp van de *DataPoort* lijst selecteert u handige de USB-poort.
+Met behulp van de *Datapoort* lijst selecteert u handige de USB-poort.
 
 image:3.3.jpg[]
 
-Scroll omhoog en klik op *Toon NMEA Debug Window*. Dit is niet strikt noodzakelijk, maar het geeft een goede indicatie of het GPS-systeem correct werkt.
+Scroll omhoog en klik op *Toon NMEA debugvenster*. Dit is niet strikt noodzakelijk, maar het geeft een goede indicatie of het GNSS-systeem correct werkt.
 
 image:3.4.jpg[]
 
-btn:[Apply] btn:[OK]
+btn:[Toepassen] btn:[OK]
 
 Je moet de kaart misschien een beetje verplaatsen, zodat de positie van het schip wordt weergegeven.
 
 image:3.5.jpg[]
 
-Het NMEA Debug venster kan gesloten worden met de *Close* afbeelding:3.6.jpg[] knop.
+Het NMEA Debug venster kan gesloten worden met de *Close* image:3.6.jpg[] knop.
 
-De *kompas/GPS Status Window* toont een groene balk afbeelding:3.7.jpg[] wat de sterkte van het GPS signaal aangeeft.
+De *kompas/GPS Status Window* toont een groene balk afbeelding:3.7.jpg[] wat de sterkte van het GNSS signaal aangeeft.
 
 De *Statusbalk* toont de positie van het schip.
 
@@ -57,13 +57,13 @@ Zoom in afbeelding:3.8.jpg[] het pictogram voor het schip verandert in een afbee
 
 == MacOS
 
-Plug de GPS in.
+Plug de GNSS in.
 
-btn:[Options] btn:[Connections]
+btn:[Opties] btn:[Verbindingen]
 
 image:3.1.jpg[]
 
-Voeg verbinding toe]
+btn:[Voeg verbinding toe]
 
 Gebruik *Serieel*
 
@@ -73,29 +73,29 @@ Met de *DataPoort* lijst selecteer u de */dev/cu.usbserial-1410* optie.
 
 image:3.22.jpg[]
 
-Vink de *Toon NMEA Debug Window* aan om de GPS uitvoer te bekijken.
+Vink de *Toon NMEA debugfenster* aan om de GNSS uitvoer te bekijken.
 
 image:3.4.jpg[]
 
-Het NMEA Debug venster kan gesloten worden met de *Close* afbeelding:3.6.jpg[] knop.
+Het NMEA Debug venster kan gesloten worden met de *Close* image:3.6.jpg[] knop.
 
-De *kompas/GPS Status Window* toont een groene balk afbeelding:3.7.jpg[] wat de sterkte van het GPS signaal aangeeft.
+De *kompas/GPS Status Window* toont een groene balk afbeelding:3.7.jpg[] wat de sterkte van het GNSS signaal aangeeft.
 
 De *Statusbalk* toont de positie van het schip.
 
-Zoom in afbeelding:3.8.jpg[] het pictogram voor het schip verandert in een afbeelding van de vaartuig:3.9.jpg[]. De muis scroll knop kan ook worden gebruikt om in of uit te zoomen.
+Zoom in image:3.8.jpg[] het pictogram voor het schip verandert in een afbeelding van de image:3.9.jpg[]. De muis scroll knop kan ook worden gebruikt om in of uit te zoomen.
 
 == Linux
 
-btn:[Options] btn:[Connections]
+btn:[Opties] btn:[Verbindingen]
 
-Voeg verbinding toe]
+btn:[Voeg verbinding toe]
 
-Gebruik van de seriële verbinding de DataPoort lijst met een invoer */dev/ttyUSB0-Prolific ....
+Gebruik van de seriële verbinding de DataPoort lijst met een invoer */dev/ttyUSB0-Prolific ....*
 
 image:3.11.jpg[]
 
-btn:[Apply] en vink dan aan *Enable* voor deze verbinding.
+btn:[Toepassen] en vink dan aan *Enable* voor deze verbinding.
 
 Dit presenteert een bericht over machtigingen.
 
@@ -109,11 +109,11 @@ btn:[OK]
 
 Volg het advies om OpenCPN te herstarten.
 
-Er is een regel (symlink) gemaakt voor het gebruik van de GPS-toepassing.
+Er is een regel (symlink) gemaakt voor het gebruik van de GNSS-toepassing.
 
 image:3.13.jpg[]
 
-Als u de GPS wilt verwijderen en de installatie wilt opschonen, kan de symlink worden verwijderd met behulp van *Terminal*.
+Als u de GNSS wilt verwijderen en de installatie wilt opschonen, kan de symlink worden verwijderd met behulp van *Terminal*.
 
 image:3.14.jpg[]
 
@@ -121,4 +121,4 @@ Na het herstarten van OpenCPN en het bewerken van de *DataPoort* connectie om de
 
 image:3.5.jpg[]
 
-Zoom in afbeelding:3.8.jpg[] en de bootpictogram afbeelding: 3.9.jpg[] verschijnt.
+Zoom in image:3.8.jpg[] en de bootpictogram image:3.9.jpg[] verschijnt.

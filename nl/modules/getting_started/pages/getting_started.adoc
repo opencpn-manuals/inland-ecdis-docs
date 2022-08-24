@@ -1,6 +1,6 @@
 :icons: lettertype
 :experimental:
-:imagesdir: ../afbeeldingen
+:imagesdir: ../images
 
 = Thuisscherm
 
@@ -35,19 +35,19 @@ Het is belangrijk dat het beeldscherm is ingesteld zoals beschreven in het volge
 
 == Inland ECDIS specifieke instellingen
 
-btn:[Options] image:1.5.1.jpg[] btn:[User Interface] afbeelding:1.5.jpg[]
+btn:[Opties] image:1.5.1.jpg[] btn:[Gebruikersinterface] image:1.5.jpg[]
 
 image:1.6.jpg[]
 
 Vink de box aan voor het *Gebruik Inland ECDIS*.
 
-btn:[Apply] btn:[OK]
+btn:[Toepassen] btn:[OK]
 
 image:1.7.jpg[]
 
 Het scherm is veranderd in het kleurenschema 'duister'.
 
-Om terug te keren naar het 'daglicht'-schema btn:[Wijzig Kleur Scheme] image:1.10.jpg[] De snelkoppeling is btn:[F5] op het toetsenbord. Dit schakelt door de nacht, zonsondergang en kleurenschema's voor daglicht.
+Om terug te keren naar het 'daglicht'-schema btn:[Wijzig kleurenschema] image:1.10.jpg[] De snelkoppeling is btn:[F5] op het toetsenbord. Dit schakelt door de nacht, zonsondergang en kleurenschema's voor daglicht.
 
 image:1.8.jpg[]
 

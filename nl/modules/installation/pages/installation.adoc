@@ -3,19 +3,19 @@
 = OpenCPN installeren
 
 Voor de eerste installatie is een internetverbinding nodig.
-Met je internetbrowser ga je naar https://opencpn.org/OpenCPN/info/downloadopencpn.html[HERE] en ga naar de relevante sectie.
+Met je internetbrowser ga je naar https://opencpn.org/OpenCPN/info/downloadopencpn.html[HIER] en ga naar de relevante sectie.
 
-Als tijdens de installatie gevraagd wordt om een map te selecteren, die de kaarten bevat, deze stap van het proces overslaan. Kaarten worden gedekt door xref:charts:charts.adoc[HERE].
+Als tijdens de installatie gevraagd wordt om een map te selecteren, die de kaarten bevat, deze stap van het proces overslaan. Kaarten worden gedekt door xref:charts:charts.adoc[HIER].
 
 == Windows
 
-image:windows.png[Windows,]
+image:windows.png[Windows]
 
 Download het .exe bestand. Open het .exe bestand en volg de instructies.
 
 == Mac
 
-image:apple.png[Apple,]
+image:apple.png[Apple]
 
 Download het .pkg bestand. Open .pkg en volg de instructies in het installatieprogramma.
 
