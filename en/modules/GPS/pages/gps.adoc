@@ -3,7 +3,7 @@
 
 = Adding a GNSS Device
 
-There are a variety of GNSS devices that can provide OpenCPN with position data. We use "GNSS" here instead of "GPS" because today the receivers usually use several constellations. Besides GPS, for example, Galileo, GLONASS or Beidou. For simplicity the Globalsat BU-353S4 GPS is used to demonstrate installing and using a GPS with OpenCPN
+There are a variety of GNSS devices that can provide OpenCPN with position data. We use "GNSS" here instead of "GPS" because today the receivers usually use several constellations. Besides GPS, for example, Galileo, GLONASS or Beidou. For simplicity the Globalsat BU-353S4 GPS is used to demonstrate installing and using a GNSSS with OpenCPN
 
 image:3.0.jpg[]
 

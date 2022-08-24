@@ -49,11 +49,11 @@ image:3.5.jpg[]
 
 Het NMEA Debug venster kan gesloten worden met de *Close* image:3.6.jpg[] knop.
 
-De *kompas/GPS Status Window* toont een groene balk afbeelding:3.7.jpg[] wat de sterkte van het GNSS signaal aangeeft.
+De *kompas/GPS Status Window* toont een groene balk image:3.7.jpg[] wat de sterkte van het GNSS signaal aangeeft.
 
 De *Statusbalk* toont de positie van het schip.
 
-Zoom in afbeelding:3.8.jpg[] het pictogram voor het schip verandert in een afbeelding van het vaartuig:3.9.jpg[]. De muis scroll knop kan ook worden gebruikt om in of uit te zoomen.
+Zoom in image:3.8.jpg[] het pictogram voor het schip verandert in een afbeelding van het image:3.9.jpg[]. De muis scroll knop kan ook worden gebruikt om in of uit te zoomen.
 
 == MacOS
 
@@ -79,7 +79,7 @@ image:3.4.jpg[]
 
 Het NMEA Debug venster kan gesloten worden met de *Close* image:3.6.jpg[] knop.
 
-De *kompas/GPS Status Window* toont een groene balk afbeelding:3.7.jpg[] wat de sterkte van het GNSS signaal aangeeft.
+De *kompas/GPS Status Window* toont een groene balk image:3.7.jpg[] wat de sterkte van het GNSS signaal aangeeft.
 
 De *Statusbalk* toont de positie van het schip.
 

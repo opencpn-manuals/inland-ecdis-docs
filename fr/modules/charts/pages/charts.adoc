@@ -142,7 +142,7 @@ btn:[Options] btn:[Cartes]
 
 image:2.22.jpg[]
 
-*__Catalogue : Ajouter__*
+btn:[Catalogue : Ajouter]
 
 Recherchez _Germany Inland ENC Charts_
 
@@ -158,7 +158,7 @@ btn:[Mettre à jour]
 
 image:2.25.jpg[]
 
-btn:[Téléchargez les cartes sélectionnées]
+btn:[Download selected charts]
 
 Ceci peut prendre un certain temps.
 

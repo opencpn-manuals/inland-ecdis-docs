@@ -59,7 +59,7 @@ Zoomer dans l'image:3.8.jpg[] l'icône du bateau passe à l'image du contour du 
 
 Branchez le GNSS.
 
-btn:[Appliquer] btn:[Connexions]
+btn:[Options] btn:[Connexions]
 
 image:3.1.jpg[]
 

@@ -1,4 +1,4 @@
-:icons: lettertype
+:icons: font
 :experimental:
 :imagesdir: ../afbeeldingen
 
@@ -104,19 +104,19 @@ Deze meertalige website heeft links om de nieuwste kaarten te downloaden.
 
 btn:[Opties] btn:[Kaarten]
 
-__Chart Downloader__
+*__Chart Downloader__*
 
-__Selecteer catalogus...__
+*__Selecteer catalogus...__*
 
 image:2.18.jpg[]
 
 btn:[Bijwerken]
 
-__Download kaarten...__
+*__Download kaarten...__*
 
 image:2.19.jpg[]
 
-__Download selected charts__
+*__Download selected charts__*
 
 image:2.20.jpg[]
 
@@ -128,7 +128,7 @@ Hier zie je _Zeeland Compleet Week 19-2022_. Download en pak de bestanden uit va
 
 image:2.21.jpg[]
 
-btn[Alle ENC-kaarten voorbereiden]
+btn:[Alle ENC-kaarten voorbereiden]
 
 Week 19 bestanden zullen worden gebruikt in plaats van Week 18.
 

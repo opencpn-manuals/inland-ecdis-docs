@@ -1,4 +1,4 @@
-:icons: lettertype
+:icons: font
 :experimental:
 :imagesdir: ../images
 
@@ -66,128 +66,91 @@ image:9.8.jpg[]
 [cols="\"", ,, "\"", options="header"]
 |===
 |AIS_Icoon |Informatie |AIS_Icoon |Informatie
-|image:sart4.png[image
-, width =52,height=48] |Een AIS
-Een SART melding is een *distres* alarm en is gelijk aan een **“Mayday”** bericht. Meer
+|image:sart4.png[image, width =52,height=48] 
+|Een AIS Een SART melding is een *distres* alarm en is gelijk aan een **“Mayday”** bericht. Meer
 over AIS link:ais/sart.html[sart].
-|image:sart4.png[image
-, width =45,height=46].. |De V-vorm
-geeft een klasse B object aan. Sleepboten en loodsboten werken heel vaak met
-Class B transponders. Deze zijn vaak speciaal ontworpen voor
+|image:classb.png[image, width =45,height=46].. |De V-vorm geeft een klasse B object aan. Sleepboten en loodsboten werken heel vaak met Class B transponders. Deze zijn vaak speciaal ontworpen voor
 kleine commerciële boten, vissersboten en pleziervaartuigen.
 
-|image:sart4.png[image
-, width =45,height=46] |Icoon weergegeven
+|image:sart5.png[image, width =45,height=46] |Icoon weergegeven
 wanneer het *testen* van een AIS-SART apparaat wordt uitgevoerd..
-|afbeelding:donker-groen.png[afbeelding, breedte =45] |Doelstellingen moeten voldoen aan
+|image:dark-green.png[afbeelding, breedte =45] |Doelstellingen moeten voldoen aan
 de Euro http://www.cruisersforum.com/forums/tags/ais.html[AIS]
 Inland specificatie.
 
-|image:sart4.png[image
-, width =51,height=49] |Vliegtuigen
-die deelnemen aan zoek- en reddingsacties.
-|image:sart4.png[image
-, width =45,height=44] |Dit
+|image:nr9.png[image, width =51,height=49] |Vliegtuigen die deelnemen aan zoek- en reddingsacties.
+|image:inland-blue.png[image, width =45,height=44] |Dit
 schip heeft de "Inland Blauwe vlag of bord" aangezet, dit is een onderdeel van de Europese,
 Inland AIS standaard. Het “Blauwe Vlag”-signaal, op de binnenwateren
 geeft aan dat het vaartuig een “stuurboord-stuurboord” passage of
 op een kruising aanvraagt. Dit blauwe signaal wordt handmatig aan/uit gezet door het betreffende schip.
 
-|image:sart4.png[image
-, width =51,height=51] |Potentiëel
-gevaar.
-|image:sart4.png[image
-, width =45,height=46]
-|Een Aton, is een hulpmiddel om te navigeren, bijvoorbeeld een vuurtoren of een boei met een AIS
+|image:ais-red.png[image, width =51,height=51] |Potentiëelgevaar.
+|image:aton_std.png[image, width =45,height=46]|Een Aton, is een hulpmiddel om te navigeren, bijvoorbeeld een vuurtoren of een boei met een AIS
 zender.
 
-|image:sart4.png[image
-, width =51,height=51] |Geen gevaar
-Niet geïdentificeerd (Reisdoel gegevens niet ontvangen)
-|image:sart4.png[image
-, width =45,height=44] |Een Aton,  is een hulpmiddel voor de navigatie als aanduiding van objecten, die niet op de aangegeven plaats liggen. Als voorbeeld een boei uigerust met AIS die op drift is geraakt.
+|image:ais-yellow.png[image, width =51,height=51] |Geen gevaar Niet geïdentificeerd (Reisdoel gegevens niet ontvangen)
+|image:aton_off.png[image, width =45,height=44] |Een Aton,  is een hulpmiddel voor de navigatie als aanduiding van objecten, die niet op de aangegeven plaats liggen. Als voorbeeld een boei uigerust met AIS die op drift is geraakt.
 
-|image:sart4.png[image
-, width =51,height=51] |Geen gevaar
+|image:ais-lemon.png[image, width =51,height=51] |Geen gevaar
 Niet geïdentificeerd (naam uit opgeslagen gegevens)
-|image:sart4.png[image
-, width =45,height=46] |Virtuele Aton,
+|image:vaton.png[image, width =45,height=46] |Virtuele Aton,
 Virtuele aton is een hulpmiddel voor de navigatie, geen echte markering. Kan handig zijn voor een reeks van
 situaties. Een nieuw wrak is één voorbeeld.
 http://www.gla-rrnav.org/radionavigation/ais/virtual_aton.html[Further.]
 
-|image:sart4.png[image
-, width =50,height=50] |Geen gevaar
+|image:ais-green.png[image, width =50,height=50] |Geen gevaar
 geïdentificeerd
-|image:sart4.png[image
-, width =46,height=44]
+|image:33vofpos.png[image, width =46,height=44]
 |virtuele Aton (niet op zijn positie) Dit gezien in het "wild", maar het kan een
 configuratiefout zijn. (Oude stijl weergave.)
 
-|image:sart4.png[image
-, width =50,height=50] |Verdwenen AIS object
-|image:sart4.png[image
-, width =45,height=43] |AIS basis
+|image:ais-lost.png[image, width =50,height=50] |Verdwenen AIS object
+|image:basestn.png[image, width =45,height=43] |AIS basis
 station
 
-|image:sart4.png[image
-, width =51,height=51] |Een schip die zijn fix positie heeft verloren .  Wordt weergegeven op de laatst bekende
+|image:ais-grey.png[image, width =51,height=51] |Een schip die zijn fix positie heeft verloren .  Wordt weergegeven op de laatst bekende
 positie.
 | |De volgende tagets worden alleen getoond als DSC berichten, GpsGate
 mesages, Radar of APRS berichten worden gemengd met de inkomende AIS
 stream, door gebruik te maken van, bijvoorbeeld een multiplexer. Meer op de volgende
 pagina's.
 
-|image:sart4.png[image
-, width =50,height=54] |Vaartuig niet
+|image:notundcom.png[image, width =50,height=54] |Vaartuig niet
 onder commando.
-|image:sart4.png[image
-, width =45,height=44]
+|image:dsc-ok.png[image, width =45,height=44]
 |DSC Station. Alleen de DSC boodschap ontvangen. De positie bevat slechts
 graden en minuten van Breedtegraad en Lengtegraad
 
-|image:sart4.png[image
-, width =51,height=50] |Vaartuig
+|image:restrman_1.png[image, width =51,height=50] |Vaartuig
 met beperkte manoeuvreercapaciteit.
-|image:sart4.png[image
-, width =44,height=46] |DSC Station. DSC
+|image:dse1.png[image, width =44,height=46] |DSC Station. DSC
 *en* DSE berichten ontvangen. Het DSE bericht bevat de ontbrekende
 decimalen van Breedtegraad en Lengtegraad.. Het resultaat is een veel
 accurater standpunt.
 
-|image:sart4.png[image
-, width =51,height=50] |Vaartuig
+|image:ifeahche_1.png[image, width =51,height=50] |Vaartuig
 beperkt door zijn diepgang.
-|image:sart4.png[image
-, width =45,height=42] |DSC
+|image:dsc-not-ok.png[image, width =45,height=42] |DSC
 Station zendt een *noodsignaal*  uit. Behandel dit als een *“Mayday”*
 oproep.
 
-|image:sart4.png[image
-, width =52,height=52] |Vaartuig aan de grond
-|image:sart4.png[image
-, width =51,height=51]
-|GpsGate Buddy object.
+|image:aground.png[image, width =52,height=52] |Vaartuig aan de grond
+|image:bud-icon.png[image, width =51,height=51]|GpsGate Buddy object.
 
-|image:sart4.png[image
-, width =51,height=45] |Vaartuig
+|image:fishing.png[image, width =51,height=45] |Vaartuig
 betrokken bij het vissen.
-|image:sart4.png[image
-, width =45,height=49] |ARPA objecten
+|image:arpa2.png[image, width =45,height=49] |ARPA objecten
 
-|image:sart4.png[image
-, width =50,height=52] |Hoge Snelheid- en
+|image:hsc.png[image, width =50,height=52] |Hoge Snelheid- en
 draagvleugel vaartuigen.. Dit omvat Hydrofoils, Hovercrafts en laag
 vliegende vaartuigen die het als grondeffect gebruiken.
-|image:sart4.png[image
-, width =44,height=48] |AIS objecten
+|image:aprs.png[image, width =44,height=48] |AIS objecten
 
-|image:sart4.png[image
-, width =51,height=51] |Voor anker of afgemeerd. Wordt weergegeven wanneer de verzonden "Navigatie status" "voor anker
+|image:ais-moor.png[image, width =51,height=51] |Voor anker of afgemeerd. Wordt weergegeven wanneer de verzonden "Navigatie status" "voor anker
 anker" of "afgemeerd" is. Er is geen garantie dat deze status correct is,
 omdat deze handmatig wordt ingesteld op het uitzendende schip…
-|image:sart4.png[image
-, width =54,height=40] |…wordt 
+|image:moored.png[image, width =54,height=40] |…wordt 
 geïllustreerd door dit schip. Let op de zwarte lijn op de gele cirkel. Dit geeft aan
 dat het vaartuig naar bakboord (links) gaat, ook te merken aan de
 vertraging van de weergave update. ROT - De mate van het draaien is beschikbaar in het "Ais
