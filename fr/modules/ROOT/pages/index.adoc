@@ -2,7 +2,7 @@
 
 == Introduction
 
-Ce manuel décrit l'utilisation d'OpenCPN comme requis par les règles de Inland ECDIS version 2.4 (Mode d'information).
+Ce manuel décrit l'utilisation d'OpenCPN comme requis par les règles de Inland ECDIS Édition 2.4 (Mode d'information).
 
 link:https://unece.org/fileadmin/DAM/trans/doc/2015/sc3wp3/Presentation_WP3_-_Inland_ECDIS_edition_2.4.pdf[Inland_ECDIS_edition_2.4]
 

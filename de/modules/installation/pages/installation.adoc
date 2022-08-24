@@ -3,7 +3,7 @@
 = OpenCPN installieren
 
 Für die Erstinstallation wird eine Internetverbindung benötigt. 
-Navigieren Sie mit Ihrem Internetbrowser zu https://opencpn.org/OpenCPN/info/downloadopencpn.html[HERE] und gehen Sie zum entsprechenden Abschnitt. 
+Navigieren Sie mit Ihrem Internetbrowser zu https://opencpn.org/OpenCPN/info/downloadopencpn.html[HIER] und gehen Sie zum entsprechenden Abschnitt. 
 
 Wenn Sie während der Installation aufgefordert werden, ein Verzeichnis für Karten auszuwählen, überspringen Sie diesen Schritt.  Wir behandeln Karten später xref:charts:charts.adoc[HERE].
 

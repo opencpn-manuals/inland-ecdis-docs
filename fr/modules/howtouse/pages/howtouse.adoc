@@ -8,11 +8,11 @@ Les boutons pour effectuer des actions sont affichés comme ceci :
 
 btn:[Appliquer] btn:[OK]
 
-Un raccourci pour l'action d'un bouton est affiché en italique, par exemple btn:[route créer] _Ctrl-R_.
+Un raccourci pour l'action d'un bouton est affiché en italique, par exemple btn:[Route Créer] _Ctrl-R_.
 
 == Onglets
 
-Sélectionnez *Télécharger* est un exemple de sélection d'un onglet sur l'écran de PC.
+Sélectionnez *Chart Downloader* est un exemple de sélection d'un onglet sur l'écran de PC.
 
 == Liens
 
@@ -26,16 +26,14 @@ Passez la souris sur https://opencpn.org/[Ici] et le navigateur indique où le l
 
 == Actions de la souris
 
-(Désolé.)
-
 _cliquer_ la souris indique un clic de la souris (MacOS) ou un clic gauche pour un autre OS.
 
 _clic droit_ est ctrl-click pour MacOS.
 
 == Éléments de Menu
 
-Un menu peut avoir été affiché en utilisant _click_droit :
+Un menu peut avoir été affiché en utilisant _click_droit_ :
 
 image:4.6.jpg[]
 
-Sélectionnez *Propriétés...* indique une sélection de menu.
+Sélectionnez *Liste des objets :...* indique une sélection de menu.

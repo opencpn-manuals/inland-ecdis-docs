@@ -20,8 +20,8 @@ Um eine optimale Leistung zu erzielen und um eine Überladung des Schirms zu ver
 
 == Das AIS verbinden
 
-Wir verbinden das AIS genauso wie ein GPS.  Die Standarddatenrate beträgt jedoch 38400 statt 4800 Baud. 
-Einen Lotsenstecker zu verwenden ist sicherlich der einfachste Weg.  Damit erhalten wir auch die GPS-Daten (Kein Zusatz GPS erforderlich).
+Wir verbinden das AIS genauso wie ein GNSS.  Die Standarddatenrate beträgt jedoch 38400 statt 4800 Baud. 
+Einen Lotsenstecker zu verwenden ist sicherlich der einfachste Weg.  Damit erhalten wir auch die GNSS-Daten (Kein Zusatz GNSS erforderlich).
 
 == Einstellungen AIS Ziele
 
@@ -45,7 +45,7 @@ Mit "Maus-über" sehen wir Namen, MMSI und Flaggenstaat des Schiffs
 
 image:9.4.jpg[]
 
-*__Zielabfrage...__* (Class A AIS)
+*__AIS-Zielabfrage...__* (Class A AIS)
 
 image:9.5.jpg[]
 
@@ -53,7 +53,7 @@ Das uns interessierende Schiff wird mit einem unterbrochenen Rechteck hervorgeho
 
 image:9.6.jpg[]
 
-*__Zielabfrage...__* (Class B AIS)
+*__AIS-Zielabfrage...__* (Class B AIS)
 
 image:9.7.jpg[]
 
@@ -65,10 +65,7 @@ image:9.8.jpg[]
 
 [cols="\"", ,, "\"", options="header"]
 |===
-|AIS_Icon
-|Information
-|AIS_Icon
-|Information
+| AIS_Icon| Information| AIS_Icon| Information
 
 |image:sart4.png[image,width=52,height=48] |Ein aktiver AIS SART ist ein *Notruf* wie ein *Mayday* Radioruf.  Mehr darüber link:ais/sart.html[sart].
 |image:classb.png[image,width=45,height=59].. |Die V-Form zeigt ein AIS-B Ziel an.  Hafenschlepper oder Lotsenboote nutzen diese häufiger.  Wir treffen sie auch bei kleinen Handelsschiffen, Fischer- und Freizeitbooten.

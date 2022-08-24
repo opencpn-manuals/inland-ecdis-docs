@@ -39,7 +39,7 @@ btn:[Optionen] image:1.5.1.jpg[] btn:[Oberfläche] image:1.5.jpg[]
 
 image:1.6.jpg[]
 
-Setzen Sie den Haken bei *Inland ECDIS benutzen*
+Setzen Sie den Haken bei *Inland ECDIS verwenden*
 
 btn:[Anwenden] btn:[OK]
 

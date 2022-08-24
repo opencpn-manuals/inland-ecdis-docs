@@ -8,25 +8,23 @@ Schaltflächen zum Ausführen von Aktionen werden so angezeigt
 
 btn:[Anwenden] btn:[OK]
 
-Ein Tastenkürzel für die Aktion einer Schaltfläche wird kursiv angezeigt, zum Beispiel btn:[Erstellen Route] _Ctrl-R_.
+Ein Tastenkürzel für die Aktion einer Schaltfläche wird kursiv angezeigt, zum Beispiel btn:[Route erstellen] _Ctrl-R_.
 
 == Reiter
 
-*Karten-Downloader* Unter Optionen|Seekarten auswählen ist ein Beispiel eines Reiters auf dem Notbookbildschirm. 
+*Chart Downloader* Unter Optionen|Seekarten auswählen ist ein Beispiel eines Reiters auf dem Notbookbildschirm. 
 
 == Verknüpfungen
 
 Verknüpfungen nutzen wir zur Navigation im Handbuch oder nach außen, ins Internet.
 
-xref:getting_started:getting_started.adoc[HERE] ist ein Link zu hiesigen *Startseite*.
+xref:getting_started:getting_started.adoc[HIER] ist ein Link zu hiesigen *Start Seite*.
 
-https://opencpn.org/[HERE] ist ein externer Link zur OpenCPN Website.
+https://opencpn.org/[HIER] ist ein externer Link zur OpenCPN Website.
 
-Bewegen Sie die Maus über https://opencpn.org/[HERE] und der Browser zeigt an, wohin der Link führt.
+Bewegen Sie die Maus über https://opencpn.org/[HIER] und der Browser zeigt an, wohin der Link führt.
 
 == Maus-Aktionen
-
-(Sorry)
 
 _klick_ bedeutet einen Mausklick (macOS) oder einen Linksklick für ein anderes Betriebssystem.
 
@@ -34,7 +32,7 @@ _Rechtsklick_ ist Strg-Klick für das macOS.
 
 == Menüeinträge
 
-Zum Kontextmenü kommt man möglicherweise mit _rechtsklick_ :
+Zum Kontextmenü kommt man möglicherweise mit _*rechtsklick*_ :
 
 image:4.6.jpg[]
 

@@ -20,12 +20,12 @@ Pour obtenir les meilleures performances et éviter d'encombrer l'écran, les pa
 
 == Connexion du récepteur AIS
 
-Un récepteur AIS peut être connecté de la même manière que le GPS. Le débit de données AIS typique est de 38 400, au lieu de 4 800. 
-Cependant, le moyen le plus simple est de vous procurer un câble "AIS Pilotplug to USB". Cela vous donnera également une position GPS (pas besoin d'un GPS séparé)
+Un récepteur AIS peut être connecté de la même manière que le GNSS. Le débit de données AIS typique est de 38 400, au lieu de 4 800. 
+Cependant, le moyen le plus simple est de vous procurer un câble "AIS Pilotplug to USB". Cela vous donnera également une position GNSS (pas besoin d'un GNSS séparé)
 
 == Paramètres de réglage des cibles AIS
 
-btn:[Options] btn:[Bateau]
+btn:[Options] btn:[Bateaux]
 
 *__Cibles AIS__*
 
@@ -65,10 +65,7 @@ image:9.8.jpg[]
 
 [cols="\"", ,, "\"", options="header"]
 |===
-|Icone_AIS
-|Information
-|Icone_AIS
-|Information
+| Icone_AIS| Information| Icone_AIS| Information
 
 |image:sart4.png[image,width=52,height=48] |Un AIS actif SART et est un appel de *détresse* égal à une transmission **"Mayday"**. Suite à ce sujet sur ce lien : ais/sart.html[sart]
 |La poupe en forme de V indique une cible de classe B.

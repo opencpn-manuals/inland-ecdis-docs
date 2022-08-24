@@ -39,7 +39,7 @@ btn:[Options] image:1.5.1.jpg[] btn:[Personnaliser] image:1.5.jpg[]
 
 image:1.6.jpg[]
 
-Cocher cette case pour *Utiliser les cartes Inland ECDIS*
+Cocher cette case pour *Utiliser le système Inland ECDIS*
 
 btn:[Appliquer] btn:[OK]
 

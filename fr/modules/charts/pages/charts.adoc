@@ -1,4 +1,4 @@
-:icons: police
+:icons: font
 :experimental:
 :imagesdir: ../images
 
@@ -19,7 +19,7 @@ btn:[Options] image:2.0.jpg[]
 
 image:2.1.jpg[]
 
-btn:[Cartes] Sélectionnez l'onglet __Téléchargement__
+btn:[Cartes] Sélectionnez l'onglet *__Chart Downloader__*
 
 image:2.2.jpg[]
 
@@ -27,13 +27,13 @@ btn:[Catalogue : Ajouter]
 
 image:2.3.jpg[]
 
-Sélectionnez _Catalogue : Choisir_ et appuyez sur btn:[OK]
+Sélectionnez *_ChartCatalogs_* et appuyez sur btn:[OK]
 
 Les cartes életronique de navigation *ENC* sont des cartes où les objets et tous les détails nécessaires pour les EDCIS des eaux intérieures peuvent être sélectionnés par l'utilisateur. Ces cartes sont utilisées dans le mode ECDIS Inland.
 
 image:2.4.jpg[]
 
-Sélectionnez _The Netherlands Inland ENC Charts_
+Sélectionnez *_The Netherlands Inland ENC Charts_*
 
 btn:[OK]
 
@@ -45,7 +45,7 @@ btn:[Mettre à jour]
 
 image:2.6.jpg[]
 
-btn:[Téléchargez les cartes sélectionnées]
+btn:[Carte choisies : Téléchargez]
 
 image:2.7.jpg[]
 
@@ -53,11 +53,11 @@ btn:[Appliquez]
 
 image:2.8.jpg[]
 
-btn:[Ajoutez un dossier]
+btn:[Dossier : Ajoutez]
 
 image:2.9.jpg[]
 
-btn:[Selectionnez un fichier]
+btn:[Sélectionner un dossier]
 
 image:2.10.jpg[]
 
@@ -105,7 +105,7 @@ Ce site web multilangue connait les liens de téléchargement de toutes les cart
 
 btn:[Options] btn:[Cartes]
 
-__Télécharger__
+*__Chart Downloader__*
 
 *__Selectionnez un catalogue ...__*
 
@@ -113,11 +113,11 @@ image:2.18.jpg[]
 
 btn:[Mettre à jour]
 
-__Cartes : télécharger...__
+*__Cartes : Télécharger...__*
 
 image:2.19.jpg[]
 
-__Cartes sélectionner : Télécharger__
+btn:[Download selected charts]
 
 image:2.20.jpg[]
 
@@ -166,7 +166,7 @@ image:2.26.jpg[]
 
 Deux cartes 'périmées' ont été trouvées.
 
-btn:[Téléchargez les cartes sélectionnées]
+btn:[Download selected charts]
 
 btn:[Options] btn:[Cartes]
 
@@ -202,7 +202,7 @@ image:2.29.jpg[]
 
 image:2.29.1.jpg[]
 
-*__Liste des objets...__*
+*__Liste des objets :...__*
 
 image:2.30.jpg[]
 

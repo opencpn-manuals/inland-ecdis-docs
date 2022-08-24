@@ -18,7 +18,7 @@ btn:[Optionen] image:2.0.jpg[]
 
 image:2.1.jpg[]
 
-btn:[Charts] Gehen Sie zum __Chart Downloader__ Reiter
+btn:[Seekaarten] Gehen Sie zum __Chart Downloader__ Reiter
 
 image:2.2.jpg[]
 
@@ -26,7 +26,7 @@ btn:[Katalog hinzufügen]
 
 image:2.3.jpg[]
 
-_Karten Katalog_ auswählen und dann btn:[OK]
+_ChartCatalogs_ auswählen und dann btn:[OK]
 
 *ENC* Elektronische Navigationskarten sind Karten, in denen Objekte und Details, die für Inland ECDIS benötigt werden, vom Benutzer ausgewählt werden können. These charts are used in the Inland ECDIS Information Mode.
 
@@ -40,11 +40,11 @@ Ein Eintrag für die niederländischen Karten erscheint im Katalog.
 
 image:2.5.jpg[]
 
-btn:[Update]
+btn:[Aktualisieren]
 
 image:2.6.jpg[]
 
-btn:[Ausgewählte Karten herunterladen]
+btn:[Download gewählte Karten]
 
 image:2.7.jpg[]
 
@@ -56,7 +56,7 @@ btn:[Verzeichnis hinzufügen]
 
 image:2.9.jpg[]
 
-btn:[Verzeichnis auswählen]
+btn:[Ordner auswählen]
 
 image:2.10.jpg[]
 
@@ -104,7 +104,7 @@ Diese mehrsprachige Internetseite enthält Links, um die neuesten Karten herunte
 
 btn:[Optionen] btn:[Seekarten]
 
-__Karten Downloader__
+__Chart Downloader__
 
 __Katalog auswählen...__
 
@@ -116,7 +116,7 @@ __Karten herunterladen...__
 
 image:2.19.jpg[]
 
-__Ausgewählte Karten herunterladen__
+btn:[Download gewählte Karten]
 
 image:2.20.jpg[]
 
@@ -142,7 +142,7 @@ btn:[Optionen] btn:[Seekarten]
 
 image:2.22.jpg[]
 
-*__Katalog hinzufügen__*
+btn:[Katalog hinzufügen]
 
 Suche nach _Deutschland Inland ENC Karten_
 
@@ -158,7 +158,7 @@ btn:[Aktualisieren]
 
 image:2.25.jpg[]
 
-btn:[Ausgewählte Karten herunterladen]
+btn:[Download gewählte Karten]
 
 Das könnte einige Zeit dauern.
 
@@ -170,7 +170,7 @@ btn:[Ausgewählte Karten herunterladen]
 
 btn:[Optionen] btn:[Seekarten]
 
-*__Kartendateien__*
+*__Karten-Dateien__*
 
 image:2.27.jpg[]
 
@@ -184,7 +184,7 @@ Wir haben nun niederländische und deutsche iENC Karten zu OpenCPN hinzugefügt.
 
 *__Kartenblatt Optionen__*
 
-*__Kartenumrisse zeigen__* zeigt uns die verfügbaren ENC-Zellen.
+*__Kartenumrisse anzeigen__* zeigt uns die verfügbaren ENC-Zellen.
 
 image:2.28.jpg[]
 

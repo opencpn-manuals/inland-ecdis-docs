@@ -113,7 +113,7 @@ Eine Regel (Symlink) wurde für die Verwendung des GNSS Gerätes erstellt.
 
 image:3.13.jpg[]
 
-Wenn Sie das GNS entfernen und die Installation aufräumen wollen, kann der Symlink mit dem *Terminal* entfernt werden.
+Wenn Sie das GNSS entfernen und die Installation aufräumen wollen, kann der Symlink mit dem *Terminal* entfernt werden.
 
 image:3.14.jpg[]
 

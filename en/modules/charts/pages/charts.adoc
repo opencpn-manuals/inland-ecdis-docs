@@ -105,7 +105,7 @@ This multilingual website has links for downloading the latest charts.
 
 btn:[Options] btn:[Charts]  
 
-__Chart Downloader__   
+*__Chart Downloader__*   
 
 __Select Catalog...__ 
 
@@ -141,7 +141,7 @@ btn:[Options] btn:[Charts]
 
 *__Select Catalog...__*
 
-image:2.22.jpg[]
+*image:2.22.jpg[]
 
 *__Add Catalog__*
 

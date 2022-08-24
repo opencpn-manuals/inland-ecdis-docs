@@ -1,21 +1,21 @@
 :experimental:
 :imagesdir: ../images
 
-= Ajout d'un appareil GPS
+= Ajout d'un appareil GNSS
 
-De nombreux appareils GPS différents peuvent être utilisés pour fournir à OpenCPN la position du bateau. Pour plus de simplicité, le GPS Globalsat BU-353S4 est utilisé pour démontrer l'installation et l'utilisation d'un GPS avec OpenCPN
+De nombreux appareils GNSS différents peuvent être utilisés pour fournir à OpenCPN la position du bateau. Pour plus de simplicité, le GNSS Globalsat BU-353S4 est utilisé pour démontrer l'installation et l'utilisation d'un GNSS avec OpenCPN
 
 image:3.0.jpg[]
 
-D'autres appareils GPS disponibles sont listés sur https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:supplementary_hardware:gps_devices[Ici].
+D'autres appareils GNSS disponibles sont listés sur https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:supplementary_hardware:gps_devices[Ici].
 
-Il est possible d'utiliser un récepteur GPS existant avec un adaptateur série USB.
+Il est possible d'utiliser un récepteur GNSS existant avec un adaptateur série USB.
 
-Le GPS a besoin de "voir" les satellites. Vous devrez peut-être déplacer le GPS jusqu'à ce qu'il ait une vue dégagée du ciel. Sur un bateau, on peut constater que des signaux suffisants sont reçus sous un pont en fibre de verre.
+Le GNSS a besoin de "voir" les satellites. Vous devrez peut-être déplacer le GNSS jusqu'à ce qu'il ait une vue dégagée du ciel. Sur un bateau, on peut constater que des signaux suffisants sont reçus sous un pont en fibre de verre.
 
 == Pilotes des périphériques
 
-Les pilotes de périphériques pour divers systèmes d'exploitation peuvent être téléchargés https://www.globalsat.com.tw/fr/a4-10593/BU-353S4.html[HERE]
+Les pilotes de périphériques pour divers systèmes d'exploitation peuvent être téléchargés https://www.globalsat.com.tw/fr/a4-10593/BU-353S4.html[Ici]
 
 == Windows
 
@@ -23,7 +23,7 @@ Téléchargez l'installateur pour la version de Windows que vous exécutez.
 
 Installez le pilote en utilisant l'installateur .exe.
 
-Branchez le GPS. Windows devrait reconnaître le périphérique et utiliser le pilote approprié pour celui-ci.
+Branchez le GNSS. Windows devrait reconnaître le périphérique et utiliser le pilote approprié pour celui-ci.
 
 btn:[Appliquer] btn:[Connections]
 
@@ -37,7 +37,7 @@ Using the *DataPort* dropdown select the Prolific USB port.
 
 image:3.3.jpg[]
 
-Faites défiler vers le haut et cochez *Afficher la fenêtre de débogage NMEA*. Ce n'est pas strictement nécessaire, mais donne une bonne indication du bon fonctionnement du GPS.
+Faites défiler vers le haut et cochez *Ouvrir la fenêtre d'affichage des données NMEA*. Ce n'est pas strictement nécessaire, mais donne une bonne indication du bon fonctionnement du GNSS.
 
 image:3.4.jpg[]
 
@@ -49,7 +49,7 @@ image:3.5.jpg[]
 
 La fenêtre de débogage NMEA peut être fermée avec le bouton *Fermer* : 3.6.jpg[].
 
-La *Fenêtre d'état de la boussole/GPS* montre une image de barre verte:3.7.jpg[] qui indique la force du signal GPS.
+La *Fenêtre d'état de la boussole/GPS* montre une image de barre verte:3.7.jpg[] qui indique la force du signal GNSS.
 
 La *barre d'état* indique la position du bateau.
 
@@ -57,7 +57,7 @@ Zoomer dans l'image:3.8.jpg[] l'icône du bateau passe à l'image du contour du 
 
 == MacOS
 
-Branchez le GPS.
+Branchez le GNSS.
 
 btn:[Appliquer] btn:[Connexions]
 
@@ -73,13 +73,13 @@ Avec le menu déroulant *port com*, sélectionnez l'option */dev/cu.usbserial-14
 
 image:3.22.jpg[]
 
-Cochez la case *Afficher la fenêtre de débogage NMEA pour afficher les phrases NMEA reçues du GPS.
+Cochez la case *Afficher la fenêtre de débogage NMEA pour afficher les phrases NMEA reçues du GNSS.
 
 image:3.4.jpg[]
 
 La fenêtre de débogage NMEA peut être fermée avec le bouton *Fermer* : 3.6.jpg[].
 
-La *Fenêtre d'état de la boussole/GPS* montre une image de barre verte:3.7.jpg[] qui indique la force du signal GPS.
+La *Fenêtre d'état de la boussole/GPS* montre une image de barre verte:3.7.jpg[] qui indique la force du signal GNSS.
 
 La *barre d'état* indique la position du navire.
 
@@ -109,11 +109,11 @@ btn:[OK]
 
 Suivez les conseils pour redémarrer OpenCPN.
 
-Une règle (lien symbolique) a été créée pour utiliser les conseils GPS.
+Une règle (lien symbolique) a été créée pour utiliser les conseils GNSS.
 
 image:3.13.jpg[]
 
-Si vous devez supprimer le GPS et nettoyer l'installation, le lien symbolique peut être supprimé à l'aide de *Terminal*.
+Si vous devez supprimer le GNSS et nettoyer l'installation, le lien symbolique peut être supprimé à l'aide de *Terminal*.
 
 image:3.14.jpg[]
 
