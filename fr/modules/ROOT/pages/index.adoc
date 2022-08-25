@@ -1,4 +1,5 @@
 = Manuel de l'ECDIS des eaux intérieures
+:icons: font
 
 == Introduction
 
@@ -11,6 +12,25 @@ Une introduction à l'ECDIS des eaux intérieures peut être trouvée https://ww
 Une page de liens utiles, y compris les organisations nationales qui s'occupent des IENC se trouve sur https://ienc.openecdis.org/links[Ici].
 
 Le manuel est basé sur la version 5.6.2 d'OpenCPN. Il n'inclut pas d'informations sur la version Android du programme.
+
+[NOTE]
+====
+L'ECDIS intérieur est une norme définie (2.4 est la norme actuelle) obligatoire pour les navires commerciaux sur les eaux intérieures de l'UE.
+Les cartes S-57 correspondantes sont appelées InlandENC et ont certains paramètres spécifiques.
+
+L'ECDIS intérieur ne doit pas être confondu avec l'IMO ECDIS. Les deux sont des systèmes complètement différents.
+
+La police de l'eau ou d'autres autorités vérifie les navires et les barges pour le respect des règles de l'ECDIS intérieur.
+Il est important que OpenCPN apparaisse dans la liste des logiciels approuvés.
+
+La norme ECDIS intérieure impose le démarrage en mode nuit. OpenCPN doit avoir des échelles prédéfinies à partir des gammes radars standard.
+Il y a aussi des modes d'affichage basiques des jeux de cartes.
+
+La norme ECDIS intérieure distingue deux modes de fonctionnement : le mode de navigation et le mode d'information.
+OpenCPN est conforme au mode d'information.
+
+Inland ECDIS 2.4 requiert un manuel dans les langues EN, FR, NL, DE au minimum.
+====
 
 == État de correction du manuel
 

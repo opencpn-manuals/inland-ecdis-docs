@@ -1,4 +1,5 @@
 = Inland ECDIS Manual
+:icons: font
 
 == Introduction
 
@@ -11,6 +12,28 @@ An introduction to Inland ECDIS can be found https://www.ccr-zkr.org/files/docum
 A page of useful links, including national organizations dealing with IENCs is found https://ienc.openecdis.org/links[HERE].
 
 The manual is based on version 5.6.2 of OpenCPN. It does not include information about the Android version of the program.
+
+[NOTE]
+
+====
+Inland ECDIS is a defined standard (2.4 is the current one) mandatory for commercial vessels on EU Inland Waters.
+The corresponding S-57 charts are called InlandENCs and have some specific parameters.
+
+Inland ECDIS should not be confused with IMO ECDIS.
+The two are completely different types of system.
+
+The water police or other authorities check ships and barges for compliance with Inland ECDIS rules.
+It is important that OpenCPN appears in the list of approved software.
+
+The Inland ECDIS standard includes starting in Night Mode.
+OpenCPN has to have predefined scales taken from standard radar ranges.
+There are also basic chart display modes.
+
+The Inland ECDIS Standard distinguishes two operating modes: Navigation mode and Information mode OpenCPN conforms with the Information mode.
+
+Inland ECDIS 2.4 requires a manual in the languages EN, FR, NL, DE as a minimum.
+====
+
 
 == Correction state of the Manual
 

@@ -1,4 +1,5 @@
-= Binnenland ECDIS handleiding
+= Inland ECDIS handleiding
+:icons: font
 
 == Introductie
 
@@ -11,6 +12,27 @@ Een inleiding tot Inland ECDIS kan worden gevonden op https://www.ccr-zkr.org/fi
 Een pagina met nuttige links, inclusief nationale organisaties die zich bezighouden met IENC's wordt gevonden https://ienc.openecdis.org/links[HIER].
 
 De handleiding is gebaseerd op versie 5.6.2 van OpenCPN. Het bevat geen informatie over de Android-versie van het programma.
+
+[NOTE]
+
+====
+Inland ECDIS is een gedefinieerde norm (2,4 is de huidige) die verplicht is voor commerciële vaartuigen in de EU-Inland wateren.
+De bijbehorende S-57 kaarten worden InlandENC's genoemd en hebben enkele specifieke parameters.
+
+Inland ECDIS mag niet worden verward met IMO ECDIS.
+Het gaat om totaal verschillende soorten systemen.
+
+De waterpolitie en andere autoriteiten controleren schepen en vrachtschepen op naleving van de regels van het Inland ECDIS-systeem .
+Het is belangrijk dat OpenCPN wordt weergegeven op de lijst van goedgekeurde software.
+
+De Inland ECDIS standaard omvat ook het starten in de nachtmodus.
+OpenCPN moet vooraf gedefinieerde schalen ingesteld hebben van de standaard radarbereiken.
+Er zijn ook basis kaart weergave instellingen.
+
+De Inland ECDIS Standard onderscheidt twee besturings instelligen: de Navigatiemodus en Informatiemodus OpenCPN houdt zich aan de informatiemodus.
+
+De Inland ECDIS 2.4 vereist een handleiding in de talen EN, FR, NL, DE als een minimum eis.
+====
 
 == Correctie status van de handleiding
 
