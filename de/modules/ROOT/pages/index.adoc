@@ -17,16 +17,16 @@ Das Handbuch basiert auf Version 5.6.2 von OpenCPN. Es enthält keine Informatio
 
 ====
 Inland ECDIS ist ein Standard (aktuell 2.4) für Handelsschiffe auf Binnengewässern der EU.
-Die entsprechenden S-57 Karten werden InlandENCs genannt und verfügenüber einige spezifische Parameter.
+Die entsprechenden S-57 Karten werden InlandENCs genannt und verfügen über einige spezifische Parameter.
 
 Inland ECDIS darf nicht mit IMO ECDIS verwechselt werden.
 Es handelt sich um zwei völlig unterschiedliche Systeme.
 
-Die Wasserpolizei oder andere Behörden kontrollieren Schiffe und Schiffe auf die Einhaltung der Inland ECDIS-Vorschriften.
+Die Wasserpolizei oder andere Behörden kontrollieren Schiffe auf die Einhaltung der Inland ECDIS-Vorschriften.
 Deshalb ist es wichtig, dass OpenCPN als Standardkonforme Software gelistet ist.
 
 Der Inland ECDIS Standard beinhaltet den Start im Nachtmodus.
-Wie im Standard vorgegeben, OpenCPN hat vordefinierte Massstäbe, die aus den Standardradarbereichen abgeleitet sind.
+Wie im Standard vorgegeben, zeigt OpenCPN vordefinierte Massstäbe, die aus den Standardradarbereichen abgeleitet sind.
 Es gibt ebenfalls vordefinierte Kartendarstellungsmodi.
 
 Der Inland ECDIS Standard unterscheidet zwei Betriebsmodi: Navigationsmodus und Informationsmodus. OpenCPN ist dem Informationsmodus konform.
