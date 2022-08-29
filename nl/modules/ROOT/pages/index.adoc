@@ -5,7 +5,9 @@
 
 Deze handleiding beschrijft het gebruik van OpenCPN zoals dat vereist is door de regels van Inland ECDIS uitgave 2.4 (Informatiemodus).
 
-link:https://unece.org/fileadmin/DAM/trans/doc/2015/sc3wp3/Presentation_WP3_-_Inland_ECDIS_edition_2.4.pdf[Inland_ECDIS_edition_2.4]
+link:https://unece.org/fileadmin/DAM/trans/doc/2015/sc3wp3/Presentation_WP3_-_Inland_ECDIS_edition_2.4.pdf[Inland ECDIS Edition 2.4 Mandate]
+
+link:https://unece.org/fileadmin/DAM/trans/doc/2016/sc3wp3/ECE-TRANS-SC3-156-Rev3e.pdf[Inland ECDIS Edition 2.4 Technical Specifications]
 
 Een inleiding tot Inland ECDIS kan worden gevonden op https://www.ccr-zkr.org/files/documents/workshops/wrshp181011/Leaflet_Inland_ECDIS_nl.pdf[HIER].
 
